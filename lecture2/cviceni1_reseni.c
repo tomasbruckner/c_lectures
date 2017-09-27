@@ -1,0 +1,27 @@
+/**
+    Zadani:
+        Doplnte vas kod pod tento komentar, aby se program v poradku prelozil. 
+        Zdrojovy kod prekladejte s parametry -pedantic -Wextra -Wall (viz prvni cviceni).
+**/
+
+void bar(int i);
+void foo(int i);
+
+
+/* Neupravujte kod pod timto radkem  */
+int main() {
+    foo(1);
+    return 0;
+}
+
+void bar(int i) {
+    if (i > 0) {
+        foo(0);
+    }
+}
+
+void foo(int i) {
+    if (i > 0) {
+        bar(0);
+    }
+}
