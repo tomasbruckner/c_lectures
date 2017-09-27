@@ -12,7 +12,7 @@ void test_characters(char result, char expected);
 *   Converts single character to uppercase.
 *
 *   @param c character to be uppercased
-*   @return uppercased characted or -1 if the character is not alphabet letter.
+*   @return uppercased character or -1 if the character is not alphabet letter.
 **/
 char uppercase(char c);
 

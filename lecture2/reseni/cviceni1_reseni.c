@@ -1,7 +1,7 @@
 /**
     Zadani:
         Doplnte vas kod pod tento komentar, aby se program v poradku prelozil. 
-        Zdrojovy kod prekladejte s parametry -pedantic -Wextra -Wall (viz prvni cviceni).
+        Zdrojovy kod prekladejte s parametry -pedantic -Wextra -Wall -std=c99 (viz prvni cviceni).
 **/
 
 void bar(int i);
