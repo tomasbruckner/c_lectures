@@ -19,7 +19,7 @@ char uppercase(char c);
 int main() {
     test_characters(uppercase('A'), 'A');
     test_characters(uppercase('a'), 'A');
-    test_characters(uppercase('A'), 'A');
+    test_characters(uppercase('z'), 'Z');
     test_characters(uppercase('/'), -1);
     test_characters(uppercase('\\'), -1);
     test_characters(uppercase('\n'), -1);
