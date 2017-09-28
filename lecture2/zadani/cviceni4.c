@@ -9,7 +9,13 @@
 
 #include <stdio.h>
 
-void countdown(int number);
+/**
+*   Prints numbers from maxNumber to zero on the first line
+*   and Konec on the second line.
+*
+*   @param maxNumber highest number to be printed
+**/
+void countdown(int maxNumber);
 
 int main() {
     countdown(5);

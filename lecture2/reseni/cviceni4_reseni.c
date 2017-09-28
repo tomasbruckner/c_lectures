@@ -9,17 +9,23 @@
 
 #include <stdio.h>
 
-void countdown(int number);
-
-void countdown(int number) {
-    for(; number >= 0; number--) {
-        printf("%d", number);
-    }
-
-    printf("\nKonec\n");
-}
+/**
+*   Prints numbers from maxNumber to zero on the first line
+*   and Konec on the second line.
+*
+*   @param maxNumber highest number to be printed
+**/
+void countdown(int maxNumber);
 
 int main() {
     countdown(5);
     return 0;
+}
+
+void countdown(int maxNumber) {
+    for(; maxNumber >= 0; maxNumber--) {
+        printf("%d", maxNumber);
+    }
+
+    printf("\nKonec\n");
 }
