@@ -1,8 +1,8 @@
 /**
     Zadani:
-        Doplnte funkci uppercase, aby program vytisknul sestkrat Good job!
+        Implement function uppercase so that the program prints Good job! six times.
 
-        Zdrojovy kod prekladejte s parametry -pedantic -Wextra -Wall -std=c99 (viz prvni cviceni).
+        Compile the source code with arguments -pedantic -Wextra -Wall -std=c99
 **/
 #include <stdio.h>
 
@@ -33,16 +33,4 @@ void test_characters(char result, char expected) {
     } else {
         printf("Keep trying!\n");
     }
-}
-
-char uppercase(char c) {
-    char result = -1;
-
-    if (c >= 'a' && c <= 'z') {
-        result = c - 32;
-    } else if (c >= 'A' && c <= 'Z') {
-        result = c;
-    }
-
-    return result;
 }

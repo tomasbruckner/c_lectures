@@ -1,13 +1,12 @@
 /**
     Zadani:
-        Doplnte funkci countdown, aby program vytisknul na prvnich pet radku: 
+        Implement function countdown so that the program prints on the first three lines: 
         543210
         543210
         543210
 
-        Zdrojovy kod prekladejte s parametry -pedantic -Wextra -Wall -std=c99 (viz prvni cviceni).
+        Compile the source code with arguments -pedantic -Wextra -Wall -std=c99
 **/
-
 #include <stdio.h>
 
 /**
@@ -18,6 +17,16 @@
 *   @param repeat number of lines printed
 **/
 void countdown(int maxNumber, int repeat);
+
+void countdown(int maxNumber, int repeat) {
+    for(int j = 0; j < repeat; j++) {
+        for(int i = maxNumber; i >= 0; i--) {
+            printf("%d", i);
+        }
+
+        printf("\n");
+    }
+}
 
 int main() {
     countdown(5, 3);

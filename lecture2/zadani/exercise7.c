@@ -1,8 +1,8 @@
 /**
     Zadani:
-        Doplnte funkci max, aby program vytisknul sestkrat Good job!
+        Implement function max so that the program prints Good job! six times.
 
-        Zdrojovy kod prekladejte s parametry -pedantic -Wextra -Wall -std=c99 (viz prvni cviceni).
+        Compile the source code with arguments -pedantic -Wextra -Wall -std=c99
 **/
 #include <stdio.h>
 
@@ -33,13 +33,5 @@ void test_numbers(int result, int expected) {
         printf("Good job!\n");
     } else {
         printf("Keep trying!\n");
-    }
-}
-
-int max(int number1, int number2) {
-    if (number1 > number2) {
-        return number1;
-    } else {
-        return number2;
     }
 }

@@ -1,9 +1,9 @@
 /**
-    Zadani:
-        Doplnte funkci absolute_value, aby program vytisknul ctyrikrat Good job!
-        Zdrojovy kod prekladejte s parametry -pedantic -Wextra -Wall -std=c99 (viz prvni cviceni).
-**/
+    Task:
+        Implement absolute_value function so that the program prints Good job! five times.
 
+        Compile the source code with arguments -pedantic -Wextra -Wall -std=c99
+**/
 #include <stdio.h>
 
 int absolute_value(int number);
@@ -19,18 +19,18 @@ int main() {
     return 0;
 }
 
-int absolute_value(int number) {
-    if (number < 0) {
-        number *= -1;
-    }
-
-    return number;
-}
-
 void test_numbers(int result, int expected) {
     if (result == expected) {
         printf("Good job!\n");
     } else {
         printf("Keep trying!\n");
     }
+}
+
+int absolute_value(int number) {
+    if (number < 0) {
+        number *= -1;
+    }
+
+    return number;
 }

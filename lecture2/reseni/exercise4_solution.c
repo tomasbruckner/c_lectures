@@ -1,12 +1,11 @@
 /**
-    Zadani:
-        Doplnte funkci countdown, aby program vytisknul na prvni dva radky: 
+    Task:
+        Implement function countdown so that the program prints on the first two lines: 
         543210
         Konec
 
-        Zdrojovy kod prekladejte s parametry -pedantic -Wextra -Wall -std=c99 (viz prvni cviceni).
+        Compile the source code with arguments -pedantic -Wextra -Wall -std=c99
 **/
-
 #include <stdio.h>
 
 /**

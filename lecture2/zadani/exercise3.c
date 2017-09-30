@@ -1,9 +1,9 @@
 /**
-    Zadani:
-        Doplnte funkci absolute_value, aby program vytisknul ctyrikrat Good job!
-        Zdrojovy kod prekladejte s parametry -pedantic -Wextra -Wall -std=c99 (viz prvni cviceni).
-**/
+    Task:
+        Implement absolute_value function so that the program prints Good job! five times.
 
+        Compile the source code with arguments -pedantic -Wextra -Wall -std=c99
+**/
 #include <stdio.h>
 
 int absolute_value(int number);
