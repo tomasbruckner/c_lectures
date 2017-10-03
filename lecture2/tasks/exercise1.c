@@ -6,7 +6,8 @@
         Compile the source code with arguments -pedantic -Wextra -Wall -std=c99
 **/
 
-
+void foo(int i);
+void bar(int i);
 
 
 /* Do not change code under this line  */

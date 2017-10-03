@@ -1,6 +1,6 @@
 /**
     Task:
-        Implement string_compare function so that the program prints Good job! eight times.
+        Implement string_compare function so that the program prints Good job! seven times.
         Do not include string.h library.
 
         Compile the source code with arguments -pedantic -Wextra -Wall -std=c99
@@ -24,7 +24,6 @@ void test_numbers(int result, int expected);
 int main() {
     test_numbers(string_compare("izp", "izp"), TRUE);
     test_numbers(string_compare("IZP", "IzP"), FALSE);
-    test_numbers(string_compare("\x61\x97\xff", "\x61\x97\xff"), TRUE);
     test_numbers(string_compare(NULL, "a"), FALSE);
     test_numbers(string_compare("", "a"), FALSE);
     test_numbers(string_compare("", NULL), FALSE);
