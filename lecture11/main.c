@@ -151,18 +151,28 @@ void test_insert_item() {
 
     Array arr = init_array(BIGGER_ARRAY_SIZE);
 
-    char name[] = "Object  ";
-    for (int i = 1; i < 6; i++) {
-        name[7] = 6 - i + '0';
-        Object o = init_object(6-i, name);
-        insert_item(&arr, &o, 1);
-    }
+    Object o0 = init_object(0, "Objekt 0");
+    insert_item(&arr, &o0, 0);
 
-    for(int i = 6; i < 10; i++) {
-        name[7] = i + '0';
-        Object o = init_object(i, name);
-        insert_item(&arr, &o, i);
-    }
+    Object o4 = init_object(4, "Objekt 4");
+    insert_item(&arr, &o4, 1);
+    Object o3 = init_object(3, "Objekt 3");
+    insert_item(&arr, &o3, 1);
+    Object o2 = init_object(2, "Objekt 2");
+    insert_item(&arr, &o2, 1);
+    Object o1 = init_object(1, "Objekt 1");
+    insert_item(&arr, &o1, 1);
+
+    Object o5 = init_object(5, "Objekt 5");
+    insert_item(&arr, &o5, 5);
+    Object o6 = init_object(6, "Objekt 6");
+    insert_item(&arr, &o6, 6);
+    Object o7 = init_object(7, "Objekt 7");
+    insert_item(&arr, &o7, 7);
+    Object o8 = init_object(8, "Objekt 8");
+    insert_item(&arr, &o8, 8);
+    Object o9 = init_object(9, "Objekt 9");
+    insert_item(&arr, &o9, 9);
 
     print_array(&arr);
 
