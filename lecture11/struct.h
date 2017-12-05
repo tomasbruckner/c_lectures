@@ -1,10 +1,3 @@
-/**
-Projekt:    Kostra 9. cviceni IZP 2015
-Autor:      Marek Zak <izakmarek@fit.vutbr.cz>
-Datum:      28. 11. 2015
-Upravil:    Tomas Bruckner <ibruckner@fit.vutbr.cz>, 27.11.2017
-*/
-
 #ifndef STRUCT_H
 #define STRUCT_H
 
@@ -21,8 +14,18 @@ typedef struct {
 } Object;
 
 /**
+ * @brief   Projekt:    Kostra 9. cviceni IZP 2015
+ * @author  Autor:      Marek Zak <izakmarek@fit.vutbr.cz>, upravil Tomas Bruckner <ibruckner@fit.vutbr.cz>
+ * @date    Datum:      28. 11. 2015, upraveno 27.11.2017
+ * @defgroup struct Struct operations
+ * @addtogroup struct
+ * @{
+ */
+
+
+/**
  * Inicializuje strukturu Object. Nazev objektu se zkopiruje (nestaci ulozit referenci).
- * V pripade nepodare alokace pameti se nazev objektu nastavi na NULL.
+ * V pripade nepodarene alokace pameti se nazev objektu nastavi na NULL.
  * 
  * @param id identifikator noveho objektu
  * @param name nazev noveho objektu
@@ -35,6 +38,9 @@ Object init_object(const int id, const char *name);
  * 
  * @param o1 ukazatel na prvni objekt
  * @param o2 ukazatel na druhy objekt
+ * 
+ * @pre o1 != NULL, o2 != NULL
+ * @post o1 = puvodni o2, o2 = puvodni o1
  */
 void swap_objects(Object *o1, Object *o2);
 
@@ -52,6 +58,7 @@ Object *copy_object(Object *dst, const Object *src);
  * Id nastavi na 0.
  * 
  * @param o objekt, kteremu bude uvolnena pamet pro nazev
+ * @post  o = {id = 0, name = NULL}
  */
 void clear_object(Object *o);
 
@@ -61,5 +68,7 @@ void clear_object(Object *o);
  * @param o objekt, jeho hodnoty budou vytisknuty
  */
 void print_object(const Object *o);
+
+/// @}
 
 #endif // STRUCT_H

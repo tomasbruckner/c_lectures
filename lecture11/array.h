@@ -1,8 +1,7 @@
-/**
-Projekt:    Kostra 9. cviceni IZP 2015
-Autor:      Marek Zak <izakmarek@fit.vutbr.cz>
-Datum:      28. 11. 2015
-Upravil:    Tomas Bruckner <ibruckner@fit.vutbr.cz>, 27.11.2017
+/*!
+ * @brief   Projekt:    Kostra 9. cviceni IZP 2015
+ * @author  Autor:      Marek Zak <izakmarek@fit.vutbr.cz>, upravil: Tomas Bruckner <ibruckner@fit.vutbr.cz>
+ * @date    Datum:      28. 11. 2015, upraveno 27.11.2017
 */
 
 #ifndef ARRAY_H
@@ -33,6 +32,17 @@ typedef struct {
   Object *items;        /**< prvky pole */ 
 } Array;
 
+
+/**
+ * @brief   Projekt:    Kostra 9. cviceni IZP 2015
+ * @author  Autor:      Marek Zak <izakmarek@fit.vutbr.cz>, upravil Tomas Bruckner <ibruckner@fit.vutbr.cz>
+ * @date    Datum:      28. 11. 2015, upraveno 27.11.2017
+ * @defgroup array Array operations
+ * @addtogroup array
+ * @{
+ */
+
+
 /**
  * Inicializuje strukturu Array a vytvori v poli tolik objektu, kolik
  * je specifikovano parametrem size. Vytvorene objekty maji id nastaveno
@@ -47,6 +57,8 @@ Array init_array(const unsigned size);
  * Uvolni pamet alokovanou pro objekty v poli a pamet pro samotne pole.
  * 
  * @param arr struktura Array, ktere se uvolni pamet
+ * 
+ * @post arr = {size = 0, items = NULL}
  */
 void clear_array(Array *arr);
 
@@ -59,6 +71,12 @@ void clear_array(Array *arr);
  * @param arr struktura Array, u ktere se bude menit velikost pole
  * @param size nova velikost pole struktury Array
  * @return struktura Array s upravenou velikosti pole
+ * 
+ * @pre arr != NULL
+ * @pre size >= 0
+ * @post arr->size = size
+ * @post if arr->size < size, vlozi se prazdne objekt do arr->items
+ * @post if arr->size > size, objekty od indexu size jsou uvolneny 
  */
 Array resize_array(Array *arr, const unsigned size);
 
@@ -68,6 +86,8 @@ Array resize_array(Array *arr, const unsigned size);
  * @param arr struktura Array, ve ktere se bude hledat objekt se zadanym id
  * @param id identifikator hledaneho objektu
  * @return index hledaneho objektu. Vrati -1 pokud se objekt v poli nenachazi.
+ * 
+ * @pre arr != NULL
  */
 int find_id(const Array *arr, const int id);
 
@@ -77,6 +97,8 @@ int find_id(const Array *arr, const int id);
  * @param arr struktura Array, ve ktere se bude hledat objekt se zadanym jmenem name
  * @param name jmeno hledaneho objektu
  * @return index hledaneho objektu. Vrati -1 pokud se objekt v poli nenachazi.
+ * 
+ * @pre arr != NULL
  */
 int find_name(const Array *arr, const char *name);
 
@@ -86,6 +108,8 @@ int find_name(const Array *arr, const char *name);
  * @param arr struktura Array, ve ktere se bude objekt hledat
  * @param start_index pozice, od ktere se zacne v poli hledat
  * @return index objektu s nejmensi hodnotou identifikatoru. -1 pokud je pole prazdne.
+ * 
+ * @pre arr != NULL
  */
 int find_min(const Array *arr, const unsigned start_index);
 
@@ -98,6 +122,8 @@ int find_min(const Array *arr, const unsigned start_index);
  * @param item objekt, ktery bude vlozen do pole
  * @param index pozice v poli, kam se ma vlozit zadany objekt
  * @return index, kam byl vlozen objekt. Vraci -1 pokud se operace nezdari.
+ * 
+ * @pre arr != NULL, item != NULL
  */
 int insert_item(Array *arr, const Object *item, const unsigned index);
 
@@ -105,6 +131,9 @@ int insert_item(Array *arr, const Object *item, const unsigned index);
  * Seradi pole objektu podle hodnoty id od nejmensiho po nejvetsi.
  * 
  * @param arr struktura Array, ktera bude serazena
+ * 
+ * @pre arr != NULL
+ * @post arr->items jsou serazeny podle id od nejmensiho
  */
 void sort_array(Array *arr);
 
@@ -112,6 +141,8 @@ void sort_array(Array *arr);
  * Vytiskne pole objektu struktury Array.
  * 
  * @param arr struktura Array, jejichz pole se bude tisknout
+ * 
+ * @pre arr != NULL
  */
 void print_array(const Array *arr);
 
@@ -120,7 +151,11 @@ void print_array(const Array *arr);
  * 
  * @param arr struktura Array, jejichz pole se bude tisknout
  * @param n pocet prvku, ktere se maji vytisknout
+ * 
+ * @pre arr != NULL
  */
-void print_n_array(const Array *a, const unsigned n);
+void print_n_array(const Array *arr, const unsigned n);
+
+/// @}
 
 #endif // ARRAY_H

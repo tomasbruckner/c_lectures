@@ -1,8 +1,3 @@
-/**
-Projekt:    Kostra 9. cviceni IZP 2015
-Autor:      Tomas Bruckner <ibruckner@fit.vutbr.cz>
-Datum:      27.11.2017
-*/
 
 #ifndef MAIN_H
 #define MAIN_H
@@ -10,6 +5,17 @@ Datum:      27.11.2017
 #include <stdio.h>
 #include "struct.h"
 #include "array.h"
+
+
+/**
+ * @brief   Projekt:    Kostra 9. cviceni IZP 2015
+ * @author  Autor:      Marek Zak <izakmarek@fit.vutbr.cz>, upravil Tomas Bruckner <ibruckner@fit.vutbr.cz>
+ * @date    Datum:      28. 11. 2015, upraveno 27.11.2017
+ * @defgroup test_struct Testy operaci nad strukturou Struct
+ * @addtogroup test_struct
+ * @{
+ */
+
 
 /**
  * Testuje modul struct.c.
@@ -30,6 +36,18 @@ void test_swap_objects();
  * Testuje kopirovani objektu.
  */
 void test_copy_object();
+
+/// @}
+
+
+/**
+ * @brief   Projekt:    Kostra 9. cviceni IZP 2015
+ * @author  Autor:      Marek Zak <izakmarek@fit.vutbr.cz>, upravil Tomas Bruckner <ibruckner@fit.vutbr.cz>
+ * @date    Datum:      28. 11. 2015, upraveno 27.11.2017
+ * @defgroup test_array Testy operaci nad strukturou Array
+ * @addtogroup test_array
+ * @{
+ */
 
 
 /**
@@ -76,5 +94,7 @@ void test_find_min();
  * Testuje serazeni pole.
  */
 void test_sort_array();
+
+/// @}
 
 #endif // MAIN_H
