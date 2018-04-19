@@ -1,5 +1,5 @@
-# IZP_lectures
+# C lectures
+Tasks for C tutorial on YouTube.
 
-Tasks for subject IZP - Introduction to Programming Systems 2017/2018 (http://www.fit.vutbr.cz/study/course-l.php.cs?id=12214)
-
-Report bugs to: ibruckner@fit.vutbr.cz
+## How to report a bug
+Create issue in Github [here](https://github.com/tomasbruckner/C_lectures/issues).
