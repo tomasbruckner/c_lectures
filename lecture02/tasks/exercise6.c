@@ -1,5 +1,5 @@
 /**
-    Zadani:
+    Task:
         Implement function uppercase so that the program prints Good job! six times.
 
         Compile the source code with arguments -pedantic -Wextra -Wall -std=c99

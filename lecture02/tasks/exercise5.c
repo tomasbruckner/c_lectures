@@ -1,5 +1,5 @@
 /**
-    Zadani:
+    Task:
         Implement function countdown so that the program prints on the first three lines: 
         543210
         543210

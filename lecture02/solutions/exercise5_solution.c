@@ -1,5 +1,5 @@
 /**
-    Zadani:
+    Task:
         Implement function countdown so that the program prints on the first three lines: 
         543210
         543210
@@ -18,6 +18,11 @@
 **/
 void countdown(int maxNumber, int repeat);
 
+int main() {
+    countdown(5, 3);
+    return 0;
+}
+
 void countdown(int maxNumber, int repeat) {
     for(int j = 0; j < repeat; j++) {
         for(int i = maxNumber; i >= 0; i--) {
@@ -26,9 +31,4 @@ void countdown(int maxNumber, int repeat) {
 
         printf("\n");
     }
-}
-
-int main() {
-    countdown(5, 3);
-    return 0;
 }

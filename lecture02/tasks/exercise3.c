@@ -6,7 +6,14 @@
 **/
 #include <stdio.h>
 
+/**
+*   Converts number to its absolute value.
+*
+*   @param number Number that should be converted to absolute value
+*   @return Absolute value of the number
+**/
 int absolute_value(int number);
+
 void test_numbers(int result, int expected);
 
 int main() {
