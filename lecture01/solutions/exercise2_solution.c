@@ -1,6 +1,6 @@
 /**
     Task:
-        Implement function calculateRectanglePerimeter so that the program prints Good job! three times.
+        Implement function calculateCuboidSurfaceArea so that the program prints Good job! three times.
 
         Compile the source code with arguments -Werror -Wextra -Wall -std=c99
 **/
@@ -9,18 +9,19 @@
 void test_numbers(unsigned int result, unsigned int expected);
 
 /**
-*   Calculates perimeter of the rectangle.
+*   Calculates surface area of a cuboid.
 *
-*   @param length rectangle's length
-*   @param width rectangle's width
-*   @return perimeter of given rectangle
+*   @param length cuboid's length
+*   @param width cuboid's width
+*   @param height cuboid's height
+*   @return perimeter of given cuboid
 **/
-unsigned int calculateRectanglePerimeter(unsigned int length, unsigned int width);
+unsigned int calculateCuboidSurfaceArea(unsigned int length, unsigned int width, unsigned int height);
 
 int main() {
-    test_numbers(calculateRectanglePerimeter(1, 20), 42);
-    test_numbers(calculateRectanglePerimeter(22, 23), 90);
-    test_numbers(calculateRectanglePerimeter(42, 1), 86);
+    test_numbers(calculateCuboidSurfaceArea(1, 2, 3), 22);
+    test_numbers(calculateCuboidSurfaceArea(9, 10, 1), 218);
+    test_numbers(calculateCuboidSurfaceArea(42, 1, 1), 170);
 
     return 0;
 }
@@ -33,6 +34,6 @@ void test_numbers(unsigned int result, unsigned int expected) {
     }
 }
 
-unsigned int calculateRectanglePerimeter(unsigned int length, unsigned int width) {
-    return 2*length + 2*width;
+unsigned int calculateCuboidSurfaceArea(unsigned int length, unsigned int width, unsigned int height) {
+    return 2 * (length*width + length*height + width*height);
 }
