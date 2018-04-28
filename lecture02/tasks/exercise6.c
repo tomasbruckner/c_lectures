@@ -2,7 +2,7 @@
     Task:
         Implement function uppercase so that the program prints Good job! six times.
 
-        Compile the source code with arguments -pedantic -Wextra -Wall -std=c99
+        Compile the source code with arguments -Werror -Wextra -Wall -std=c99
 **/
 #include <stdio.h>
 

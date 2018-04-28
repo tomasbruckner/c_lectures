@@ -3,7 +3,7 @@
         Add your code under this block comment section so the source code is compiled
         without errors or warnings.
 
-        Compile the source code with arguments -pedantic -Wextra -Wall -std=c99
+        Compile the source code with arguments -Werror -Wextra -Wall -std=c99
 **/
 
 void bar(int i);

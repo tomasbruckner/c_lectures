@@ -2,7 +2,7 @@
     Task:
         Implement absolute_value function so that the program prints Good job! five times.
 
-        Compile the source code with arguments -pedantic -Wextra -Wall -std=c99
+        Compile the source code with arguments -Werror -Wextra -Wall -std=c99
 **/
 #include <stdio.h>
 

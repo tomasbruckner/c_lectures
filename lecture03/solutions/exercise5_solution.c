@@ -19,7 +19,7 @@
         ./exercise author izp
         It does nothing because there is another argument izp.
 
-        Compile the source code with arguments -pedantic -Wextra -Wall -std=c99
+        Compile the source code with arguments -Werror -Wextra -Wall -std=c99
 **/
 #include <stdio.h>
 #include <stdlib.h>
