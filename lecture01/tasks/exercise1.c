@@ -9,21 +9,22 @@
 void test_numbers(int result, int expected);
 
 /**
-*   Calculates multiplication of two operands.
+*   Calculates multiplication of three operands.
 *
 *   @param operand1 first number
 *   @param operand2 second number
-*   @return multiplication of operand1 and operand2
+*   @param operand3 third number
+*   @return multiplication of operand1 and operand2 and operand3
 **/
-int multiply(int operand1, int operand2);
+int multiply(int operand1, int operand2, int operand3);
 
 int main() {
-    test_numbers(multiply(1, 2), 2);
-    test_numbers(multiply(-22, -23), 506);
-    test_numbers(multiply(42, -42), -1764);
-    test_numbers(multiply(0, -1337), 0);
-    test_numbers(multiply(1, 1), 1);
-    test_numbers(multiply(10, 0), 0);
+    test_numbers(multiply(1, 2, 5), 10);
+    test_numbers(multiply(-22, -23, 3), 1518);
+    test_numbers(multiply(42, -42, 1), -1764);
+    test_numbers(multiply(0, -1337, 6), 0);
+    test_numbers(multiply(1, 1, 1), 1);
+    test_numbers(multiply(10, 0, 0), 0);
 
     return 0;
 }
