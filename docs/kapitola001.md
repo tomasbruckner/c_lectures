@@ -1,7 +1,7 @@
 # Instalujeme CodeBlocks
 
 
-![download](obrazky/codeblock_download.PNG)
+![download](obrazky/kapitola001/codeblock_download.PNG)
 
 next -> I agree -> Next -> Install -> Next -> Finish
 

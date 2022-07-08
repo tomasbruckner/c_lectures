@@ -2,12 +2,12 @@
 
 V našem programu se nám může hodit, když se některé příkazy vykonají jenom v některých situacích. Od toho nám slouží řídící struktura IF. Ta funguje následovně
 
-![if else](./obrazky/if_else_diagram.png)
+![if else](./obrazky/kapitola006/if_else_diagram.png)
 
 Nejdříve se zkontroluje podmínka. Ta se vyhodnotí buď jako pravdivá nebo nepravdivá. Pokud je pravdivá, tak se vykoná tělo IF bloku. Pokud je nepravdivá, tak se vykoná tělo Else bloku. V kódu to pak vypadá následovně
 
 
-![if block](./obrazky/if_else_block_diagram.png)
+![if block](./obrazky/kapitola006/if_else_block_diagram.png)
 
 
 
@@ -118,12 +118,12 @@ U řídící struktury IF existuje zápis i bez Else bloku (říkáme také Else
 
 
 
-![if](./obrazky/if_diagram.png)
+![if](./obrazky/kapitola006/if_diagram.png)
 
 A pro kód platí.
 
 
-![if block](./obrazky/if_block_diagram.png)
+![if block](./obrazky/kapitola006/if_block_diagram.png)
 
 Krátký program pro ukázku
 
@@ -166,12 +166,12 @@ int main()
 IF struktura ale podporuje i zkrácenější zápis pomocí `Else if`.
 
 
-![if](./obrazky/else_if_diagram.png)
+![if](./obrazky/kapitola006/else_if_diagram.png)
 
 A pro kód platí.
 
 
-![if block](./obrazky/else_if_block_diagram.png)
+![if block](./obrazky/kapitola006/else_if_block_diagram.png)
 
 Předchozí program bychom mohli přepsat
 ```c

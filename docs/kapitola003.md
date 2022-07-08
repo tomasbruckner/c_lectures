@@ -7,7 +7,7 @@ int x = 10;
 
 Zde jsme vytvořili proměnnou s identifikátorem (názvem) **x** (můžeme použít libovolný název viz dále) a nastavili hodnotu dané proměnné na 10 (lze použít libovolné číslo viz níže). V programování říkáme, že jsme **definovali** proměnnou x.
 
-![variable](./obrazky/variable.png)
+![variable](./obrazky/kapitola003/variable.png)
 
 Jednotlivé části definice proměnné jsou
 
@@ -118,7 +118,7 @@ Hodnota: 4210688
 ```
 
 To ale není to, co jsme chtěli! Když se podíváme do Build logu v CodeBlocks
-![error printf string](./obrazky/error_string_printf.PNG)
+![error printf string](./obrazky/kapitola003/error_string_printf.PNG)
 
 CodeBlocks nám píše: `warning: format '%i' expects argument of type 'int', but argument 2 has type 'char *'` a dole je napsané `%s`. Tím se nám snaží říct, že %i máme použít hodnotu int, ale použili jsme hodnotu **char \*** (ten reprezentuje datový typ řetězec).
 
@@ -180,7 +180,7 @@ int main()
 ```
 
 V Build messages vidíme
-![undeclared](./obrazky/undeclared.PNG)
+![undeclared](./obrazky/kapitola003/undeclared.PNG)
 
 Na řádku 5 je nedefinovaná (nebo také nedeklarovaná) proměnná. Úplně stejnou chybu dostaneme i pokud bychom proměnnou definovali, ale až po prvním použití, tzv. i tento program je špatně
 ```c
@@ -211,7 +211,7 @@ int main()
 ```
 
 Dostáváme chybu
-![redefinition](./obrazky/redefinition.PNG)
+![redefinition](./obrazky/kapitola003/redefinition.PNG)
 
 Zde se dozvídáme, že jsme se pokusili na řádku 7 redefinovat znova proměnnou x `error: redefinition of 'x'` a že tato proměnná je definována již na řádku 5 `previous definition of 'x' was here`.
 

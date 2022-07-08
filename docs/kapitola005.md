@@ -12,7 +12,7 @@ Třetí typ pro nás zatím není důležitý. Probereme si ho více v kapitole 
 
 Abychom funkci mohli použít, je potřeba ji nejdříve definovat. Obecný formát definice je následovný
 
-![function definition](./obrazky/function_definition.jpg)
+![function definition](./obrazky/kapitola005/function_definition.jpg)
 
 Jednotlivé sekce jsou
 
@@ -173,7 +173,7 @@ int main()
 ```
 Tak dostáváme chybu
 
-![void return](./obrazky/void_return.PNG)
+![void return](./obrazky/kapitola005/void_return.PNG)
 
 Na řádku 6 je chyba, že se vrací hodnota, i když funkce má vracet void. Na řádku 3 je u funkce definováno, že je void. To je správné chování, protože void funkce nemůže vracet hodnotu.
 
@@ -196,7 +196,7 @@ int main()
 
 Tak dostáváme chybu 
 
-![missing return](./obrazky/int_no_return.PNG)
+![missing return](./obrazky/kapitola005/int_no_return.PNG)
 
 Na řádku 5 jsme se dostali na konec funkce, která není void, ale chybí return. Opravíme to tedy
 
@@ -281,7 +281,7 @@ int main()
 
 Dostáváme chybu
 
-![return string](./obrazky/return_string.PNG)
+![return string](./obrazky/kapitola005/return_string.PNG)
 Na řádku 5 se vrací datový typ **char \*** místo **int**.
 
 Pokud bych naši funkci opravil
@@ -305,7 +305,7 @@ int main()
 
 Tak opět dostávám chybu
 
-![invalid variable type](./obrazky/invalid_variable_type.PNG)
+![invalid variable type](./obrazky/kapitola005/invalid_variable_type.PNG)
 Na řádku 10 se snažím nastavit hodnotu **char \*** do proměnné typu **int**.
 
 Musíme tedy opravit i datový typ proměnné x a rovnou opravíme i %i na %s.
@@ -354,7 +354,7 @@ Všimněme si, že v obou funkcích máme proměnnou x. Neříkali jsme si ale, 
 ## Vlastní funkce s parametry
 Funkce můžou mít i jeden nebo i více parametrů. Nejdříve si definujme pro jednoduchost funkci s jedním parametrem.
 
-![function with parameter](./obrazky/function_with_parameter.png)
+![function with parameter](./obrazky/kapitola005/function_with_parameter.png)
 
 Mějme funkci, která nic nevrací (návratový datový typ void) a zatím nemá parametr.
 
@@ -518,7 +518,7 @@ int main()
 }
 ```
 
-![too few arguments](./obrazky/few_arguments.PNG)
+![too few arguments](./obrazky/kapitola005/few_arguments.PNG)
 
 Na řádku 10 je příliš málo argumentů (parametrů).
 
@@ -541,7 +541,7 @@ int main()
 ```
 
 Dostáváme tuto chybu `too many arguments` na řádku 10.
-![too many arguments](./obrazky/too_many_arguments.PNG)
+![too many arguments](./obrazky/kapitola005/too_many_arguments.PNG)
 
 Správná forma je tedy naše původní. Nyní můžeme funkci zavolat kolikrát chceme
 
