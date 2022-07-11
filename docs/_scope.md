@@ -1,4 +1,0 @@
-static
-
-globalni promenne
-

@@ -1,1 +1,0 @@
-deklarace/definice funkce
