@@ -197,6 +197,9 @@ int main()
 }
 ```
 
+## Break a continue
+
+
 
 ## Zacyklení
 Při psaní cyklů je potřeba si dát pozor na to, aby neběžel cyklus do nekonečna. Pokud se tak stane, tak říkáme, že došlo k zacyklení programu. Ukázka může být např.

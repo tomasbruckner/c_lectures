@@ -1,0 +1,3 @@
+
+struktury
+- typedef
