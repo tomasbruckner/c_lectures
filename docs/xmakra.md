@@ -85,8 +85,8 @@ Zde se vytiskne `Nazdar`. Pokud by obě konstanty byly nastavené na 0 nebo neby
 Podobně funguje 
 * #ifdef - pokud je definováno
 * #ifndef - pokud není definováno
-* elifdef - else if definováno
-* elifndef - else if není definováno
+* #elifdef - else if definováno
+* #elifndef - else if není definováno
 
 
 Pomocí makra lze definovat i funkce. Všimněme si, že v makru definujeme proměnné x a y, ale při použití už používáme přímo hodnoty (lze použít i proměnné).
