@@ -1,4 +1,4 @@
-# Kurz C
+# Tomův kurz programování v jazyce C pro začátečníky
 
 * [Kapitola 1](./kapitola001.md)
 * [Kapitola 2](./kapitola002.md)

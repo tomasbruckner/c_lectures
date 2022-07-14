@@ -1,2 +1,0 @@
-hlavickove soubory
-
