@@ -407,3 +407,10 @@ int main()
     return 0;
 }
 ```
+
+
+## Fun fact
+Obecně v programování platí několik pouček podle úrovně, na které se daný programátor nachází.
+* JUNIOR programátor (začátečník) - má zadání a je rád, že to vůbec nějak napíše a nějak to funguje
+* MEDIOR programátor (středně pokročilý) - ví jak zadání napsat a jenom přemýšlí, jak to napsat lépe
+* SENIOR programátor (pokročilý) - přemýšlí, jestli daný kód vůbec je potřeba napsat
