@@ -165,5 +165,86 @@ Velikost alokace (3) používáme jenom pro demonstrační účely. V reálném 
 
 
 ## Halda
+Obecně je potřeba myslet na to, že práce s dynamickou pamětí je mnohem pomalejší a náročnější než práce se statickou pamětí. Při práci s dynamickou pamětí (funkce malloc, realloc, calloc, free) se paměť přiřazuje do sekce paměti, které říkáme Halda (anglicky Heap). S jiným druhem paměti jsme se setkali již v předchozí kapitole XXX, kde jsme zjistili, že řetězcový literál se ukládá také do jiné části paměti, která je jenom ke čtení.
 
-> Obecně je potřeba myslet na to, že práce s dynamickou pamětí je mnohem pomalejší a náročnější než práce se statickou pamětí.
+Halda má jednu výraznou vlastnost oproti paměti, se kterou jsme se setkali do této doby. A to je, že adresa je nadále dostupná i po skončení funkce, ve kterém byla paměť vytvořena.
+
+Jak to funguje normálně?
+
+```c
+#include <stdio.h>
+
+int* vrat_ukazatel() {
+    int x = 10;
+
+    return &x;
+}
+
+void tiskni() {
+    int y = 30;
+}
+
+int main() {
+    int * ukazatel = NULL;
+    ukazatel = vrat_ukazatel();
+    tiskni();
+    printf("%i\n", *ukazatel);
+
+    return 0;
+}
+```
+
+Tento program nám hodí chybu. Proč? Na začátku funkce `main` po vytvoření proměnné ukazatel vypadá paměť následovně
+
+![halda1](./obrazky/dynamicke_pole/halda1.png)
+
+Na začátku funkce `vrat_ukazatel` vypadá paměť následovně
+
+![halda2](./obrazky/dynamicke_pole/halda2.png)
+
+Po vrácení se do funkce `main` a uložení hodnoty do proměnné ukazatele vypadá paměť následovně
+
+![halda3](./obrazky/dynamicke_pole/halda3.png)
+
+Vidíme, že ukazatel ukazuje do paměti, která už není aktivní a dostupná. Když se nyní zavolá funkce `tiskni`, tak se daná paměť přepíše
+
+
+![halda3](./obrazky/dynamicke_pole/halda4.png)
+
+
+A tím bychom ukazovali na úplně něco jiného, než jsme původně chtěli. Tohle nám jazyk C nepovolí, takže když se pokusíme ukazatel použít pomocí `printf("%i\n", *ukazatel);`, tak dostáváme chybu a program končí.
+
+
+Tato situace se dá řešit dynamickou pamětí (haldou).
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int* vrat_ukazatel() {
+    int * x = malloc(sizeof(int));
+
+    if (x == NULL) {
+        return NULL;
+    }
+
+    *x = 10;
+
+    return x;
+}
+
+int main() {
+    int * ukazatel = vrat_ukazatel();
+    if (ukazatel == NULL) {
+        return 1;
+    }
+
+    printf("%i\n", *ukazatel);
+
+    free(ukazatel);
+
+    return 0;
+}
+```
+
+Ve funkci `vrat_ukazatel` alokujeme paměť na haldě, kde bude do té doby, než program skončí nebo někdo nezavolá funkci `free`. Do té doby s ní můžeme bezpečně pracovat a program ji nemůže přidělit něčemu jinému.
