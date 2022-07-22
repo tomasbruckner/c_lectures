@@ -3,11 +3,11 @@ Cykly nám pomáhají opakovat určitou část kódu do té doby, dokud je spln�
 ## Cyklus While
 První cyklus, který si ukážeme, je cyklus **while**. Jeho diagram je následující
 
-![while](./obrazky/kapitola007/while.png)
+![while](./obrazky/cykly/while.png)
 
 Nejdříve se zkontroluje podmínka. Pokud je pravdivá, tak se provedé blok kódu while a podmínka se zkontroluje znovu. Pokud je opět pravdivá, tak se blok kódu provede znovu. Jakmile podmínka není pravdivá, tak se blok přeskočí.
 
-![while block](./obrazky/kapitola007/while_block.png)
+![while block](./obrazky/cykly/while_block.png)
 
 Mějme kód
 
@@ -55,11 +55,11 @@ Co program vykoná krok za krokem
 
 Další cyklus je For.
 
-![for](./obrazky/kapitola007/for.png)
+![for](./obrazky/cykly/for.png)
 
 
 
-![for block](./obrazky/kapitola007/for_block.png)
+![for block](./obrazky/cykly/for_block.png)
 
 
 ```c
@@ -94,11 +94,11 @@ Můžete si všimnout, že program vykonává to stejné jako v cyklus While. Co
 
 Poslední cyklus, který si dnes probereme. Je velmi podobný cyklu while
 
-![do while](./obrazky/kapitola007/do_while.png)
+![do while](./obrazky/cykly/do_while.png)
 
 Hlavní (a jediný) rozdíl je v tom, že tělo cyklu proběhne vždy aspoň jedenkrát. Podmínka se vyhodnocuje až na konci cyklu.
 
-![do while](./obrazky/kapitola007/do_while_block.png)
+![do while](./obrazky/cykly/do_while_block.png)
 
 Mějme program, který má vždy podmínku nepravdivou.
 ```c

@@ -22,12 +22,12 @@ int main()
 
 Když program pustíme, tak se nám zobrazí
 
-![input](./obrazky/kapitola008/input.PNG)
+![input](./obrazky/vstup/input.PNG)
 
 
 Nyní můžeme napsat číslo například `123` a zmáčknout Enter tlačítko. Pak se zobrazí
 
-![input](./obrazky/kapitola008/output.PNG)
+![input](./obrazky/vstup/output.PNG)
 
 Co se v programu děje?
 

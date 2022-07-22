@@ -18,35 +18,35 @@ Co tento program dělá? Vytiskne na obrazovku Hello world! a ukončí se. Nyní
 Jak na to v CodeBlocks? 
 
 1. Klikneme na "Create a new project" uprostřed obrazovky
-![vytvoření projektu](./obrazky/kapitola002/create_project.PNG)
+![vytvoření projektu](./obrazky/ahoj_svete/create_project.PNG)
 
 2. Vybereme "Console application" a klikneme GO
-![template](./obrazky/kapitola002/template.PNG)
+![template](./obrazky/ahoj_svete/template.PNG)
 
 3. Dále klikneme na NEXT (a můžeme zaškrtnout Skip thhis page next time)
-![skip](./obrazky/kapitola002/skip.PNG)
+![skip](./obrazky/ahoj_svete/skip.PNG)
 
 4. Vybereme C
-![c](./obrazky/kapitola002/c.PNG)
+![c](./obrazky/ahoj_svete/c.PNG)
 
 5. Vyplníme Project title libovolným názvem. Já jsem si vybral "hello". Vybereme složku, kam se má projekt uložit. Já jsem si vybral cestu "C:\Users\tomas\codeblocks\". Klikneme NEXT.
-![hello](./obrazky/kapitola002/hello.PNG)
+![hello](./obrazky/ahoj_svete/hello.PNG)
  
 6. Necháme vše zaškrtnuto a klikneme FINISH.
-![configuration](./obrazky/kapitola002/configuration.PNG)
+![configuration](./obrazky/ahoj_svete/configuration.PNG)
 
 7. Měli bychom vidět náš první program. Pokud ne, tak si ve stromové struktuře nalevo rozklikneme hello -> Sources -> main.c (dvojklik na main.c)
-![first program](./obrazky/kapitola002/first_program.PNG)
+![first program](./obrazky/ahoj_svete/first_program.PNG)
 
-8. Nyní nezbývá než kliknout na ozubené kolečko se zelenou šipkou v horní liště. Tím se náš program spustí. Pozor, nechceme klikat ani na samostatné ozubené kolečko ani na samostatnou zelenou šipku, ale na tlačítko, které má oba tyto znaky ![compile and run](./obrazky/kapitola002/compile_and_run.PNG)
+8. Nyní nezbývá než kliknout na ozubené kolečko se zelenou šipkou v horní liště. Tím se náš program spustí. Pozor, nechceme klikat ani na samostatné ozubené kolečko ani na samostatnou zelenou šipku, ale na tlačítko, které má oba tyto znaky ![compile and run](./obrazky/ahoj_svete/compile_and_run.PNG)
 
 9. Pokud vše proběhlo v pořádku, tak vidíme
-![program running](./obrazky/kapitola002/program_running.PNG)
+![program running](./obrazky/ahoj_svete/program_running.PNG)
 
 10. Nyní můžeme kliknout na libovolnou klávesu a tím terminálové okno zmizí.
 
 > Pozor, je vždy potřeba terminálové okno vypnout. Někdy se stane, že se programátor jenom překlikne zpátky do CodeBlocks. To způsobuje problém v tom, že pokud bych teď udělal v programu změny a chtěl ho znovu spustit, tak tlačítko pro spuštění programu (ozubené kolečko se zelenou šipkou) bude zašedlé a nepůjde spustit. Vyřešíte to tak, že se překliknete ve Windows zpátky do terminálového okna (ve spodní liště Windows) a ukončíte svůj program (kliknete libovolnou klávesu nebo na křížek v pravém horním rohu). Ve spodní liště to vypadá nějak takto
-![troubleshoot](./obrazky/kapitola002/troubleshoot.PNG)
+![troubleshoot](./obrazky/ahoj_svete/troubleshoot.PNG)
 
 
 
@@ -59,7 +59,7 @@ printf("Hello world!\n");
 ```
 Pro vypsání textu na obrazovku se používá funkce **printf**. Volání funkce (více viz kapitola XXX) obsahuje vždy několik částí. Název funkce, závorky, parametr a středník.
 
-![funkce](./obrazky/kapitola002/function.png)
+![funkce](./obrazky/ahoj_svete/function.png)
 
 Závorky a středník jsou povinné. Název funkce může být různý. Vždy záleží jakou funkci chceme volat (každá funkce má jinou funkci). Dokonce si můžeme i vytvářet své vlastní funkce (viz kapitola XXX).
 
@@ -129,7 +129,7 @@ Stejně tak funkce **printf** je jedna z funkcí, které někdo naprogramoval p�
 #include <stdio.h>
 ```
 
-![include](./obrazky/kapitola002/include.png)
+![include](./obrazky/ahoj_svete/include.png)
 
 Co by se stalo, kdybychom oba řádku s #include smazali? Můžeme si to vyzkoušet. Náš program pak bude vypadat takto
 
@@ -143,11 +143,11 @@ int main()
 
 Po stisknutí ozubeného kolečka se zelenou šipkou vidíme, že se program nespustil a editoru se nám označil červeně 3. řádek
 
-![error](./obrazky/kapitola002/error.PNG)
+![error](./obrazky/ahoj_svete/error.PNG)
 
 Zde je důležité si všimnout i spodní části aplikace. Zde je záložka "Build messages" kde vidíme informace, proč došlo k chybě.
 
-![build messages](./obrazky/kapitola002/build_messages.PNG)
+![build messages](./obrazky/ahoj_svete/build_messages.PNG)
 
 Umět se naučit číst chybové hlášky je naprosto vitální v cestě stát se dobrým programátorem. Zde vidíme
 `implicit declaration of function 'printf' [-Wimplicit-function-declaration]`. To znamená, že funkce `printf` není definovaná. To většinou znamená, že nemám přidanou přes #include správnou knihovnu nebo jsme nedefinovali nějakou funkci.
@@ -200,7 +200,7 @@ Další funkce, se kterou se v našem malém programu setkáváme, je funkce naz
 
 Funkce **main** má v jazyce C speciální význam. Je to počáteční bod, kde začíná každý náš program. Takovou funkci najdete v každém programu jazyka C.
 
-![main function](./obrazky/kapitola002/main_function.png)
+![main function](./obrazky/ahoj_svete/main_function.png)
 
 V této kapitole si nebudeme rozebírat co jednotlivé části znamenají. Zatím berme jako fakt, že definujeme `int main` a budeme se pohybovat jenom v těle funkce.
 
