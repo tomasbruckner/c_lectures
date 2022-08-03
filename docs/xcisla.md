@@ -189,7 +189,7 @@ long je 4
 long long je 8
 ```
 
-Limity můžeme ověřit konstantama definovanými v kihovně `limits.h`. Například
+Limity můžeme ověřit konstantama definovanými v knihovně `limits.h`. Například
 
 ```c
 #include <stdio.h>

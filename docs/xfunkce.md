@@ -1,5 +1,5 @@
 # Definujeme vlastní funkce
-V našem kurzu jsme se setkali s funkcemi *printf* (funkce knihovny stdio) a *main* (povinná funkce, která musí být v každém programu). Nyní si vyzkoušíme definovat vlastní funkce.
+V našem kurzu jsme se setkali s funkcemi `printf` (funkce knihovny stdio) a `main` (povinná funkce, která musí být v každém programu). Nyní si vyzkoušíme definovat vlastní funkce.
 
 Funkce si rozdělíme na několik typů
 1. Funkce bez parametrů
@@ -16,12 +16,12 @@ Abychom funkci mohli použít, je potřeba ji nejdříve definovat. Obecný form
 
 Jednotlivé sekce jsou
 
-* návratový datový typ - funkce může vrátit nějakou hodnotu. Proto musíme vždy definovat datový typ hodnoty (obdobně jako při definici proměnné), kterou funkce vrátí. Pokud funkce nic nevrací, tak jí definujeme návratový datový typ **void** (vysvětlíme si později na příkladu).
-* název funkce - každá funkce musí mít unikátní identifikátor (název). Pro identifikátory funkcí platí stejná pravidla jako pro identifikátory proměnných (pouze velká a malá písmena bez diakritiky, čísla atd. viz kapitola XXX).
-* tělo funkce - obsahuje libovolný počet příkazů (pro zjednodušení řádku kódu). Zde se definuje, co má funkce dělat. Tělo funkce může být i prázdné, ale to by znamenalo, že funkce nic nedělá.
+* **návratový datový typ** - funkce může vrátit nějakou hodnotu. Proto musíme vždy definovat datový typ hodnoty (obdobně jako při definici proměnné), kterou funkce vrátí. Pokud funkce nic nevrací, tak jí definujeme návratový datový typ `void` (vysvětlíme si později na příkladu).
+* **název funkce** - každá funkce musí mít unikátní identifikátor (název). Pro identifikátory funkcí platí stejná pravidla jako pro identifikátory proměnných (pouze velká a malá písmena bez diakritiky, čísla atd. viz kapitola XXX).
+* **tělo funkce** - obsahuje libovolný počet příkazů (pro zjednodušení řádku kódu). Zde se definuje, co má funkce dělat. Tělo funkce může být i prázdné, ale to by znamenalo, že funkce nic nedělá.
 
 
-Pojďme si definovat naši novou funkci. Rozhodli jsme si, že je to funkce, která nebude vracet žádnou hodnotu. Pojmenujeme si ji **nase_nova_funkce**. Definujeme ji tedy jako
+Pojďme si definovat naši novou funkci. Rozhodli jsme si, že je to funkce, která nebude vracet žádnou hodnotu. Pojmenujeme si ji `nase_nova_funkce`. Definujeme ji tedy jako
 
 ```c
 void nase_nova_funkce()
@@ -43,7 +43,7 @@ int main()
     return 0;
 }
 ```
-Pokud program nyní spustíme, tak se nám nic nevypíše. Je to proto, že v našem programu nemáme žádný příkaz *printf*. Definujme si tedy tělo funkce *nase_nova_funkce*.
+Pokud program nyní spustíme, tak se nám nic nevypíše. Je to proto, že v našem programu nemáme žádný příkaz `printf`. Definujme si tedy tělo funkce `nase_nova_funkce`.
 
 ```c
 #include <stdio.h>
@@ -60,6 +60,7 @@ int main()
 ```
 
 Když nyní program spustíme, tak se nám opět nic nevypíše. Proč? Protože program se vykonává postupně od začátku funkce main. Tzv. začne se zpracovávat funkce main, ta má v sobě jeden příkaz `return 0;`, což náš program ukončí. Naše funkce se tedy nikdy nespustí. Abychom funkci spustili, musíme ji zavolat. Zavolání funkce probíhá tak, že do místa, kde chceme funkci zavolat, tak dáme název dané funkce, závorky a středník. Náš kód tedy upravíme.
+
 ```c
 #include <stdio.h>
 
@@ -74,6 +75,7 @@ int main()
     return 0;
 }
 ```
+
 A po spuštění se nám vytiskne `Hello world!`. Funkce v programu můžeme volat i několikrát. Jak bychom udělali, kdybychom chtěli `Hello world!` vytisknout 4x za sebou? Máme několik možností. Buď můžeme udělat to, že zavoláme naši funkci v main 4x.
 
 ```c
@@ -113,7 +115,7 @@ int main()
 }
 ```
 
-Dáme 2x printf do naší funkce a zavoláme ji dvakrát
+Nebo dáme 2x printf do naší funkce a zavoláme ji dvakrát
 
 ```c
 #include <stdio.h>
@@ -175,7 +177,7 @@ Tak dostáváme chybu
 
 ![void return](./obrazky/funkce/void_return.PNG)
 
-Na řádku 6 je chyba, že se vrací hodnota, i když funkce má vracet void. Na řádku 3 je u funkce definováno, že je void. To je správné chování, protože void funkce nemůže vracet hodnotu.
+Na řádku 6 je chyba, že se vrací hodnota, i když funkce má vracet `void`. Na řádku 3 je u funkce definováno, že je `void`. To je správné chování, protože funkce s návratovým typem `void` nemůže vracet žádnou hodnotu.
 
 
 Co kdybychom ale nějakou hodnotu chtěli vracet? Pak nám stačí definovat návratový datový typ naší funkce. Pokud bychom nyní nechali tělo funkce prázdné
@@ -198,7 +200,7 @@ Tak dostáváme chybu
 
 ![missing return](./obrazky/funkce/int_no_return.PNG)
 
-Na řádku 5 jsme se dostali na konec funkce, která není void, ale chybí return. Opravíme to tedy
+Na řádku 5 jsme se dostali na konec funkce, která není `void`, ale chybí return. Opravíme to tedy
 
 ```c
 #include <stdio.h>
@@ -282,9 +284,9 @@ int main()
 Dostáváme chybu
 
 ![return string](./obrazky/funkce/return_string.PNG)
-Na řádku 5 se vrací datový typ **char \*** místo **int**.
+Na řádku 5 se vrací datový typ `char \*` místo `int`.
 
-Pokud bych naši funkci opravil
+Pokud bychom naši funkci opravili
 
 ```c
 #include <stdio.h>
@@ -303,12 +305,12 @@ int main()
 }
 ```
 
-Tak opět dostávám chybu
+Tak opět dostáváme chybu
 
 ![invalid variable type](./obrazky/funkce/invalid_variable_type.PNG)
-Na řádku 10 se snažím nastavit hodnotu **char \*** do proměnné typu **int**.
+Na řádku 10 se snažím nastavit hodnotu `char \*` do proměnné typu `int`.
 
-Musíme tedy opravit i datový typ proměnné x a rovnou opravíme i %i na %s.
+Musíme tedy opravit i datový typ proměnné `x` a rovnou opravíme i `%i` na `%s`.
 
 ```c
 #include <stdio.h>
@@ -356,7 +358,7 @@ Funkce můžou mít i jeden nebo i více parametrů. Nejdříve si definujme pro
 
 ![function with parameter](./obrazky/funkce/function_with_parameter.png)
 
-Mějme funkci, která nic nevrací (návratový datový typ void) a zatím nemá parametr.
+Mějme funkci, která nic nevrací (návratový datový typ `void`) a zatím nemá parametr.
 
 ```c
 #include <stdio.h>
@@ -444,37 +446,16 @@ Problém by šlo vyřešit tím, že úplně zrušíme naše funkce a v `main` f
 ```c
 #include <stdio.h>
 
-void tisk_cisla15()
-{
-    int cislo_k_tisku = 15;
-
-    printf("Hodnota je: %i\n", cislo_k_tisku);
-}
-
-void tisk_cisla10()
-{
-    int cislo_k_tisku = 10;
-
-    printf("Hodnota je: %i\n", cislo_k_tisku);
-}
-
-void tisk_cisla7()
-{
-    int cislo_k_tisku = 7;
-
-    printf("Hodnota je: %i\n", cislo_k_tisku);
-}
-
 int main()
 {
-    printf("Hodnota je: 15\n");
-    printf("Hodnota je: 10\n");
-    printf("Hodnota je: 7\n");
+    printf("Hodnota je: %i\n", 15);
+    printf("Hodnota je: %i\n", 10);
+    printf("Hodnota je: %i\n", 7);
     return 0;
 }
 ```
 
-Máme ale další problém. Co kdybychom chtěli vytisknout místo `Hodnota je: x` tak mít všude malé `h`, tzv. `hodnota je: x`. Musíme opravit tři řádky, kde se daný text objevuje. V takto malém programu to problém není, ale čím větší je daný program, tím větší to začíná být problém. Často se pak stává, že se opraví jenom několik místo a část tisku by pak měla malé a část velké H.
+Máme ale další problém. Co kdybychom chtěli místo `Hodnota je: x` mít všude malé `h`, tzv. `hodnota je: x`. Musíme opravit tři řádky, kde se daný text objevuje. V takto malém programu to problém není, ale čím větší je daný program, tím větší to začíná být problém. Často se pak stává, že se opraví jenom několik místo a část tisku by pak měla malé a část velké H.
 
 To lze vyřešit tak, že si vytvoříme funkci s jedním parametrem.
 
@@ -498,9 +479,9 @@ Když program spustíme, tak se nám vytiskne
 Hodnota je: 10
 ```
 
-Parametry se definují vždy v závorkách za jménem funkce. Každý parametr musí mít definovaný datový typ (v tomto případě `int`) a unikátní identifikátor (jméno) v rámci funkce.
+Parametry se definují vždy v závorkách za jménem funkce (v definici funkce). Každý parametr musí mít definovaný datový typ (v tomto případě `int`) a unikátní identifikátor (jméno) v rámci funkce.
 
-Taky se mění to, jak funkci voláme. Místo `tisk_cisla();` musíme funkci zavolat s parametrem. Pokud máme v definici funkci, že přijímá parametr datového typu int, tak funkci musíme volat s číslem. Co se stane, když bychom funkci zavolali bez parametru?
+Také se mění způsob, jakým funkci voláme. Místo `tisk_cisla();` musíme funkci zavolat s argumentem. Pokud má funkce v definici parametr datového typu `int`, tak funkci musíme volat s číslem. Co se stane, když bychom funkci zavolali bez argumentu?
 
 
 ```c
@@ -563,7 +544,7 @@ int main()
 }
 ```
 
-A pokud bychom potřebovali upravit text ve funkci *printf*, tak to stačí upravit pouze na jednom místě.
+A pokud bychom potřebovali upravit text ve funkci `printf`, tak to stačí upravit pouze na jednom místě.
 
 > Na jaké funkce program rozdělit. Kolik funkcí mít v programu. Jestli udělat funkci nebo ještě neudělat, to jsou problémy, které často tíží programátory. Neexistuje na to jednoduchá poučka. O tom jak psát dobře funkce si povíme více v kapitole XXX.
 
@@ -610,7 +591,7 @@ Vždy můžeme vrátit hodnotu z funkce. Stačí nám přidat do naší funkce `
 ```c
 #include <stdio.h>
 
-int soucet(int x, int y, int z)
+int vrat_soucet(int x, int y, int z)
 {
     int vysledek = x + y + z;
 
@@ -619,14 +600,14 @@ int soucet(int x, int y, int z)
 
 int main()
 {
-    int vysledek_souctu = soucet(10, 5, -2);
+    int vysledek_souctu = vrat_soucet(10, 5, -2);
     printf("Vysledek je: %i\n", vysledek_souctu);
 
     return 0;
 }
 ```
 
-Funkci jsme rovnou přejmenovali z *tisk_souctu* na *soucet*, protože funkce již nic netiskne.
+Funkci jsme rovnou přejmenovali z `tisk_souctu` na `vrat_soucet`, protože funkce již nic netiskne.
 
 
 # Parametr vs argument funkce
@@ -642,7 +623,7 @@ void tisk_cisla(int cislo_k_tisku)
 ```
 Zde je `cislo_k_tisku` parametr funkce.
 
-Argument používáme v případě volání funkce.
+Argument používáme v případě, když mluvíme o volání funkce.
 ```c
 tisk_cisla(10);
 tisk_cisla(x);
@@ -650,4 +631,111 @@ tisk_cisla(x);
 
 Argument prvního volání funkce je `10` a u druhého volání funkce je argument proměnná `x`.
 
-Není potřeba se tím moc trápit. Jedná se o nedůležitou znalost. Z mého pohledu je v pořádku oba pojmy jako synonymum.
+Není potřeba se tím moc trápit. Jedná se o nedůležitou znalost. Z mého pohledu je v pořádku oba pojmy používat jako synonymum.
+
+
+## Úkoly na procvičení
+### Úkol 1
+Doplňte funkci `moje_super_funkce`, tak aby program vytisknul
+```
+Moje super funkce!
+```
+
+Upravte tento program
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    moje_super_funkce();
+    return 0;
+}
+```
+
+
+<details>
+  <summary>Klikni pro zobrazení možného řešení</summary>
+
+```c
+#include <stdio.h>
+
+void moje_super_funkce() {
+    printf("Moje super funkce!\n");
+}
+
+int main()
+{
+    moje_super_funkce();
+    return 0;
+}
+```
+</details>
+
+
+### Úkol 2
+Opravte funkci `moje_super_funkce`, tak aby program vytisknul
+```
+Magicke cislo je 7
+```
+
+Upravte tento program
+
+```c
+#include <stdio.h>
+
+void vrat_magicke_cislo() {
+    return 7;
+}
+
+int main()
+{
+    int magicke_cislo = vrat_magicke_cislo();
+    printf("Magicke cislo je %i\n", magicke_cislo);
+    return 0;
+}
+```
+
+
+<details>
+  <summary>Klikni pro zobrazení možného řešení</summary>
+
+```c
+#include <stdio.h>
+
+int vrat_magicke_cislo() {
+    return 7;
+}
+
+int main()
+{
+    int magicke_cislo = vrat_magicke_cislo();
+    printf("Magicke cislo je %i\n", magicke_cislo);
+    return 0;
+}
+```
+</details>
+
+
+### Úkol 3
+Napište funkci, která bude mít 3 parametry typu int a vytiskne nejdříve třetí parametr, pak druhý a nakonec první.
+
+<details>
+  <summary>Klikni pro zobrazení možného řešení</summary>
+
+```c
+#include <stdio.h>
+
+void tiskni(int x, int y, int z) {
+    printf("%i\n", z);
+    printf("%i\n", y);
+    printf("%i\n", x);
+}
+
+int main()
+{
+    tiskni();
+    return 0;
+}
+```
+</details>

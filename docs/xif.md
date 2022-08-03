@@ -47,7 +47,7 @@ a program by fungoval stejně. Dvěma `printf` příkazy jsme si jenom demonstro
 
 Všimněme si operátoru `==`. Jedná se o porovnání dvou hodnot. Pokud se hodnota nalevo (x) rovná hodnotě napravo (10), tak se podmínka vyhodnotí jako pravdivá. V opačném případě jako nepravdivá. Více o operátorech níže.
 
-> Zde je potřeba si dávat pozor na velmi častou chybu mezi programátory začátečníky. Je rozdíl mezi jedním `=` a dvěma `==`. V prvním případě se rovná o přiřazení hodnoty do proměnné (viz předchozí kapitola) a v druhém o porovnání dvou hodnot.
+> Zde je potřeba si dávat pozor na velmi častou chybu mezi programátory začátečníky. Je rozdíl mezi jedním `=` a dvěma `==`. V prvním případě se jedná o přiřazení hodnoty do proměnné (viz předchozí kapitola) a v druhém o porovnání dvou hodnot.
 
 Pokud bychom x změnili na jiné číslo (nebo změnili podmínku, aby kontrolovala jiné číslo než 10). Např.
 
@@ -418,3 +418,137 @@ Pokud jste úplně ztraceni, doporučuji samostudium např. [zde](https://www.ma
 | 0 | 0 | 0 |
 
 
+
+## Úkoly na procvičení
+### Úkol 1
+Upravte operátory v IF podmínkách tak, aby všechny podmínky byly pravdivé
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int x = 10;
+    int y = -4;
+    int z = 0;
+
+    if (z) {
+        printf("Pravda\n");
+    }
+
+    if (x && z) {
+        printf("Pravda\n");
+    }
+
+    if (x < y) {
+        printf("Pravda\n");
+    }
+
+    if (z == y || z >= x) {
+        printf("Pravda\n");
+    }
+
+    return 0;
+}
+```
+
+
+<details>
+  <summary>Klikni pro zobrazení možného řešení</summary>
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int x = 10;
+    int y = -4;
+    int z = 0;
+
+    if (!z) {
+        printf("Pravda\n");
+    }
+
+    if (x || z) {
+        printf("Pravda\n");
+    }
+
+    if (x > y) {
+        printf("Pravda\n");
+    }
+
+    if (z != y || z >= x) {
+        printf("Pravda\n");
+    }
+
+    return 0;
+}
+```
+</details>
+
+
+### Úkol 2
+Napište funkci, která dostane parametrem číslo. Pokud je hodnota čísla 3 nebo menší, tak se vytiskne `Cislo je male`. Pokud je vetší než 10, XXX
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int x = 10;
+    int y = -4;
+    int z = 0;
+
+    if (z) {
+        printf("Pravda\n");
+    }
+
+    if (x && z) {
+        printf("Pravda\n");
+    }
+
+    if (x < y) {
+        printf("Pravda\n");
+    }
+
+    if (z == y || z >= x) {
+        printf("Pravda\n");
+    }
+
+    return 0;
+}
+```
+
+
+<details>
+  <summary>Klikni pro zobrazení možného řešení</summary>
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int x = 10;
+    int y = -4;
+    int z = 0;
+
+    if (!z) {
+        printf("Pravda\n");
+    }
+
+    if (x || z) {
+        printf("Pravda\n");
+    }
+
+    if (x > y) {
+        printf("Pravda\n");
+    }
+
+    if (z != y || z >= x) {
+        printf("Pravda\n");
+    }
+
+    return 0;
+}
+```
+</details>

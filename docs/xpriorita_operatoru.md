@@ -5,7 +5,7 @@ Stejně jako v matematice platí priorita operátorů. Například
 4 + 5 * 3 = 19
 ```
 
-Nejdříve se provede násobení, protože má vyšší prioritu a až následně sčítání, tzv. lze napsat pomocí závorek
+Nejdříve se provede násobení, protože má vyšší prioritu a až následně sčítání, tzv. se provede
 
 ```
 4 + (5 * 3) = 19
@@ -17,7 +17,7 @@ V programování to platí také. Proto můžeme napsat
 if (5 + 3 > 4)
 ```
 
-A jelikož má sčítání vyšší prioritu, tak se výraz v podmínce provede jako
+A jelikož má sčítání vyšší prioritu, tak se provede nejdříve sčítání a až následně porovnání, tzv. se provede
 
 ```c
 if ((5 + 3) > 4)
