@@ -1,5 +1,5 @@
-# C lectures
-Tasks for C tutorial on YouTube.
+# Kurz jazyka C
+> Work in progress!
 
-## How to report a bug
-Create issue in Github [here](https://github.com/tomasbruckner/C_lectures/issues).
+Kurz dostupný na Github Pages [zde](https://tomasbruckner.github.io/c_lectures/)
+

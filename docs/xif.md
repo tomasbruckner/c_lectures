@@ -173,7 +173,7 @@ A pro kód platí.
 
 ![if block](./obrazky/if/else_if_block_diagram.png)
 
-Předchozí program bychom mohli přepsat
+Předchozí program bychom mohli přepsat s použitím `Else if`
 ```c
 #include <stdio.h>
 
