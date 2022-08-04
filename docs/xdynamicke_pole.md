@@ -1,4 +1,8 @@
-# Dynamické pole
+---
+title: Dynamické pole
+---
+
+
 V některých případech neznámé velikost pole dopředu. Mějme například program, který načítá čísla od uživatele, dokud uživatel nenapíše číslo 0. Pak program vypíše všechny hodnoty a ukončí se.
 
 Ať vytvoříme libovolně velké statické pole (pevně daná velikost pole), tak vždy může uživatel zadat o číslo navíc.

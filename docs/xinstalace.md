@@ -1,4 +1,7 @@
-# Instalujeme CodeBlocks
+---
+title: Instalujeme CodeBlocks
+---
+
 Abychom mohli efektivně programovat (tzv. psát zdrojový kód), tak potřebujeme nějaký editor. Šlo by použít i poznámkový blok ve Windows, ale ten není ideální. Existují mnohme lepší programy, které mají spoustu užitečné funkcionality, která nám ušetří hodně práce.
 
 Jeden z takových programů je CodeBlocks (je plně zdarma). Pokud jste již zkušenější programátor a máte zkušenost s jinými editory, tak samozřejmě můžete použít váš oblíbený editor a tuto kapitolu přeskočit.

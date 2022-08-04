@@ -1,4 +1,8 @@
-# Bitové operace
+---
+title: Bitové operace
+---
+
+
 Obecně beru tuto kapitolu jako volitelnou a poměrně nedůležitou. S bitovými operacemi se pravděpodobně nikdy nesetkáte. Není na škodu ale mít aspoň základní přehled, že něco takového vůbec existuje.
 
 Jazyk C má speciální operátory na práci s bitama. Pro zopakování dvojkové soustavy například [zde](https://cs.khanacademy.org/computing/informatika-pocitace-a-internet/x8887af37e7f1189a:digitalni-informace/x8887af37e7f1189a:binarni-cislo/a/bits-and-binary).

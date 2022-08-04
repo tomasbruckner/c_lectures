@@ -1,4 +1,8 @@
-# Struktury pro pokročilé
+---
+title: Struktury pro pokročilé
+---
+
+
 V kapitole XXX jsme si ukázali práci s řetězci. Měli jsme tam samotné data jako `char *` a navíc jsme udržovali maximální délku a aktuální. Tyto proměnné patří logicky k sobě. Proto bychom je mohli dát do jedné struktury. Ta by mohla vypadat následovně
 
 ```c

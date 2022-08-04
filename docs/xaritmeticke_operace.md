@@ -1,4 +1,6 @@
-# Aritmetické operace
+---
+title: Aritmetické operace
+---
 
 V předchozí kapitole jsme si ukazali sčítání. V programování můžeme použít i další operátory
 

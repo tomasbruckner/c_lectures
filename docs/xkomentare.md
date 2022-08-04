@@ -1,4 +1,8 @@
-# Komentáře
+---
+title: Komentáře
+---
+
+
 Komentář je část zdrojového kódu, který nemá žádný vliv na výsledný program. Při zpracování programu se komentáře ignorují. K čemu tedy slouží? Jejich smysl je vysvětlit lidem, co se v programu děje. V jazyku C máme dva typy komentářů:
 1. Řádkový
 1. Blokový

@@ -1,4 +1,8 @@
-## Pole vs ukazatel
+---
+title: Pole vs ukazatel
+---
+
+
 V předchozích kapitolách jsme si ukázali práci s polem a ukazateli. Ve skutečnosti pole a ukazatele mají k sobě velmi blízko.
 
 Mějme pole

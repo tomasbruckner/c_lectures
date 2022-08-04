@@ -1,4 +1,7 @@
-# Proměnné a datové typy
+---
+title: Proměnné a datové typy
+---
+
 Pro psaní složitějších programů se neobejdeme bez použití tzv. proměnných. Proměnné jsou nějak pojmenované a obsahují nějakou hodnotu. Ukázka definování proměnné může být
 
 ```c

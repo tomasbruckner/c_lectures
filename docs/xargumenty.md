@@ -1,4 +1,7 @@
-# Práce s argumenty programu
+---
+title: Práce s argumenty programu
+---
+
 Našim programům můžeme předávat argumenty z terminálu. To uživatelům umožňuje upravovat chování programu i potom, co jsme my udělali binární soubor a poslali jsme jim výsledný .exe soubor. 
 
 Abychom mohli pracovat v našem programu s argumenty programu, tak musíme rozšířit parametry `main` funkce. Můžeme použít variantu `int main(int argc, char* argv[])` nebo také `int main(int argc, char** argv)`. Já preferuji první variantu.

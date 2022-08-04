@@ -1,4 +1,7 @@
-# Řetězce
+---
+title: Řetězce
+---
+
 S řetězci jsme se již seznámili okrajově v předchozích kapitolách. Předtím jsme si zadefinovali řetězec jako
 ```c
 char * retezec = "abc";

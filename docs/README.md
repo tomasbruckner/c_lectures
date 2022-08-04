@@ -1,4 +1,6 @@
-# Tomův kurz programování v jazyce C pro začátečníky
+---
+title: Tomův kurz programování v jazyce C pro začátečníky
+---
 
 Základy
 * [Kapitola 0 - Vítejte na kurzu programovacího jazyka C](./xuvod.md)

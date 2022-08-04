@@ -1,4 +1,8 @@
-# Kompilace
+---
+title: Kompilace
+---
+
+
 Důležitou součástí programování je i kompilace, nebo-li proces transformace vašeho zdrojového kódu na spustitelný binární soubor (říkáme binárku). V zjednodušeném diagramu to vypadá tak, že se vezme váš zdrojový kód (např. hello.c) a udělá se z něj spustitelný soubor (hello.exe).
 
 ![kompilace](./obrazky/kompilace/kompilace_short.png)

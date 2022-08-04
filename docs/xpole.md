@@ -1,4 +1,7 @@
-# Pole
+---
+title: Pole
+---
+
 V našich programech bychom někdy pracovat s hodně proměnnými. Jeden z přístupů by byl definovat pro každé číslo proměnnou.
 
 

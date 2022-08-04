@@ -1,4 +1,7 @@
-# Definujeme vlastní funkce
+---
+title: Definujeme vlastní funkce
+---
+
 V našem kurzu jsme se setkali s funkcemi `printf` (funkce knihovny stdio) a `main` (povinná funkce, která musí být v každém programu). Nyní si vyzkoušíme definovat vlastní funkce.
 
 Funkce si rozdělíme na několik typů

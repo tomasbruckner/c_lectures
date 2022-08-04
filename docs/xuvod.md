@@ -1,4 +1,8 @@
-# Vítejte na kurzu programovacího jazyka C
+---
+title: Vítejte na kurzu programovacího jazyka C
+---
+
+
 Vítám všechny, kteří zabloudili až do mého kurzu jazyka C. Kurz je udržován jako open source [zde](https://github.com/tomasbruckner/c_lectures). Pokud byste se chtěli ke kurzu vyjádřit (například dát zpětnou vazbu, napsat nápad na vylepšení nebo vyjasnit nějaký koncept), tak můžete použít například Github diskuze [zde](https://github.com/tomasbruckner/c_lectures/discussions).
 
 

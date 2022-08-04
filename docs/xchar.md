@@ -1,4 +1,8 @@
-# Datový typ char
+---
+title: Datový typ char
+---
+
+
 Další datový typ, který si tady představíme je char, tzv. jeden znak. Můžeme definovat a uložit hodnotu následovně
 
 ```c

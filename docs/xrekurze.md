@@ -1,4 +1,7 @@
-# Rekurzivní funkce
+---
+title: Rekurzivní funkce
+---
+
 
 Rekurzivní funkce je pojmenování pro funkce, které volají samy sebe. Je dobré o nich vědět, protože můžou někdy výrazně zjednodušit řešení problému.
 Ukázka rekurzivní funkce je

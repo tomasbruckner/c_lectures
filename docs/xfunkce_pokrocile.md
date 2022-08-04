@@ -1,4 +1,8 @@
-# Funkce pro pokročilé
+---
+title: Funkce pro pokročilé
+---
+
+
 V jedné z prvních kapitol jsme se seznámili s funkcí `printf`, která byla speciální v tom, že měla předem nedefinovaný počet parametrů. Mohli jsme tam poslat jeden nebo tři hodnoty a vše fungovalo. Jak je to možné?
 
 Jazyk C má koncept tzv. variadických funkcí (variadic functions), který právě toto umožňuje. Slouží k tomu knihovna `stdarg`. Ta obsahuje následující

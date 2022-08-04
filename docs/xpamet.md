@@ -1,4 +1,7 @@
-# Paměť
+---
+title: Paměť
+---
+
 O paměti jsme si v předchozích kapitolách už několikrát povídali. Nyní se podíváme, jak zhruba vypadá paměť jako celek a z jakých částí se skládá.
 
 Zjednodušenný diagram vypadá následovně

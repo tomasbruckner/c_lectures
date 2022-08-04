@@ -1,4 +1,8 @@
-# Struktury
+---
+title: Struktury
+---
+
+
 Struktury nám umožňují definovat si naše vlastní komplexní datové typy. Mějme program, který dostane tři souřadnice bodu a vytiskne daný bod tolikrát, kolikrát mu řekneme.
 
 ```c

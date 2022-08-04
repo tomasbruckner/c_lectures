@@ -1,4 +1,7 @@
-# První program - Ahoj světe!
+---
+title: První program - Ahoj světe!
+---
+
 Začněme s naším prvním programem. Následující zdrojový kód je velmi známý a nazývá se `Hello world!` (česky Ahoj světe!)
 
 ```c

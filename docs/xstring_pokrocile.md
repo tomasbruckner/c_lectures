@@ -1,4 +1,8 @@
-# Řetězce pro pokročilé
+---
+title: Řetězce pro pokročilé
+---
+
+
 V kapitole XXX jsme se zabývali řetězci, které měli konstantní velikost. Někdy se nám ale může hodit mít dynamickou velikost řětězce. Můžeme použít stejný postup jako v kapitole XXX.
 
 ```c

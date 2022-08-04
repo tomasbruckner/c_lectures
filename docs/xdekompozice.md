@@ -1,4 +1,8 @@
-# Dekompozice programu
+---
+title: Dekompozice programu
+---
+
+
 Když máme za úkol naprogramovat složitější program, tak se často stává, že člověk je úplně ochrnut velikostí programu a obrovským množstvím neznámých.
 
 Díky dekompozici se nám  podaří rozdělit jeden velký problém, který nedokážeme vyřešit, na více menších problémů, které už dokážeme vyřešit.

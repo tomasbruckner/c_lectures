@@ -1,4 +1,7 @@
-# Cykly - pokročilá verze
+---
+title: Cykly pro pokročilé
+---
+
 
 V této kapitole si více rozebereme některé cykly. Tuto sekci beru pro lidi, kteří už zvládají základy a chcou jít ve svých znalostech hlouběji.
 

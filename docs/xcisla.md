@@ -1,4 +1,7 @@
-# Datový typ číslo
+---
+title: Datový typ číslo
+---
+
 Setkali jsme se s datovým typem `int`, který reprezentuje celé číslo.
 
 Zatím jsme ukládali čísla následovně

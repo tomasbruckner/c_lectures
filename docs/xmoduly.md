@@ -1,4 +1,7 @@
-# Moduly
+---
+title: Moduly
+---
+
 Ve větších programech chceme rozdělit program do více souborů. Pokud bychom měli všechno v jednom souboru, tak jakmile program naroste na tisíce nebo klidně desítky tisíc řádků kódu, tak už by se v něm nikdo nevyznal. K rozdělování na více souborů nám pomáhají moduly.
 
 Každý jeden soubor je samostatný modul. Nebo přesněji ke každému modulu existují dva soubory

@@ -1,4 +1,8 @@
-# Funkce - prototypy
+---
+title: Funkce - prototypy
+---
+
+
 Při psaní programu se nám může stát následující problém.
 
 ```c

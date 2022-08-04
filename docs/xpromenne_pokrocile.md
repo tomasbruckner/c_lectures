@@ -1,4 +1,8 @@
-# Proměnné pro pokročilé
+---
+title: Proměnné pro pokročilé
+---
+
+
 V této kapitole si ukážeme nějaké speciální vlastnosti a klíčová slova spojená s proměnnými.
 
 ## Statické proměnné

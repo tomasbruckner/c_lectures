@@ -1,4 +1,8 @@
-# Práce se soubory
+---
+title: Práce se soubory
+---
+
+
 V našem programu můžeme pracovat i se soubory. Pro otevření používáme funkci `fopen` z knihovny `stdio.h`. Té předáme dva argumenty. První je cesta k souboru a druhý je mód, v jakém daný soubor chceme otevřít. Módy máme následující
 
 

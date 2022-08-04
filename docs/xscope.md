@@ -1,4 +1,7 @@
-# Scope
+---
+title: Scope
+---
+
 V předchozích kapitolách jsme si ukázali, že nelze definovat v jedné funkci dvě proměnné se stejným názvem. Není to úplně přesné. Ve skutečnosti platí, že nesmí být dvě stejně pojmenované proměnné ve stejném `bloku` kódu.
 
 Blok je určen složenými závorky. Tzv. funkce je jeden blok kódu. If je další blok kódu.

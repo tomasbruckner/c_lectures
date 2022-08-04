@@ -1,4 +1,8 @@
-# Makra
+---
+title: Makra
+---
+
+
 V jazyku C lze definovat tzv. makra. Syntax je 
 
 ![makro](./obrazky/makra/makro.png)

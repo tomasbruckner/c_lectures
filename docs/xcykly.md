@@ -1,4 +1,7 @@
-# Cykly
+---
+title: Cykly
+---
+
 Cykly nám pomáhají opakovat určitou část kódu do té doby, dokud je splněna stanovená podmínka. Cyklů máme více typů. Nelze říct, že jeden je lepší nebo horší. Vždy jde kód napsat v libovolném typu cyklů.
 ## Cyklus While
 První cyklus, který si ukážeme, je cyklus **while**. Jeho diagram je následující

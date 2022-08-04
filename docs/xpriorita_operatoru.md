@@ -1,4 +1,7 @@
-# Priorita operátorů
+---
+title: Priorita operátorů
+---
+
 Stejně jako v matematice platí priorita operátorů. Například
 
 ```

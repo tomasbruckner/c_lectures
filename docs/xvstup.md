@@ -1,4 +1,8 @@
-# Práce s uživatelskám vstupem
+---
+title: Práce s uživatelskám vstupem
+---
+
+
 Ke čtení uživatelského vstupu lze použít další funkci z knihovny stdio nazvanou *scanf*. Ta funguje tak, že ji jako prvni argument předáme modifikátor (obdobně jako ve funkci printf). Pokud použijeme modifikátor %i, tak jako druhý argument musíme předat **ukazatel** na proměnnou typu int.
 
 Ukazateli se budeme zabývat více v kapitole XXX. Zatím nám může stačit, že před proměnnou musíme dát znak & (ampersand).

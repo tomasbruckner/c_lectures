@@ -1,4 +1,7 @@
-# Struktura Switch
+---
+title: Struktura Switch
+---
+
 Switch je velmi podobný několika IF struktuře. Mějme program
 
 ```c

@@ -1,4 +1,8 @@
-# Ukazatele
+---
+title: Ukazatele
+---
+
+
 Každou proměnnou, kterou vytvoříte, tak je uložená někde v počítači. Název proměnné není vlastně nic jiného, než námi pojmenované místo v paměti počítače.
 
 Mějme program

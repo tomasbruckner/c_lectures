@@ -1,4 +1,7 @@
-# Čistý kód
+---
+title: Čistý kód
+---
+
 Čistý kód je označení pro dobře napsaný kód, ve kterém se vyznají i jiní lidi, než vy.
 
 ![wtf](./obrazky/cisty_kod/wtf.jpeg)
