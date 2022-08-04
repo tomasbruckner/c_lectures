@@ -1,4 +1,25 @@
 theme: minima
 markdown: GFM
+author:
+  name: Tomáš Bruckner
+  email: tomasbrucknermail@gmail.com
+name: Tom učí jazyk C
+
+description: >
+  Vítejte na kurzu jazyka C pro začátečníky.
+
+minima:
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    github:  tomasbruckner
+    devto: brucknert
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+
 header_pages:
   - README.md
+
+plugins:
+ - jekyll-seo-tag

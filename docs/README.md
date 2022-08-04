@@ -1,5 +1,5 @@
 ---
-title: Tomův kurz programování v jazyce C pro začátečníky
+title: Tom učí jazyk C
 ---
 
 Základy
