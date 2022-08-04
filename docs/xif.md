@@ -2,8 +2,6 @@
 title: Řídící struktura IF
 ---
 
-# Řídící struktura IF
-
 V našem programu se nám může hodit, když se některé příkazy vykonají jenom v některých situacích. Od toho nám slouží řídící struktura IF. Ta funguje následovně
 
 ![if else](./obrazky/if/if_else_diagram.png)
