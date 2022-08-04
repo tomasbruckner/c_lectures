@@ -1,8 +1,6 @@
 theme: minima
 markdown: GFM
-author:
-  name: Tomáš Bruckner
-  email: tomasbrucknermail@gmail.com
+author: Tomáš Bruckner
 name: Tom učí jazyk C
 
 description: >
