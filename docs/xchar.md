@@ -3,7 +3,7 @@ title: Datový typ char
 ---
 
 
-Další datový typ, který si tady představíme je char, tzv. jeden znak. Můžeme definovat a uložit hodnotu následovně
+Další datový typ, který si tady představíme je `char`, tzv. jeden znak. Můžeme definovat a uložit hodnotu následovně
 
 ```c
 int main() {
@@ -29,7 +29,7 @@ initialization of 'char' from 'char *' makes integer from pointer without a cast
 
 Snažíme se uložit řetězec (datový typ `char *`) do proměnné, která čeká znak (datový typ `char`).
 
-Také je potřeba si dát pozor na to, abychom do jednoduchých uvozovek nedali dva znaky. Pokud jich tam dáme více, tak už se nejedná o char ale o int.
+Také je potřeba si dát pozor na to, abychom do jednoduchých uvozovek nedali dva znaky. Pokud jich tam dáme více, tak už se nejedná o `char` ale o `int` (bude více vysvětleno v kapitole XXX).
 
 ```c
 int main() {
@@ -43,7 +43,7 @@ Vypíše chybu
 overflow in conversion from 'int' to 'char' changes value from '24929' to '97'
 ```
 
-Pokud bychom chtěli hodnotu vytisknout, tak používáme %c
+Pokud bychom chtěli hodnotu vytisknout, tak používáme `%c`
 
 ```c
 #include <stdio.h>
@@ -63,11 +63,11 @@ Znak je a
 
 
 ## ASCII tabulka
-Jelikož počítač umí pracovat jenom s číslama (jedničkama a nulama), tak i char není nic jiného, než číslo. V minulosti se lidi domluvili, který znak bude odpovídat jakému číslu. To je definováno v ASCII tabulce (American Standard Code for Information Interchange).
+Jelikož počítač umí pracovat jenom s číslama (jedničkama a nulama), tak i `char` není nic jiného, než číslo. V minulosti se lidi domluvili, který znak bude odpovídat jakému číslu. To je definováno v ASCII tabulce (American Standard Code for Information Interchange).
 
 Tu nalezneme například [zde](https://cs.wikipedia.org/wiki/ASCII).
 
-Když se do ní podíváme, tak vidíme, že 'a' má hodnotu v ASCII tabulce 97 v desítkové soustavě. To si můžeme ověřit.
+Když se do ní podíváme, tak vidíme, že `'a'` má hodnotu v ASCII tabulce 97 v desítkové soustavě. To si můžeme ověřit.
 
 ```c
 #include <stdio.h>
@@ -109,7 +109,7 @@ Prvni porovnani
 Druhe porovnani
 ```
 
-K charu se můžeme chovat jako v libovolnému číslu. Pokud bychom chtěli zjistit, zda je znak malé písmeno abecedy
+K charu se můžeme chovat jako k libovolnému číslu. Pokud bychom chtěli zjistit, zda je znak malé písmeno abecedy
 
 ```c
 #include <stdio.h>
@@ -131,7 +131,7 @@ Program tiskne
 Mala abeceda
 ```
 
-Písmeno 'd' má hodnotu 100 v ASCII tabulce a písmeno 'a' má 97 a písmeno 'z' má 122. Proto platí
+Písmeno `'d'` má hodnotu 100 v ASCII tabulce a písmeno `'a'` má 97 a písmeno `'z'` má 122. Proto platí
 
 ```c
 100 >= 97 && 100 <= 122
@@ -148,10 +148,3 @@ int main() {
     return 0;
 }
 ```
-
-## Znaménkový a neznaménkový char
-
-Podobně jako int, tak char je znaménkový. Existuje `signed char` a `unsigned char`. Samotný `char` může být ve výchozím nastavení buď signed nebo unsigned. Záleží na stroji. Na vašem počítači bude signed, na ARM pravděpodobně unsigned.
-
-Jelikož je 1 byte, tzv. je reprezentován na 8 bitech. Což obsahuje 256 hodnot (2^8 = 256).
-Pro signed platí, že nejmenší hodnota je -128 a největší 127.

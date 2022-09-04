@@ -2,7 +2,7 @@
 title: První program - Ahoj světe!
 ---
 
-Začněme s naším prvním programem. Následující zdrojový kód je velmi známý a nazývá se `Hello world!` (česky Ahoj světe!)
+Začněme s naším prvním programem. Následující zdrojový kód (= kód programu) je velmi známý a má dokonce své vlastní jméno. Nazývá se `Hello world!` (česky Ahoj světe!). Kód vypadá následovně
 
 ```c
 #include <stdio.h>
@@ -15,23 +15,23 @@ int main()
 }
 ```
 
-Co tento program dělá? Vytiskne na obrazovku Hello world! a ukončí se. Zkusme si tento program vytvořit a úspěšně spustit v CodeBlocks. Tím ověříme, že se vše nainstalovalo správně.
+Co tento program dělá? Vytiskne na obrazovku **Hello world!** a ukončí se. Zkusme si tento program vytvořit a úspěšně spustit v CodeBlocks. Tím ověříme, že se vše nainstalovalo v pořádku.
 
 Jak na to v CodeBlocks? 
 
-1. Klikneme na "Create a new project" uprostřed obrazovky
+1. Klikneme na modrý text "Create a new project" uprostřed obrazovky pod logem Code::Blocks
 ![vytvoření projektu](./obrazky/ahoj_svete/create_project.PNG)
 
 2. Vybereme "Console application" a klikneme Go
 ![template](./obrazky/ahoj_svete/template.PNG)
 
-3. Dále klikneme na Next (a můžeme zaškrtnout Skip thhis page next time)
+3. Dále klikneme na Next (a můžeme zaškrtnout Skip this page next time)
 ![skip](./obrazky/ahoj_svete/skip.PNG)
 
 4. Vybereme C
 ![c](./obrazky/ahoj_svete/c.PNG)
 
-5. Vyplníme Project title libovolným názvem. Já jsem si vybral `hello`. Vybereme složku, kam se má projekt uložit. Já jsem si vybral cestu "C:\Users\tomas\codeblocks\". Doporučuji si vybrat složku někde ve složce vašeho uživatele (v mém případě C:\Users\tomas\\). Vyhnete se tím problémům s právami ve Windows. Klikneme Next.
+5. Vyplníme Project title libovolným názvem. Já jsem si vybral název `hello`. Vybereme složku, kam se má projekt uložit. Já jsem si vybral cestu "C:\Users\tomas\codeblocks\". Doporučuji si vybrat složku někde ve složce vašeho Windows uživatele (v mém případě C:\Users\tomas\\). Vyhnete se tím problémům s právami ve Windows. Klikneme Next.
 ![hello](./obrazky/ahoj_svete/hello.PNG)
  
 6. Necháme vše zaškrtnuto a klikneme Finish.
@@ -40,9 +40,9 @@ Jak na to v CodeBlocks?
 7. Měli bychom vidět náš první program. Pokud ne, tak si ve stromové struktuře nalevo rozklikneme hello -> Sources -> main.c (dvojklik na main.c)
 ![first program](./obrazky/ahoj_svete/first_program.PNG)
 
-8. Nyní nezbývá než kliknout na ozubené kolečko se zelenou šipkou v horní liště. Tím se náš program spustí. Pozor, nechceme klikat ani na samostatné ozubené kolečko ani na samostatnou zelenou šipku, ale na tlačítko, které má oba tyto znaky ![compile and run](./obrazky/ahoj_svete/compile_and_run.PNG)
+8. Nyní nezbývá než kliknout na ozubené kolečko se zelenou šipkou v horní liště. Tím se náš program spustí. Pozor, nechceme klikat ani na samostatné ozubené kolečko, ani na samostatnou zelenou šipku, ale chceme kliknout na tlačítko, které má oba tyto znaky a vypadá takto ![compile and run](./obrazky/ahoj_svete/compile_and_run.PNG)
 
-9. Pokud vše proběhlo v pořádku, tak vidíme
+9. Pokud vše proběhlo v pořádku, tak vidíme na obrazovce
 ![program running](./obrazky/ahoj_svete/program_running.PNG)
 
 10. Nyní můžeme kliknout na libovolnou klávesu a tím terminálové okno zmizí. Právě jsme si spustili náš první program!
@@ -56,22 +56,23 @@ Jak na to v CodeBlocks?
 S trochou štěstí nám vše funguje a nyní jsme oficiálně programátoři začátečníci! Teď je potřeba si rozebrat jednotlivé části programu, co která znamená.
 
 ### Tisk textu
-Následující řádek
+Následující řádek zdrojového kódu
 ```c
 printf("Hello world!\n");
 ```
 
-slouží pro vypsání textu na obrazovku. K vypsání textu se používá funkce `printf`. Volání funkce (více viz kapitola XXX) obsahuje vždy několik částí. Název funkce, závorky, parametr a středník.
+slouží pro vypsání textu na obrazovku. K vypsání textu se používá funkce `printf`. Co je to funkce? Funkce je předem připravený kus kódu, který provede nějaký úkol. Pokud chceme použít nějakou funkci, tak říkáme, že **voláme funkci**. V naší ukázce bychom řekli, že **voláme funkci printf**. Volání funkce (podrobněji kapitola XXX) obsahuje vždy několik částí. Název funkce, závorky, parametr a středník.
 
 ![funkce](./obrazky/ahoj_svete/function.png)
 
-Závorky a středník jsou povinné. Název funkce může být různý. Vždy záleží jakou funkci chceme volat (každá funkce má jiné chování). Dokonce si můžeme i vytvářet své vlastní funkce (viz kapitola XXX).
+Závorky a středník jsou povinné. Název funkce zde funguje jako unikátní identifikátor. Podle názvu vždy poznáme o jakou funkci se jedná a jaké má chování. Dokonce si můžeme i vytvářet své vlastní funkce (viz kapitola XXX).
 
-Velmi důležitý je parametr funkce. Ten se může lišit pro různé funkce (některé funkce ani nemají žádný parametr). Naše funkce `printf` přijímá parametr typu `string` (v češtině *řetězec*). Ten vždy začíná a konči dvojitými uvozovkami `"`. Můžeme si to představit jako libovolný text.
+Velmi důležitý je parametr funkce. Ten se může lišit pro různé funkce (některé funkce ani nemají žádný parametr). Naše funkce `printf` přijímá parametr typu `string` (v češtině *řetězec*). Ten vždy začíná a končí dvojitými uvozovkami `"`. Zde může být libovolný text.
 
-Pokud bychom chtěli vytisknout něco jiného (například `Ahoj svete!`), tak bychom upravili volání funkce na
+Pokud bychom chtěli v našem programu  vytisknoutněco jiného (například `Ahoj svete!`), tak bychom upravili volání funkce na
 
 ```c
+printf("Ahoj svete!\n");
 ```
 
 Celý program by vypadal následovně
@@ -86,14 +87,14 @@ int main()
 }
 ```
 
-Po spuštění (ozubené kolečko se zelenou šipkou) se nám zobrazí nový text.
+Po spuštění programu (ozubené kolečko se zelenou šipkou) se nám zobrazí nový text.
 
 > Pozor na práci s diakritikou. Ta je trošku komplexnější a zatím ji nebudeme používat.
 
 
-Velmi podezřele může působit `\n`. Co to znamená a proč se v programu nachází? Jedná se o něco, čemu se říká `Escape sekvence`. O nich více v kapitole XXX. Pro náše účely je nutné si zapamatovat, že pokud vytisknu `\n`, tak se mi nevytiskne `\n`, ale nahradí se to za nový řádek (tzv. jako kdybych zmáčknul na klávesnici klávesu Enter).
+Velmi podezřele může působit `\n`. Co to znamená a proč se v programu nachází? Jedná se o něco, čemu se říká `Escape sekvence`. O nich více v kapitole XXX. Pro náše účely je nutné si zapamatovat, že pokud vytisknu `\n`, tak se mi nevytiskne `\n`, ale vytiskne se nový řádek (tzv. jako kdybych zmáčknul na klávesnici klávesu Enter).
 
-Tuto escape sekvenci můžu dát kdekoliv do textu. Pokud bych upravil parametr funkce `printf` na
+Tuto escape sekvenci můžeme dát kdekoliv do textu. Pokud bychom upravili parametr funkce `printf` na
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -104,7 +105,7 @@ int main()
     return 0;
 }
 ```
-tak se mi vytiskne
+tak se nám vytiskne
 ```
 Hello
 world!
@@ -138,23 +139,26 @@ Hello \n world!
 
 
 ### include knihoven
+Nyní si probereme následující řádky programu
 ```c
 #include <stdio.h>
 #include <stdlib.h>
 ```
 
-Tento kus kódu nám umožňuje používat kusy kódu (funkce), které už za nás napsali jiní programátoři. Tím si můžeme ušetřit práci, protože použijeme už něco hotového místo toho, abychom si to museli udělat sami.
+Tento kus kódu nám umožňuje používat kusy kódu (funkce), které už za nás napsali jiní programátoři. Tím si můžeme ušetřit spoustu práce, protože použijeme už něco hotového místo toho, abychom si to museli udělat sami.
 
-Pro všechny by bylo velmi obtížné, kdyby si každý musel vše naprogramovat od začátku. Například chceme spočítat odmocninu nebo sinus, ale kdybychom si to měli programovat kompletně sami, tak bychom asi ani nevěděli, jak to udělat. Naštěstí nemusíme, protože někdo před námi už tyto funkce naprogramoval za nás a my je můžeme použít. Stačí si přidat do našeho programu odpovídající knihovnu, která obsahuje danou funkci.
+Bylo by velmi obtížné, kdyby si každý musel vše naprogramovat úplně od začátku. Například chceme v našem programu spočítat odmocninu nebo sinus, ale kdybychom si to měli programovat kompletně sami, tak bychom asi ani nevěděli, jak to udělat. Naštěstí si funkce na výpočet odmocniny a sinus nemusíme psát sami, protože někdo před námi už tyto funkce naprogramoval za nás a my je můžeme použít. Stačí si přidat do našeho programu odpovídající knihovnu, která obsahuje danou funkci. Knihovna není nic jiného, než balíček několika funkcí zabalených do jednoho celku.
 
-Stejně tak funkce `printf` je jedna z funkcí, kterou někdo naprogramoval před námi. Abychom ji mohli použít, tak nám stačí přidat knihovnu `stdio` (v knihovně `stdio` se funkce `printf` nachází) do našeho programu přidáním na začátek programu řádku 
+Stejně tak i funkce `printf` je jedna z funkcí, kterou někdo naprogramoval před námi. Abychom funkci `printf` mohli použít, tak do našeho programu musíme přidat knihovnu `stdio` (v knihovně `stdio` se nachází funkce `printf`). Knihovnu `stdio` přidáme do našeho programu tak, že na začátek programu vložíme řádek 
 ```c
 #include <stdio.h>
 ```
 
+Obecně můžeme říct, že přidání knihovny do programu se skládá z několika částí
+
 ![include](./obrazky/ahoj_svete/include.png)
 
-Co by se stalo, kdybychom oba řádku s #include smazali? Můžeme si to vyzkoušet. Náš program pak bude vypadat takto
+Co by se stalo, kdybychom z našeho programu oba řádky s `#include` smazali? Můžeme si to vyzkoušet. Náš program pak bude vypadat takto
 
 ```c
 int main()
@@ -164,7 +168,7 @@ int main()
 }
 ```
 
-Po stisknutí ozubeného kolečka se zelenou šipkou vidíme, že se program nespustil a editoru nám označil červeně 3. řádek. Tím nám editor dává najevo, že na tomto řádku se nachází chyba.
+Po stisknutí ozubeného kolečka se zelenou šipkou vidíme, že se program nespustil a editoru nám červeně označil 3. řádek. Tím nám editor dává najevo, že na tomto řádku se nachází chyba.
 
 ![error](./obrazky/ahoj_svete/error.PNG)
 

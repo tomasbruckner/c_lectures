@@ -51,7 +51,7 @@ Všimněme si operátoru `==`. Jedná se o porovnání dvou hodnot. Pokud se hod
 
 > Zde je potřeba si dávat pozor na velmi častou chybu mezi programátory začátečníky. Je rozdíl mezi jedním `=` a dvěma `==`. V prvním případě se jedná o přiřazení hodnoty do proměnné (viz předchozí kapitola) a v druhém o porovnání dvou hodnot.
 
-Pokud bychom x změnili na jiné číslo (nebo změnili podmínku, aby kontrolovala jiné číslo než 10). Např.
+Pokud bychom `x` změnili na jiné číslo (nebo změnili podmínku, aby kontrolovala jiné číslo než 10). Např.
 
 ```c
 #include <stdio.h>
@@ -115,8 +115,24 @@ int main()
 }
 ```
 
+Jak bychom udělali, kdybychom chtěli v případě `x == 10` vytisknout `X se rovna 10` a jinak nic? Mohli bychom použít prázdný blok těla `else`
+```c
+#include <stdio.h>
 
-U řídící struktury IF existuje zápis i bez Else bloku (říkáme také Else větev). Ta má jednodušší diagram.
+int main()
+{
+    int x = 10;
+    if (x == 10) {
+        printf("X se rovna 10\n");
+    } else {
+    }
+    
+    return 0;
+}
+```
+
+
+Můžeme použít ale trošku lepší zápis. U řídící struktury IF existuje zápis i bez Else bloku (říkáme také Else větev). Ta má diagram
 
 
 
@@ -134,7 +150,7 @@ Krátký program pro ukázku
 
 int main()
 {
-    int x = -8;
+    int x = 10;
     if (x == 10) {
         printf("X se rovna 10\n");
     }
@@ -350,7 +366,7 @@ int main()
 }
 ```
 
-Pozor na to, že někdy lidí dělají chybu v tom, že napíšou
+Pozor na to, že někteří začátečníci dělají chybu v tom, že napíšou
 ```c
 if (x == 5 || 10)
 ```

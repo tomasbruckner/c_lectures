@@ -2,14 +2,14 @@
 title: Práce s argumenty programu
 ---
 
-Našim programům můžeme předávat argumenty z terminálu. To uživatelům umožňuje upravovat chování programu i potom, co jsme my udělali binární soubor a poslali jsme jim výsledný .exe soubor. 
+Našim programům můžeme předávat argumenty z terminálu. To uživatelům umožňuje upravovat chování programu i potom, co jsme my udělali binární soubor a poslali jsme jim výsledný `.exe` soubor. 
 
 Abychom mohli pracovat v našem programu s argumenty programu, tak musíme rozšířit parametry `main` funkce. Můžeme použít variantu `int main(int argc, char* argv[])` nebo také `int main(int argc, char** argv)`. Já preferuji první variantu.
 
 Co jednotlivé parametry znamenají?
 
-* argc (argument count) - počet argumentů programu (celé číslo)
-* argv (argument vector) - samotné argumenty programu (pole řetězců)
+* **argc** (argument count) - počet argumentů programu (celé číslo)
+* **argv** (argument vector) - samotné argumenty programu (pole řetězců)
 
 
 
@@ -37,7 +37,7 @@ C:\Users\tomas\codeblocks\hello\bin\Debug\hello.exe
 
 Vidíme, že první argument je cesta k binárnímu souboru, který se spouští. Jak předáme další argumenty?
 
-Jeden ze způsobů je, že si otevřeme PowerShell a půjdeme do složky, kde máme binární soubor.
+Jeden ze způsobů je, že si otevřeme aplikaci PowerShell terminál (automaticky ve Windows) a půjdeme do složky, kde máme binární soubor.
 
 ```ps1
 PS C:\Users\tomas> cd "C:\Users\tomas\codeblocks\hello\bin\Debug\"
@@ -71,3 +71,6 @@ C:\Users\tomas\codeblocks\hello\bin\Debug\hello.exe
 test1
 test2
 ```
+
+
+K čemu jsou dobré? XXX

@@ -2,7 +2,7 @@
 title: Pole
 ---
 
-V našich programech bychom někdy pracovat s hodně proměnnými. Jeden z přístupů by byl definovat pro každé číslo proměnnou.
+V našich programech bychom někdy chtěli pracovat s hodně proměnnými. Jeden z přístupů by byl definovat pro každé číslo proměnnou.
 
 
 ```c
@@ -35,17 +35,17 @@ int main()
     return 0;
 }
 ```
-Pokud bychom chtěli třeba 100 čísel, tak už se program stal naprosto nepřehledným. Místo toho můžeme použít datový typ pole. Ten slouží jako taková krabička, která v sobě může mít 0 až nekonečně (teoreticky) prvků. Prvky v poli mají vždy stejný datový typ, který je definován v definici pole (viz dále).
+Pokud bychom ale chtěli třeba 100 čísel, tak už by se program stal naprosto nepřehledným. Místo toho můžeme použít datový typ `pole`. Ten slouží jako taková krabička, která v sobě může mít 0 až nekonečně (teoreticky) prvků. Prvky v poli mají vždy stejný datový typ, který je definován v definici `pole` (viz dále).
 
-Pole definujeme tak, že dáme hranaté závorky za název proměnné. Do těchto závorek dáme velikost pole (počet prvků, které můžeme do pole uložit). Pole typu int o 3 prvcích bychom definovali
+`Pole` definujeme tak, že dáme hranaté závorky za název proměnné. Do těchto závorek dáme velikost `pole` (počet prvků, které můžeme do `pole` uložit). `Pole` typu `int` o 3 prvcích bychom definovali
 
 ```c
 int pole[3];
 ```
 
-Naše pole má teď tři prvky, ale jejich hodnota je zatím neznámá. Můžeme si to představit tak, že jsme si vytvořili krabičku, která má 3 přihrádky. Každá přihrádka má svoje číselné označení (říkáme index). Přihrádky číslujeme od 0 a každá další má o hodnota 1 více. Tzv. první má označení 0, druhé má 1, třetí má 2 atd.
+Naše `pole` má teď tři prvky, ale jejich hodnota je zatím neznámá. Můžeme si to představit tak, že jsme si vytvořili krabičku, která má 3 přihrádky. Každá přihrádka má svoje číselné označení (říkáme `index`). Přihrádky číslujeme od 0 a každá další má o hodnota 1 více. Tzv. první má označení 0, druhé má 1, třetí má 2 atd.
 
-Pole zatím vypadá takto
+`Pole` zatím vypadá takto
 
 | Index  |  Hodnota  | 
 |---|---|
@@ -53,14 +53,14 @@ Pole zatím vypadá takto
 | 1 | neznámá  |
 | 2 | neznámá  | 
 
-Máme tři přihrádky (protože jsme vytvořili pole o velikosti 3). Každá přihrádka má svůj index (označení). Do jednotlivých přihrádek můžeme vložit libovolné celé číslo (protože jsme vytvořili pole typu int).
+Máme tři přihrádky (protože jsme vytvořili `pole` o velikosti 3). Každá přihrádka má svůj `index` (označení). Do jednotlivých přihrádek můžeme vložit libovolné celé číslo (protože jsme vytvořili pole typu `int`).
 
-Když budeme chtít nastavit hodnotu v poli, tak se používá zápis
-```
+Když budeme chtít nastavit hodnotu v `poli`, tak se používá zápis
+```c
 pole[1] = 20;
 ```
 
-Kde `1` zde reprezentuje index pole. Po provedení toho příkazu se nastaví do přihrádky s označením 1 (říkáme indexem 1) hodnota 20.
+Kde `1` zde reprezentuje `index pole`. Po provedení toho příkazu se nastaví do přihrádky s označením 1 (říkáme `indexem` 1) hodnota 20.
 
 | Index  |  Hodnota  | 
 |---|---|
@@ -68,12 +68,13 @@ Kde `1` zde reprezentuje index pole. Po provedení toho příkazu se nastaví do
 | 1 | 20  |
 | 2 | neznámá  |
 
-Když budeme chtít upravit hodnotu na indexu 2, tak uděláme
-```
-pole[1] = -5;
+Když budeme chtít upravit hodnotu na `indexu` 2, tak uděláme
+
+```c
+pole[2] = -5;
 ```
 
-A pak naše pole vypadá
+A pak naše `pole` vypadá
 
 | Index  |  Hodnota  | 
 |---|---|
@@ -81,8 +82,9 @@ A pak naše pole vypadá
 | 1 | 20  |
 | 2 | -5  |
 
-Hodnotu můžeme upravovat, kolikrát chceme. Tzv. můžeme nastavit novou hodnotu na index 1.
-```
+Hodnotu můžeme upravovat, kolikrát chceme. Tzv. můžeme nastavit novou hodnotu na `index` 1.
+
+```c
 pole[1] = 7;
 ```
 
@@ -111,12 +113,12 @@ int main()
     return 0;
 }
 ```
-Vytiskne správně
+Vytiskne
 ```
 Hodnota je 20
 ```
 
-Jako index do pole lze použít i proměnnou. Např.
+Jako `index` do `pole` lze použít i proměnnou. Např.
 ```c
 #include <stdio.h>
 
@@ -132,7 +134,7 @@ int main()
 }
 ```
 
-Pozor však na to, abyste nesahali mimo velikost pole. Pokud má pole 3 prvky a my zkusíme použít čtvrtý prvek
+Pozor však na to, abyste nesahali mimo velikost `pole`. Pokud má `pole` 3 prvky a my zkusíme použít čtvrtý prvek
 
 ```c
 #include <stdio.h>
@@ -150,7 +152,7 @@ int main()
 
 Tak je dost pravděpodobné, že vše bude fungovat v pořádku. To je rozdíl oproti jazykům s vyšší úrovní abstrakce (např. Java, C# atd.). Tam by program způsobil vždy chybu. Jazyk C však dovolí v omezené míře programu šahat i tam, kde nemá co dělat. 
 
- Jedná se však o `nedefinované chování`. Může se stát, že někdy dostaneme error při spuštění. Také se může stát, že upravíme hodnotu jiné proměnné, než by se čekalo (více v kapitole XXX). Zatím je potřeba si zapamatovat, že můžeme používat jenom takovou velikost pole, kterou jsme danému poli nastavili.
+Jedná se však o `nedefinované chování`. Může se stát, že někdy dostaneme error při spuštění. Také se může stát, že upravíme hodnotu jiné proměnné, než by se čekalo (více v kapitole XXX). Zatím je potřeba si zapamatovat, že můžeme používat jenom takovou velikost `pole`, kterou jsme danému `poli` nastavili.
 
 ## Nastavení hodnot pole
 Pro nastavení více hodnot můžeme použít zápis
@@ -167,7 +169,7 @@ Existuje však i kratší zápis
 int pole[3] = { 0, 10, 20 };
 ```
 
-V tomto případě ani nemusíme definovat, že pole má tři prvky, protože se to dokáže samo odvodit z počtu hodnot, které do pole nastavujeme (říkáme, že inicializujeme pole). Tzv.
+V tomto případě ani nemusíme definovat, že `pole` má tři prvky, protože se to dokáže samo odvodit z počtu hodnot, které do `pole` nastavujeme (říkáme, že inicializujeme `pole`). Tzv.
 
 ```c
 int pole[] = { 0, 10, 20 };
@@ -188,12 +190,13 @@ int main()
     return 0;
 }
 ```
-Tak se nám vypíše
+
+Vytiskne se
 ```
 Velikost je 12
 ```
 
-Nedefinovali jsme však pole o velikosti 3? Jaktože se nám vytisklo 12? Je to kvůli tomu, že sizeof nám vrátí kolik bajtů zabírá pole v paměti počítače.
+Nedefinovali jsme však `pole` o velikosti 3? Jaktože se nám vytisklo 12? Je to kvůli tomu, že `sizeof` nám vrátí kolik bajtů zabírá `pole` v paměti počítače.
 
 Když pustíme program
 ```c
@@ -219,7 +222,7 @@ Velikost pole je 12
 Velikost int je 4
 ```
 
-Tady vidíme, že velikost datového typu int je 4 bajty (může se lišit podle počítače, více v kapitole XXX). Každá přihrádka má tedy 4 bajty a dohromady všechny mají 12. Kolik je teda počet prvků v poli? Vydělíme celkový počet pole velikostí jednoho prvku pole.
+Tady vidíme, že velikost datového typu `int` je 4 byty (může se lišit podle počítače, více v kapitole XXX). Každá přihrádka má tedy 4 byty a dohromady všechny mají 12. Kolik je teda počet prvků v `poli`? Vydělíme celkový počet pole velikostí jednoho prvku `pole`.
 
 ```c
 #include <stdio.h>
@@ -234,14 +237,14 @@ int main()
     return 0;
 }
 ```
-Dostáváme již správný výsledek.
+Dostáváme již správný výsledek
 ```
 Pocet prvku pole je 3
 ```
 
 
 ## Pole a cykly
-Pole a cykly jsou skvělá kombinace. Jak bychom mohli vytisknout všechny hodnoty v poli? Jeden ze způsobů by byl
+`Pole` a cykly jsou skvělá kombinace. Jak bychom mohli vytisknout všechny hodnoty v `poli`? Jeden ze způsobů by byl
 
 ```c
 #include <stdio.h>
@@ -261,7 +264,7 @@ int main()
 }
 ```
 
-Pro větší pole ale vidíme, že by to byl problém. Tuto situaci lze vyřešit pomocí cyklu. Můžeme si ukázat řešení např. pro cyklus for.
+Pro větší `pole` ale vidíme, že by to byl problém. Tuto situaci lze vyřešit pomocí cyklu. Můžeme si ukázat řešení např. pro cyklus `for`.
 
 ```c
 #include <stdio.h>
@@ -288,11 +291,11 @@ Hodnota je 10
 Hodnota je 20
 ```
 
-Ve for cyklu používáme proměnnou pojmenovanou `i`. Název `i` se v programování často používá právě v cyklech jako index do pole. Pokud bych měl vnořené cykly a potřeboval další proměnné, tak je typické použít název `j`, `k`, `l` atd.
+Ve `for` cyklu používáme proměnnou pojmenovanou `i`. Název `i` se v programování často používá právě v cyklech jako `index` do `pole`. Pokud bych měl vnořené cykly a potřeboval další proměnné, tak je typické použít název `j`, `k`, `l` atd.
 
 
 ## Pole a funkce
-Práce s polem je v jazyce C má svoje úskalí. Mějme funkci `tiskni_pole`. Aby tato funkce přijímala pole, tak za název parametru přidáme hranaté závorky. Při volání této funkce ji předáme jako název pole. Mějme program
+Práce s `polem` je v jazyce C má svoje úskalí. Mějme funkci `tiskni_pole`. Aby tato funkce přijímala `pole`, tak za název parametru přidáme hranaté závorky. Při volání této funkce ji předáme jako název `pole`. Mějme program
 
 ```c
 #include <stdio.h>
@@ -311,7 +314,7 @@ int main()
 }
 ```
 
-Nyní chceme vytisknout ve funkci velikost pole ve funkci pro ověření, že je vše v pořádku
+Nyní chceme vytisknout ve funkci velikost `pole` ve funkci pro ověření, že je vše v pořádku
 
 ```c
 #include <stdio.h>
@@ -339,13 +342,13 @@ Velikost pole ve funkci 2
 ```
 To je ale špatně! Jak je to možné? Napoví nám chyby v Build messages
 
-![sizeof array error](./obrazky/kapitola008/array_size_error.PNG)
+![sizeof array error](./obrazky/pole/array_size_error.PNG)
 
 ```
 'sizeof' on array function parameter 'cisla_k_tisku' will return size of 'int *'
 ```
 
-Pokud předáme pole do funkce, tak pole `degraduje` na `ukazatel` typu `int *`. O ukazatelích více v kapitole XXX. Zatím si to můžeme pro zjednodušení představit tak, že se z pole stal jiný datový typ. Když bychom spustili program
+Pokud předáme `pole` do funkce, tak `pole` `degraduje` na `ukazatel` typu `int *`. O ukazatelích více v kapitole XXX. Zatím si to můžeme pro zjednodušení představit tak, že se z `pole` stal jiný datový typ. Když bychom spustili program
 
 ```c
 #include <stdio.h>
@@ -372,7 +375,7 @@ Velikost pole mimo funkci 2
 Velikost pole ve funkci 2
 ```
 
-To nám ale neříká, kolik je prvků v poli. Pokud potřebujeme dostat velikost pole do naší funkce, tak ji musíme poslat jako druhý parametr. Naše funkce by tedy měla vypadat jako
+To nám ale neříká, kolik je prvků v poli. Pokud potřebujeme dostat velikost `pole` do naší funkce, tak ji musíme poslat jako druhý parametr. Naše funkce by tedy měla vypadat jako
 
 ```c
 #include <stdio.h>
@@ -390,7 +393,7 @@ int main()
 }
 ```
 
-Nyní už můžeme vytisknout všechny prvky v poli
+Nyní už můžeme vytisknout všechny prvky v `poli`
 
 ```c
 #include <stdio.h>
@@ -414,6 +417,6 @@ int main()
 
 ## Fun fact
 Obecně v programování platí několik pouček podle úrovně, na které se daný programátor nachází.
-* JUNIOR programátor (začátečník) - má zadání a je rád, že to vůbec nějak napíše a nějak to funguje
-* MEDIOR programátor (středně pokročilý) - ví jak zadání napsat a jenom přemýšlí, jak to napsat lépe
-* SENIOR programátor (pokročilý) - přemýšlí, jestli daný kód vůbec je potřeba napsat
+* **JUNIOR** programátor (začátečník) - má zadání a je rád, že to vůbec nějak napíše a nějak to funguje
+* **MEDIOR** programátor (středně pokročilý) - ví jak zadání napsat a jenom přemýšlí, jak to napsat lépe
+* **SENIOR** programátor (pokročilý) - přemýšlí, jestli daný kód vůbec je potřeba napsat

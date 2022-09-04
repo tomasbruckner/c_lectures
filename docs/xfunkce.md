@@ -612,8 +612,122 @@ int main()
 
 Funkci jsme rovnou přejmenovali z `tisk_souctu` na `vrat_soucet`, protože funkce již nic netiskne.
 
+## Výraz jako argumenty funkce
+Co můžeme použít jako argument funkce není jen nějaký literál (číslo), proměnné, ale i různé výpočty (výrazy).
 
-# Parametr vs argument funkce
+Literál jako argument
+
+```c
+#include <stdio.h>
+
+void tisk(int hodnota_k_tisku)
+{
+    printf("%i\n", hodnota_k_tisku);
+}
+
+int main()
+{
+    tisk(10);
+
+    return 0;
+}
+```
+
+Proměnná jako argument
+
+```c
+#include <stdio.h>
+
+void tisk(int hodnota_k_tisku)
+{
+    printf("%i\n", hodnota_k_tisku);
+}
+
+int main()
+{
+    int hodnota = 7 + 3;
+    tisk(hodnota);
+
+    return 0;
+}
+```
+
+Výpočet (výraz) jako argument
+
+```c
+#include <stdio.h>
+
+void tisk(int hodnota_k_tisku)
+{
+    printf("%i\n", hodnota_k_tisku);
+}
+
+int main()
+{
+    tisk(7 + 3);
+
+    return 0;
+}
+```
+
+A ve všech případech se vytiskne to stejné.
+
+Můžeme použít i výsledek funkce.
+```c
+#include <stdio.h>
+
+void tisk(int hodnota_k_tisku)
+{
+    printf("%i\n", hodnota_k_tisku);
+}
+
+int vrat_cislo() {
+    return 10;
+}
+
+int main()
+{
+    int vysledek = vrat_cislo();
+    tisk(vysledek);
+
+    return 0;
+}
+```
+
+Tento program můžeme napsat i jako
+```c
+#include <stdio.h>
+
+void tisk(int hodnota_k_tisku)
+{
+    printf("%i\n", hodnota_k_tisku);
+}
+
+int vrat_cislo() {
+    return 5 + 5;
+}
+
+int main()
+{
+    tisk(vrat_cislo());
+
+    return 0;
+}
+```
+
+Zde vidíme, že ve funkci `vrat_cislo` používáme `return` nějaký výpočet (výraz).
+
+Jak program proběhne?
+
+1. Zavolá se funkce `vrat_cislo`
+1. Ve funkci `vrat_cislo` se provede 5 + 5 (výsledek 10)
+1. Z funkce `vrat_cislo` se vrátí hodnota 10
+1. Zavolá se funkce `tisk` s argumentem 10
+1. Vytiskne se pomocí `printf` text `10`
+1. Ukončí se vykonávání funkce `tisk`
+1. Ve funkci `main` proběhne `return 0` a program se ukončí
+
+## Parametr vs argument funkce
 Můžete se setkat s pojmem argument funkce a parametr funkce. Někdo to používá jako synonymum. Je zde ale drobný rozdíl.
 
 Parametr se používá v případě, že se bavíme o definici funkce.

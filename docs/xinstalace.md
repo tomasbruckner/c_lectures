@@ -2,7 +2,7 @@
 title: Instalujeme CodeBlocks
 ---
 
-Abychom mohli efektivně programovat (tzv. psát zdrojový kód), tak potřebujeme nějaký editor. Šlo by použít i poznámkový blok ve Windows, ale ten není ideální. Existují mnohme lepší programy, které mají spoustu užitečné funkcionality, která nám ušetří hodně práce.
+Abychom mohli efektivně programovat (tzv. psát zdrojový kód), tak potřebujeme nějaký editor. Šlo by použít i poznámkový blok ve Windows, ale ten není ideální. Existují mnohem lepší programy, které mají spoustu užitečné funkcionality, která nám dokáže ušetřit hodně práce.
 
 Jeden z takových programů je CodeBlocks (je plně zdarma). Pokud jste již zkušenější programátor a máte zkušenost s jinými editory, tak samozřejmě můžete použít váš oblíbený editor a tuto kapitolu přeskočit.
 
@@ -10,11 +10,11 @@ Pokud jste se rozhodli použít CodeBlocks, tak začnete tak, že půjdete na st
 
 ![download](obrazky/instalujeme/codeblock_download.PNG)
 
-Zde vyberte verzi, která bude mít `mingw-setup.exe` a stáhněte ji například z FossHUB (můžete použít i Sourceforge.net, je to jedno).
+Zde vyberte verzi, která bude mít v názvu `mingw-setup.exe` a stáhněte ji například z FossHUB (můžete použít i Sourceforge.net, je to jedno).
 
 ![mingw](./obrazky/instalujeme/codeblocks_mingw.PNG)
 
-Instalační soubor spusťte dvojklikem. Jakmile se pustí instalace, tak klikněte na
+Instalační soubor spusťte dvojklikem. Jakmile se spustí instalace, tak klikněte na
 
 1. Next
 1. I Agree
@@ -23,7 +23,7 @@ Instalační soubor spusťte dvojklikem. Jakmile se pustí instalace, tak klikn�
 1. Next
 1. Finish
 
-CodeBlocks můžete spustit.
+CodeBlocks můžete spustit z místa, kam jste ho nainstalovali.
 
 Pokud se po otevření objeví okno Compilers auto-detection, tak vyberte GNU GCC Compiler
 

@@ -3,7 +3,7 @@ title: Ukazatele
 ---
 
 
-Každou proměnnou, kterou vytvoříte, tak je uložená někde v počítači. Název proměnné není vlastně nic jiného, než námi pojmenované místo v paměti počítače.
+Každou proměnnou, kterou vytvoříte, tak je uložená někde v paměti počítače. Název proměnné není nic jiného, než námi pojmenované místo někde v paměti počítače.
 
 Mějme program
 
@@ -19,7 +19,7 @@ int main() {
 }
 ```
 
-Pro tisk adresy se používá **%p**. Pokud chceme získat adresu proměnné, použijeme operátor & (říkáme reference na proměnnou x). Program nám vytiskne (adresa se může lišit na vašem zařízení)
+Pro tisk adresy se používá `%p`. Pokud chceme získat adresu proměnné, použijeme operátor reference `&` (říkáme `reference na proměnnou x`). Program nám vytiskne (adresa se může lišit na vašem zařízení)
 
 ```
 Adresa je 000000000061FE1C, hodnota je 256
@@ -30,10 +30,8 @@ V našich programech můžeme vytvářet datový typ ukazatel. Datový typ ukaza
 
 * `int *` - ukazatel na datový typ int
 * `char *` - ukazatel na datový typ char
-* `struct prvni_struktura *` - ukazatel na datový typ struct prvni_struktura
 
-
-Proměnná datového typu ukazatel obsahuje v sobě adresu jiné adresy. Pokud máme například
+Proměnná datového typu ukazatel v sobě obsahuje hodnotu adresu. Pokud máme například
 ```c
 int * x_ukazatel;
 ```
@@ -48,7 +46,7 @@ Dostáváme chybu
 ```
 initialization of 'int *' from 'int' makes pointer from integer without a cast
 ```
-Tzv. snažíme se uložit hodnotu int do datového typu int *. Jak to opravit? Řekli jsme si, že adresu proměnné nám vrátí operátor &. Program tedy opravíme následovně
+Tzv. snažíme se uložit hodnotu `int` do datového typu `int *`. Jak to opravit? Řekli jsme si, že adresu proměnné nám vrátí operátor `&`. Program tedy opravíme následovně
 
 ```c
 int x = 256;
@@ -78,7 +76,7 @@ Adresa x a hodnota x_ukazatel jsou stejné.
 
 
 ## Dereference
-Ukázali jsme si operátor reference (&). Existuje i opačný operátor nazvaný dereference (*). Pokud operátor reference vrátí adresu proměnné, co dělá operátor dereference? Vrátí hodnotu na dané adrese.
+Ukázali jsme si operátor `reference` (`&`). Existuje i opačný operátor nazvaný `dereference` (`*`). Pokud operátor reference vrátí adresu proměnné, co dělá operátor dereference? Vrátí hodnotu na dané adrese.
 Mějme program
 
 ```c
@@ -98,7 +96,7 @@ Dostáváme
 Hodnota x je 256, hodnota x_ukazatel je 256
 ```
 
-> Zde si je potřeba uvědomit v použití *. Pokud hvězdičku napíšeme k datovému typu při definici proměnné (např. `int * x_ukazatel`), tak je význam "datový typ ukazatel na int". Pokud hvězdičku napíšeme k proměnné (např. `*x_ukazatel`), tak je význam "dereference proměnné" (získání hodnoty na adrese).
+> Zde je potřeba si uvědomit rozdíl v použití hvězdičky `*`. Pokud hvězdičku napíšeme k datovému typu při definici proměnné (např. `int * x_ukazatel`), tak je význam **datový typ ukazatel na int**. Pokud hvězdičku napíšeme k proměnné (např. `*x_ukazatel`), tak je význam **dereference proměnné** (získání hodnoty na adrese).
 
 Pokud bychom měli následující kód.
 
@@ -111,7 +109,7 @@ Tak se můžeme podívat, jak to vypadá v paměti a co by se nám vrátilo při
 | Proměnná | Hodnota | Adresa v paměti | Co vrátí reference (&) | Co vrátí dereference (*)
 |---|---|---|---|---|
 | x | 10 | 1000 | 1000 | nelze, hodnota v x není adresa (proto nejde dereferencovat) |
-| x_ukazatel | 1000 | 1003 | 1003 | 10 (hodnotu x) |
+| x_ukazatel | 1000 | 1003 | 1003 | 10 (hodnotu na adrese 1000, tzv. hodnotu x) |
 
 
 Kdybychom si měli situaci znázornit na diagramu, tak by vypadala následovně.
@@ -153,7 +151,7 @@ A dostáváme
 Hodnota x je 11, hodnota x_ukazatel je 11
 ```
 
-Stejná situace nastává, pokud bychom měli hodnot přes ukazatel
+Stejná situace nastává, pokud bychom měnili hodnotu přes ukazatel
 
 ```c
 #include <stdio.h>
@@ -172,9 +170,9 @@ int main() {
 Jak vidíme, tak dereferenci můžeme použít i pro přiřazení hodnoty.
 
 ## Hodnota NULL
-Pokud definujeme ukazatel, tak mu můžeme nastavit hodnotu `NULL` (nezávisle, zda jde o int ukazatel nebo libovolný jiný ukazatel). Tato hodnota reprezentuje, že daný ukazatel neukazuje na nic (na žádné místo v paměti).
+Pokud definujeme ukazatel, tak mu můžeme nastavit hodnotu `NULL` (nezávisle, zda jde o int ukazatel nebo libovolný jiný ukazatel). Tato hodnota reprezentuje, že daný ukazatel na nic neukazuje (na žádné místo v paměti).
 
-Pak ale s takovým ukazatelem nemůžeme pracovat normálním způsobem. Pokud bychom se pokusili vytisknout hodnotu, na kterou ukazuje, tak dostáváme chybu 
+S ukazatelem na NULL nemůžeme pracovat normálním způsobem. Pokud bychom se pokusili vytisknout hodnotu, na kterou ukazuje, tak dostáváme chybu 
 ```c
 #include <stdio.h>
 
@@ -203,15 +201,15 @@ int main() {
 }
 ```
 
-Správně tedy můžeme definovat ukazatel jako NULL, ale následně ho musíme nastavit.
+Správně tedy můžeme definovat hodnotu ukazatele jako NULL, ale následně musíme hodnotu nastavit.
 
 
 ```c
 #include <stdio.h>
 
 int main() {
-    int * x_ukazatel = NULL;
     int x = 10;
+    int * x_ukazatel = NULL;
     x_ukazatel = &x;
 
     printf("Hodnota x_ukazatel je %i\n", *x_ukazatel);
@@ -221,18 +219,18 @@ int main() {
 ```
 
 ## Důležité body
-V ukazatelích začínající programátoři často dělají chybu. Jedná se o nejsložitější část ze základů, které si v tomto kurzu probereme.
+V ukazatelích začínající programátoři dělají často chybu. Jedná se o nejsložitější část základů, které si v tomto kurzu probereme.
 
 Důležité je si dát pozor na rozdíl v `x_ukazatel = &x` a `*x_ukazatel = x`.
 
-První případ `x_ukazatel = &x` se provede následující akce. Vezme se adresa proměnné x (&x) a ta se uloží do proměnné typu ukazatel (x_ukazatel = &x).
+První případ `x_ukazatel = &x` provede následující akce. Vezme se adresa proměnné x (`&x`) a ta se uloží do proměnné typu ukazatel (`x_ukazatel = &x`).
 
-V druhém případě `*x_ukazatel = x` se nejdříve provede dereference (*x_ukazatel) a na výslednou adresu se uloží hodnota x. Tzv. pokud x_ukazatel má v sobě hodnotu 1000, tak se na adresu 1000 uloží hodnota x.
+V druhém případě `*x_ukazatel = x` se nejdříve provede dereference (`*x_ukazatel`) a na výslednou adresu se uloží hodnota x. Tzv. pokud x_ukazatel má v sobě hodnotu 1000, tak se na adresu 1000 uloží hodnota x.
 
 
 
 ## Práce s více ukazateli
-Ukazatelů můžu mít v programu libovolný počet.
+V programu můžeme mít libovolný počet ukazatelů
 ```c
 #include <stdio.h>
 

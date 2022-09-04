@@ -1,2 +1,4 @@
 
 stdin/stdout/stderr
+
+getchar

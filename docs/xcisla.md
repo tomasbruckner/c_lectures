@@ -94,7 +94,7 @@ int main()
 }
 ```
 
-Tak se nám vytiskne `Pravda`. Proč? Protože my jsme proměnnou definovali jako neznaménkovou. Program ji tedy vyhodní jako neznaménkovou, což je hodnota `4294967286` a ne `-10`. Pro zjištění hodnoty jsme použili %i a tam nám vytiskla binární hodnotu uloženou v počítači (v počítači jsou vždy jenom binární) tak, jako kdybychom ji chtěli interpretovat jako `int`, tzv. `signed`.
+Tak se nám vytiskne `Pravda`. Proč? Protože my jsme proměnnou definovali jako neznaménkovou. Program ji tedy vyhodní jako neznaménkovou, což je hodnota `4294967286` a ne `-10`. Pro zjištění hodnoty jsme použili `%i` a tam nám vytiskla binární hodnotu uloženou v počítači (v počítači jsou vždy jenom binární) tak, jako kdybychom ji chtěli interpretovat jako `int`, tzv. `signed`.
 
 Musíme hodnotu vytisknout jako `unsigned` pomocí `%u`.
 
@@ -116,6 +116,18 @@ A nyní dostáváme již správnou hodnotu
 ```
 x je 4294967286
 ```
+
+
+## Znaménkový a neznaménkový char
+
+Podobně jako int, tak char může být také znaménkový nebo neznaménkový. Existuje `signed char` a `unsigned char`. Samotný `char` (bez prefixu `signed` nebo `unsigned`) může být ve výchozím nastavení buď `signed` nebo `unsigned`. Záleží na procesoru počítače. Na vašem počítači bude s největší pravděpodobností `signed`, na ARM procesoru bude pravděpodobně `unsigned`.
+
+Proměnná datového typu `char` je uložena na 1 byte, tzv. je uložena na 8 bitech. Díky tomu odvodíme, že `char` může reprezentovat 256 hodnot. Jak si to odvodit? Počet hodnot lze spočítat tak, že umocníme číslo 2 na počet bitů, které datový typ. Pro náš případ s 8 bity by to znamenalo `2^8 = 256`.
+
+
+Pro `signed` platí, že nejmenší hodnota je -128 a největší 127.
+
+Pro `unsigned` platí, že nejmenší hodnota je 0 a největší 255.
 
 ## Přetečení datového typu
 Každý datový typ má své limity. Limity jsou stanovené podle toho, kolik bitů/bytů daný datový typ zabírá v paměti. Pro `int` (znaménkový i neznaménkový) platí, že zabíra typicky 4 byty (32 bitů) - to se liší tradičně podle procesoru, na kterém program poběží.

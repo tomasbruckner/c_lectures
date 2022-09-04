@@ -3,11 +3,11 @@ title: Vítejte na kurzu programovacího jazyka C
 ---
 
 
-Vítám všechny, kteří zabloudili až do mého kurzu jazyka C. Kurz je udržován jako open source [zde](https://github.com/tomasbruckner/c_lectures). Pokud byste se chtěli ke kurzu vyjádřit (například dát zpětnou vazbu, napsat nápad na vylepšení nebo vyjasnit nějaký koncept), tak můžete použít například Github diskuze [zde](https://github.com/tomasbruckner/c_lectures/discussions).
+Vítám všechny, kteří zabloudili až do mého kurzu jazyka C. Kurz je udržován jako open source [zde](https://github.com/tomasbruckner/c_lectures). Pokud byste se chtěli ke kurzu vyjádřit (například dát zpětnou vazbu, napsat nápad na vylepšení nebo vyjasnit nějaký koncept), tak můžete použít Github diskuze [zde](https://github.com/tomasbruckner/c_lectures/discussions).
 
 
 
-## O mně
+## O autorovi
 ![fotka autora](./obrazky/uvod/profilovka_senor_small.jpg)
 
 Mé jméno je Tomáš Bruckner ([tomasbruckner.dev](https://www.tomasbruckner.dev/)) a rád trávím čas programováním. Vystudoval jsem bakalářský a magisterský program na Vysokém učení technickém (VUT) v Brně na Fakultě informatiky (FIT). Zde jsem také strávil jeden rok doktorského programu, kde jsem byl cvičící předmětu [Základy programování](https://www.fit.vut.cz/study/course/244899/.cs), což je právě z mého pohledu jeden z nejdůležitějších předmětů prvního semestru, kde se studenti mají naučit programovat právě v jazyku C.
