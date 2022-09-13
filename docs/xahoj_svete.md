@@ -67,9 +67,9 @@ slouží pro vypsání textu na obrazovku. K vypsání textu se používá funkc
 
 Závorky a středník jsou povinné. Název funkce zde funguje jako unikátní identifikátor. Podle názvu vždy poznáme o jakou funkci se jedná a jaké má chování. Dokonce si můžeme i vytvářet své vlastní funkce (viz kapitola XXX).
 
-Velmi důležitý je parametr funkce. Ten se může lišit pro různé funkce (některé funkce ani nemají žádný parametr). Naše funkce `printf` přijímá parametr typu `string` (v češtině *řetězec*). Ten vždy začíná a končí dvojitými uvozovkami `"`. Zde může být libovolný text.
+Velmi důležitý je parametr funkce. Ten se může lišit pro různé funkce (některé funkce ani nemají žádný parametr). Naše funkce `printf` přijímá parametr typu `string` (v češtině *řetězec*). Ten vždy začíná a končí dvojitými uvozovkami `"`.
 
-Pokud bychom chtěli v našem programu  vytisknoutněco jiného (například `Ahoj svete!`), tak bychom upravili volání funkce na
+Pokud bychom chtěli v našem programu  vytisknout něco jiného (například `Ahoj svete!`), tak bychom upravili volání funkce na
 
 ```c
 printf("Ahoj svete!\n");
@@ -111,7 +111,7 @@ Hello
 world!
 ```
 
-Do svého programu můžu dát kolik chci escape sekvencí. Můžu jich dát i více za sebou. Např.
+Do svého programu můžeme dát kolik chceme escape sekvencí. Můžeme jich dát i více za sebou. Např.
 
 ```c
 printf("Hello\n\n\nworld!\n");
@@ -123,10 +123,10 @@ Hello
 
 world!
 ```
-Proč se to takto vytiskne? Mezi `Hello` a `world` jsem dat třikrát escape sekvencí pro nový řádek. Tzv. se vytiskne výstup jako kdybych po Hello zmáčknul třikrát Enter klávesu.
+Proč se to takto vytiskne? Mezi `Hello` a `world` jsem dat třikrát escape sekvencí pro nový řádek. Tzv. se vytiskne výstup jako kdybychom po Hello zmáčknuli třikrát Enter klávesu.
 
 
-Co kdybych ale chtěl vytisknout opravdu znaky `\n`? K tomu slouží jiná escape sekvence `\\\\`. Pokud dám do kódu dvě zpětná lomítka za sebou a pak n, tak se dvě lomítka nahradí za vytisknutí jednoho lomítka.
+Co kdybychom ale chtěli vytisknout opravdu znaky `\n`? K tomu slouží jiná escape sekvence `\\\\`. Pokud dáme do kódu dvě zpětná lomítka za sebou a pak n, tak se dvě lomítka nahradí za vytisknutí jednoho lomítka.
 
 Např. ukázka:
 ```c
@@ -145,9 +145,9 @@ Nyní si probereme následující řádky programu
 #include <stdlib.h>
 ```
 
-Tento kus kódu nám umožňuje používat kusy kódu (funkce), které už za nás napsali jiní programátoři. Tím si můžeme ušetřit spoustu práce, protože použijeme už něco hotového místo toho, abychom si to museli udělat sami.
+Tento kus kódu nám umožňuje používat kusy kódu (funkce), které už za nás napsali jiní programátoři. Tím si můžeme ušetřit spoustu práce, protože použijeme už něco hotového místo toho, abychom si to museli programovat sami.
 
-Bylo by velmi obtížné, kdyby si každý musel vše naprogramovat úplně od začátku. Například chceme v našem programu spočítat odmocninu nebo sinus, ale kdybychom si to měli programovat kompletně sami, tak bychom asi ani nevěděli, jak to udělat. Naštěstí si funkce na výpočet odmocniny a sinus nemusíme psát sami, protože někdo před námi už tyto funkce naprogramoval za nás a my je můžeme použít. Stačí si přidat do našeho programu odpovídající knihovnu, která obsahuje danou funkci. Knihovna není nic jiného, než balíček několika funkcí zabalených do jednoho celku.
+Bylo by velmi obtížné, kdyby si každý musel vše naprogramovat úplně od začátku. Například chceme v našem programu spočítat odmocninu nebo sinus, ale kdybychom si to měli programovat kompletně sami, tak bychom asi ani nevěděli, jak to udělat. Naštěstí si funkce na výpočet odmocniny a sinus psát sami nemusíme, protože někdo před námi už tyto funkce naprogramoval za nás a my je můžeme použít. Stačí si přidat do našeho programu odpovídající knihovnu, která obsahuje danou funkci. Knihovna není nic jiného, než balíček několika funkcí zabalených do jednoho celku.
 
 Stejně tak i funkce `printf` je jedna z funkcí, kterou někdo naprogramoval před námi. Abychom funkci `printf` mohli použít, tak do našeho programu musíme přidat knihovnu `stdio` (v knihovně `stdio` se nachází funkce `printf`). Knihovnu `stdio` přidáme do našeho programu tak, že na začátek programu vložíme řádek 
 ```c
@@ -168,7 +168,7 @@ int main()
 }
 ```
 
-Po stisknutí ozubeného kolečka se zelenou šipkou vidíme, že se program nespustil a editoru nám červeně označil 3. řádek. Tím nám editor dává najevo, že na tomto řádku se nachází chyba.
+Po stisknutí ozubeného kolečka se zelenou šipkou vidíme, že se program nespustil a editoru nám červeně označil 3. řádek. Tím nám editor dává najevo, že se na tomto řádku nachází chyba.
 
 ![error](./obrazky/ahoj_svete/error.PNG)
 
@@ -177,9 +177,9 @@ Zde je důležité si všimnout i spodní části editoru CodeBlocks. Zde je zá
 ![build messages](./obrazky/ahoj_svete/build_messages.PNG)
 
 Umět se naučit číst chybové hlášky je naprosto zásadní v cestě stát se dobrým programátorem. Zde vidíme
-`implicit declaration of function 'printf' [-Wimplicit-function-declaration]`. To znamená, že funkce `printf` není definovaná. To ve většině případů znamená, že nemáme přidanou správnou knihovnu pomocí `#include` nebo jsme nedefinovali nějakou vlastní funkci.
+`implicit declaration of function 'printf' [-Wimplicit-function-declaration]`. To znamená, že funkce `printf` není definovaná. To ve většině případů znamená, že nemáme přidanou správnou knihovnu pomocí `#include` nebo jsme nedefinovali nějakou vlastní funkci (o tom více v kapitole XXX).
 
-Dále se dozvídáme i řešení `include '<stdio.h>' or provide a declaration of 'printf'`. Přidáme tedy daný include.
+Dále se dozvídáme i řešení `include '<stdio.h>' or provide a declaration of 'printf'`. Přidáme tedy daný include
 
 ```c
 #include <stdio.h>
@@ -241,7 +241,7 @@ Tento řádek zdrojového kódu (programu)
 return 0;
 ```
 
-je poslední řádek těla funkce. Opět ho rozebereme podrobněji až později. Pro náš případ to zjednodušíme tak, že tento příkaz ukončuje náš program (ukončuje funkci, v které se právě program nachází). Mějme příklad
+je poslední řádek těla funkce. Opět ho rozebereme podrobněji v kapitole XXX. Pro náš případ to zjednodušíme tak, že tento příkaz ukončuje náš program (ukončuje funkci, v které se právě program nachází). Mějme příklad
 
 ```c
 printf("1\n");
@@ -267,9 +267,8 @@ Po spuštění se vytiskne
 ```
 1
 2
-
 ```
-Pokud bychom dali `return 0;` nakonec, tzv.
+Pokud bychom dali `return 0;` na konec, tzv.
 ```c
 #include <stdio.h>
 
@@ -281,17 +280,16 @@ int main()
     return 0;
 }
 ```
-pak dostáváme
+tak dostáváme
 ```
 1
 2
 3
-
 ```
 
 Jak jsme si řekli, `return 0;` ukončuje náš program (zatím pouze zjednodušení). Proto se v prvním případě nevytiskne trojka.
 
-> Zde je důležité si všimnout, že program se vykonává sekvenčně řádek po řádku od začátku funkce main až po return. V posledním příkladě se nejdříve vytiskne 1, pak 2, pak 3 a nakonec se program ukončí pomocí `return 0`. Nikdy se nemůže stát, že by se nejdříve vytiskla 3 a pak 2 a pak 1. Vykonávání programu je vždy stejné.
+> Zde je důležité si všimnout, že program se vykonává sekvenčně řádek po řádku od začátku funkce main až po return. V posledním ukázce se nejdříve vytiskne 1, pak 2, pak 3 a nakonec se program ukončí pomocí `return 0`. Nikdy se nemůže stát, že by se nejdříve vytiskla 3 a pak 2 a pak 1. Vykonávání programu je vždy stejné. Vždy zhora dolů.
 
 ### Složené závorky
 ```c
@@ -303,16 +301,16 @@ Povinné složené závorky. Označují začátek a konec funkce.
 
 
 ## Jak znovu otevřít projekt
-Pokud jste CodeBlocks zavřeli, tak když ho znovu otevřete, tak již nevidíte svůj program/projekt. Znovu ho otevřete tak, že kliknete na `Open an existing project` uprostřed obrazovky
+Pokud CodeBlocks zavřeme a znovu ho otevřeme, tak již nevidíte náš program/projekt. Znovu ho se k programu dostaneme tak, že klikneme na `Open an existing project` uprostřed obrazovky
 
 ![reopen](./obrazky/ahoj_svete/open_existing.PNG)
 
-Tam vyberete složku, kde jste ukládali váš projekt a vyberete soubor s koncovkou `cbp` (code blocks project)
+Tam vybereme složku, kde jsme ukládali náš projekt a vybereme soubor s koncovkou `cbp` (code blocks project)
 
 
 ![cbp](./obrazky/ahoj_svete/cbp.PNG)
 
-A kliknete na `Open`. Tím se vám projekt opět otevře.
+Klikneme na `Open`. Tím se nám projekt opět otevře.
 
 
 ## Úkoly na procvičení
