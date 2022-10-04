@@ -191,11 +191,11 @@ int main()
 }
 ```
 
-Pokud nyní program znovu spustíme, tak by vše mělo fungovat. Zde se můžete ptát, kam zmizel include knihovny `stdlib.h`. Ten pro náš program neni potřeba. CodeBlocks ho nám do programu automaticky přidal, protože knihovna `stdlib` obsahuje spoustu běžně potřebných funkcí a CodeBlocks neví, jaké všechny knihovny budeme v našem programu potřebovat. Proto tam přidal dvě nejpoužívanější (stdio a stdlib).
+Pokud nyní program znovu spustíme, tak by vše mělo fungovat. Zde se můžete ptát, kam zmizel include knihovny `stdlib.h`. Ten pro náš program neni potřeba. CodeBlocks ho nám do programu automaticky přidal, protože knihovna `stdlib` obsahuje spoustu běžně potřebných funkcí a CodeBlocks neví, jaké všechny knihovny budeme v našem programu potřebovat. Proto tam přidal dvě nejpoužívanější (`stdio` a `stdlib`).
 
 Jde nějak zjistit, jaké funkce jsou obsaženy v těchto knihovnách? Pro `stdio` knihovnu můžeme najít dokumentaci [zde](https://www.tutorialspoint.com/c_standard_library/stdio_h.htm). Knihovna stdlib má dokumentaci např. [zde](https://www.tutorialspoint.com/c_standard_library/stdlib_h.htm).
 
-Pokud chcete být dobrý programátor, tak je důležité mít přehled o tom, jaké knihovny existují a jaké funkce obsahují. Tím si lze ulehčit spoustu práce a "neobjevovat kolo". Další vlastnost dobrého programátora je vůbec se naučit číst dokumentaci knihoven. Ze začátku může dokumentace působit hrozivě a nebude vám spoustu věcí jasná, ale postupem času se budete v čtení dokumentace čím dál více zlepšovat a budete chápat, co se vám snaží dokumentace říct.
+Pokud chcete být dobrým programátorem, tak je důležité mít přehled o tom, jaké knihovny existují a jaké funkce tyto knihovny obsahují. Tím si lze ulehčit spoustu práce a "neobjevovat kolo". Další vlastnost dobrého programátora je umět efektivně číst dokumentace knihoven. Ze začátku může dokumentace působit hrozivě a nebude vám spoustu věcí jasná, ale postupem času se budete v čtení dokumentace čím dál více zlepšovat a budete chápat, co se vám dokumentace snaží říct.
 
 Počet volání funkcí v programu není nijak omezen. Můžeme tedy dát i několik volání pod sebe, např.
 ```c
