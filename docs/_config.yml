@@ -17,7 +17,7 @@ minima:
     # youtube_channel_name: CloudCannon
 
 header_pages:
-  - README.md
+  - index.md
 
 plugins:
  - jekyll-seo-tag

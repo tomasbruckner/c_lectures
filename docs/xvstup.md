@@ -37,7 +37,6 @@ Co se v programu děje?
 
 1. Vytvoří se proměnná vstup a nastaví se na nulu
 1. Vytiskne se `Zadejte cislo`
-1. Funkce scanf zastaví program a čeká, než uživatel zadá nějaký vstup a dá enter ()
+1. Funkce scanf zastaví program a čeká, než uživatel zadá nějaký vstup a dá enter
 1. Vytiskne se `Nacetlo se cislo` s načteným číslem
 1. Provede se `return 0` a program se ukončí
-
