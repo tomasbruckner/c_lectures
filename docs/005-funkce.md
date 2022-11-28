@@ -857,3 +857,9 @@ int main()
 }
 ```
 </details>
+
+
+## Fun fact
+Prvním programátorem na světě byla Ada Lovelace. Její program počítal Bernoulliho čísla.
+
+Více například [zde](https://cs.wikipedia.org/wiki/Ada_Lovelace).

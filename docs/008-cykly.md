@@ -399,6 +399,9 @@ Teoreticky by tento program bežel donekonečna. Kvůli limitům datových typů
 
 Na zacyklení je potřeba si dávát pozor. Nic si z toho ale nedělejte, pokud se vám to stane. Dříve nebo později to určitě přijde.
 
+
+
+## Úkoly na procvičení
 ### Úkol 1
 Přepište následující kód tak, aby použil cyklus `While` místo `For`
 
@@ -579,3 +582,9 @@ int main()
 }
 ```
 </details>
+
+
+## Fun fact
+V IT existuje `Moorův zákon`, který definoval v roce 1965 spoluzakladatel společnosti Intel, Goron Moore. Podle tohoto zákona se každých 18 měsíců zdvojnásobí výpočetní výkon/efektivity procesorů.
+
+Více [zde](https://cs.wikipedia.org/wiki/Moor%C5%AFv_z%C3%A1kon).

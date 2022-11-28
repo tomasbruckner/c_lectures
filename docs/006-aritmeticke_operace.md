@@ -110,6 +110,7 @@ x = -x;
 ```
 
 
+## Úkoly na procvičení
 ### Úkol 1
 Napište funkci, která bude mít 2 parametry typu int a vytiskne jejich součet.
 
@@ -151,3 +152,12 @@ int main()
 }
 ```
 </details>
+
+
+## Fun fact
+Programátoři nemají Oskary ani Nobelovy ceny, ale mají `Turingovu cenu` podle Alana Turinga (1912 - 1954), který je považován za zakladatele moderní informatiky.
+O části jeho životě bylo natočeno spoustu filmů. Mezi nejpopulárnější patří například [Kód Enigmy](https://www.csfd.cz/film/283747-kod-enigmy/prehled/).
+
+Více o Alanovi Turingovi například [zde](https://cs.wikipedia.org/wiki/Turingova_cena).
+
+![Turing](https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg)

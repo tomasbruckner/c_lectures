@@ -373,4 +373,4 @@ V C je zvykem používat pro identifikátory formát moje_cool_proměnná, ale v
 - **PascalCase** - první písmeno každého slova je velkými písmenem, všechno ostatní malými. Popularizováno programovacím jazykem Pascal.
     - MojeCoolPromenna
 
-Mezi prográmatory se často vede bitva, kdo má rád který zápis. Obecně v tom není rozdíl a je to čistě subjektivní preference. Nejdůležítější je, aby v programu byla konzistence. Tzv. vybrat si jeden styl a ten pak používat v celém programu. Kód nepůsobí dobře, když je část identifikátoru psaná jako snake_case, část camelCase a část PascalCase
+Mezi prográmatory se často vede bitva, kdo má rád který zápis. Obecně v tom není rozdíl a je to čistě subjektivní preference. Nejdůležítější je, aby v programu byla konzistence. Tzv. vybrat si jeden styl a ten pak používat v celém programu. Kód nepůsobí dobře, když je část identifikátoru psaná jako snake_case, část camelCase a část PascalCase.
