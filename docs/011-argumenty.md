@@ -1,8 +1,9 @@
 ---
 title: Práce s argumenty programu
 ---
+Pokud chceme předávat nějaká data našim programům, tak máme několik způsobů. Jeden z nich byl uživatelský vstup (viz kapitola XXX). Dalším způsobem jsou `argumenty programu`.
 
-Našim programům můžeme předávat argumenty z terminálu. To uživatelům umožňuje upravovat chování programu i potom, co jsme my udělali binární soubor a poslali jsme jim výsledný `.exe` soubor. 
+Pomocí terminálu můžeme předat našim programům nějaká. To uživatelům umožňuje upravovat chování programu i potom, co jsme my udělali binární soubor a poslali jsme jim výsledný `.exe` soubor. 
 
 Abychom mohli pracovat v našem programu s argumenty programu, tak musíme rozšířit parametry `main` funkce. Můžeme použít variantu `int main(int argc, char* argv[])` nebo také `int main(int argc, char** argv)`. Já preferuji první variantu.
 
@@ -74,3 +75,50 @@ test2
 
 
 K čemu jsou dobré? XXX
+
+
+## Úkoly na procvičení
+### Úkol 1
+Napište program, který načte 5 kladných čísel a po načtení vytiskne to největší z nich.
+
+
+<details>
+  <summary>Klikni pro zobrazení možného řešení</summary>
+
+```c
+#include <stdio.h>
+
+void tiskni_nejvetsi(int cisla_k_tisku[], int velikost_pole) {
+    // Zde predpokladame, ze pole ma aspon jeden prvek
+    // Lepsi by bylo to osetrit na zacatku pro situace, kdy pole bude mit 0 prvku
+    int max = cisla_k_tisku[0];  
+    for (int i = 0; i < velikost_pole; i = i + 1) {
+        if (cisla_k_tisku[i] > max) {
+            max = cisla_k_tisku[i];
+        }
+    }
+    
+    printf("Maximum je %i\n", max);
+}
+
+int main()
+{
+    int pole[5];
+
+    for (int i = 0; i < 5; i = i + 1) {
+        int vstup = 0;
+        printf("Zadejte cislo:\n");
+        scanf("%i", &vstup);
+        pole[i] = vstup;
+    }
+
+    tiskni_nejvetsi(pole, 5);
+
+    return 0;
+}
+```
+</details>
+
+## Fun fact
+Pokud máme v programu chybu, tak se běžně používá označení, že máme v programu "bug" (anglicky brouk). Tohle označení vzniklo ve 40. letech při vytváření sálového počítače Harvard Mark II.
+Tento počítač začal selhávat. Operátoři počítače zjistili, že chyba byla způsobena skutečným broukem (molem), který byl uvězněn uvnitř počítače.

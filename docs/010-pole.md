@@ -494,6 +494,8 @@ int main()
 }
 ```
 
+## Předání pole odkazem
+XXX
 
 ## Úkoly na procvičení
 ### Úkol 1
