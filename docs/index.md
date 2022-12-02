@@ -19,8 +19,8 @@ Základy
 * [Kapitola 13 - Pole vs ukazatel](./013-pole_vs_ukazatel.md)
 * [Kapitola 14 - Řetězce](./014-retezce.md)
 * [Kapitola 15 - Struktury](./015-struktury.md)
-* [Kapitola  - Práce se soubory](./xsoubory.md)
-* [Kapitola xx - Práce s argumenty programu](./011-argumenty.md)
+* [Kapitola 16 - Práce se soubory](./016-soubory.md)
+* [Kapitola 17 - Práce s argumenty programu](./017-argumenty.md)
 
 Pokročilé 
 * [Kapitola  - Datový typ číslo](./xcisla.md)
@@ -39,8 +39,11 @@ Pokročilé
 * [Kapitola  - Struktury pro pokročilé](./xstruktury_pokrocile.md)
 
 Volitelné
-* [Kapitola  - Priorita operátorů](./xpriorita_operatoru.md)
-* [Kapitola  - Struktura Switch](./xswitch.md)
-* [Kapitola  - Rekurzivní funkce](./xrekurze.md)
+* [Kapitola  - Priorita operátorů](./volitelne-priorita-operatoru.md)
+* [Kapitola  - Struktura Switch](./volitelne-switch.md)
+* [Kapitola  - Rekurzivní funkce](./volitelne-rekurze.md)
 * [Kapitola  - Čistý kód](./xcisty_kod.md)
-* [Kapitola  - Funkce pro pokročilé](./xfunkce_pokrocile.md)
+* [Kapitola  - Funkce pro pokročilé](./volitelne-funkce-pokrocile.md)
+* [Kapitola  - Mezery v jazyku C](./volitelne-mezery.md)
+* [Kapitola  - Přetypování](./volitelne-pretypovani.md)
+* [Kapitola  - Zkrácené vyhodnocení](./volitelne-zkracene-vyhodnoceni.md)
