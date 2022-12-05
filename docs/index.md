@@ -29,16 +29,15 @@ Pokročilé
 * [Kapitola  - Dynamické pole](./pokrocile-dynamicke-pole.md)
 * [Kapitola  - Řetězce pro pokročilé](./pokrocile-retezce.md)
 * [Kapitola  - Cykly pro pokročilé](./pokrocile-cykly.md)
-* [Kapitola  - Dekompozice programu](./xdekompozice.md)
-* [Kapitola  - Scope](./xscope.md)
-* [Kapitola  - Moduly](./xmoduly.md)
-* [Kapitola  - Bitové operace](./xbitove-operace.md)
-* [Kapitola  - Struktury pro pokročilé](./xstruktury-pokrocile.md)
+* [Kapitola  - Proměnné pro pokročilé](./pokrocile-promenne.md)
+* [Kapitola  - Dekompozice programu](./pokrocile-dekompozice.md)
+* [Kapitola  - Scope](./pokrocile-scope.md)
+* [Kapitola  - Moduly](./pokrocile-moduly.md)
+* [Kapitola  - Struktury pro pokročilé](./pokrocile-struktury.md)
 
 Expert
-* [Kapitola  - Proměnné pro pokročilé](./expert-promenne.md)
-* [Kapitola  - Kompilace](./xkompilace.md)
-* [Kapitola  - Paměť](./xpamet.md)
+* [Kapitola  - Kompilace](./expert-kompilace.md)
+* [Kapitola  - Paměť](./expert-pamet.md)
 
 
 Volitelné
@@ -50,3 +49,7 @@ Volitelné
 * [Kapitola  - Mezery v jazyku C](./volitelne-mezery.md)
 * [Kapitola  - Přetypování](./volitelne-pretypovani.md)
 * [Kapitola  - Zkrácené vyhodnocení](./volitelne-zkracene-vyhodnoceni.md)
+* [Kapitola  - Bitové operace](./volitelne-bitove-operace.md)
+
+Závěřem
+* [Kapitola  - Závěr](./xzaver.md)

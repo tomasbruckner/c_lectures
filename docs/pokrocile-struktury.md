@@ -3,13 +3,13 @@ title: Struktury pro pokročilé
 ---
 
 
-V kapitole XXX jsme si ukázali práci s řetězci. Měli jsme tam samotné data jako `char *` a navíc jsme udržovali maximální délku a aktuální. Tyto proměnné patří logicky k sobě. Proto bychom je mohli dát do jedné struktury. Ta by mohla vypadat následovně
+V kapitole XXX jsme si ukázali práci s řetězci. Pro řetězce jsme měli tři proměnné. První byl samotný řetězec `char *`. Druhá proměnná byla číslo, které udržovalo maximální možnou délku řetězce. Třetí proměnná byla číslo, které udržovalo aktuální délku řetězce. Tyto proměnné patří logicky k sobě. Proto bychom je mohli dát do jedné struktury. Ta by mohla vypadat následovně
 
 ```c
 typedef struct { int max_delka; int delka; char * data; } string;
 ```
 
-Pak bychom mohli pracovat následovně
+Pak bychom mohli s danou strukturou pracovat následovně
 
 ```c
 #include <stdio.h>
@@ -70,7 +70,7 @@ int main() {
 }
 ```
 
-Zde si můžeme všimnout několika věcí. Pokud pracujeme s ukazatelem na strukturu, můžeme použít `->`. Tyto dva zápisy jsou stejné
+Zde si můžeme všimnout několika věcí. Pokud pracujeme s ukazatelem na strukturu, můžeme použít `->`. Tyto dva zápisy jsou stejné (obecně se používá zápis se šipkou)
 
 ```c
 retezec->delka = 0;
@@ -83,10 +83,10 @@ Další věc, na kterou je potřeba si dávat pozor je, že když uvolňujeme pa
 free(retezec);
 free(retezec->data);
 ```
-Dostaneme chybu, protože na druhém řádku přistupujeme k `retezec`, který ale už má nedostupnou paměť.
+Dostaneme chybu, protože na druhém řádku přistupujeme k proměnné `retezec`, která ale už má nedostupnou paměť (byla uvolněna).
 
 
-Poslední věci, které bychom si měli všimnout je, že pokud potřebuji rozšířit data, tak se realokuje paměť jenom pro `char * data` a není potřeba realokovat paměť pro `string * retezec`. Je to proto, že struktura zůstává pořád stejné velikosti. Mění se jenom paměť, na kterou ukazujeme a ta není součástí struktury. Ve struktuře je uložena adresa paměti dat.
+Poslední věci, které bychom si měli všimnout je, že pokud potřebujeme rozšířit data, tak se realokuje paměť jenom pro `char * data` a není potřeba realokovat paměť pro `string * retezec`. Je to proto, že struktura zůstává pořád stejné velikosti. Mění se jenom paměť řetězce, na kterou ukazujeme a ta není součástí struktury. Ve struktuře je uložena pouze adresa paměti dat řetězce. Tzv. děláme `realloc` pouze pro `retezec->data` a nikoliv pro `retezec`.
 
 
 ## Rekurzivní struktury
@@ -122,4 +122,7 @@ int main() {
 }
 ```
 
-Pro zjednodušení jsme nevolali free ani nekontrolovali, zda se paměť podařilo alokovat.
+Pro zjednodušení jsme nevolali `free` ani nekontrolovali, zda se paměť podařilo alokovat.
+
+
+XXX
