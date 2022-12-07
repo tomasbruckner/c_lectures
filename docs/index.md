@@ -35,11 +35,6 @@ Pokročilé
 * [Kapitola  - Moduly](./pokrocile-moduly.md)
 * [Kapitola  - Struktury pro pokročilé](./pokrocile-struktury.md)
 
-Expert
-* [Kapitola  - Kompilace](./expert-kompilace.md)
-* [Kapitola  - Paměť](./expert-pamet.md)
-
-
 Volitelné
 * [Kapitola  - Priorita operátorů](./volitelne-priorita-operatoru.md)
 * [Kapitola  - Struktura Switch](./volitelne-switch.md)
@@ -50,6 +45,14 @@ Volitelné
 * [Kapitola  - Přetypování](./volitelne-pretypovani.md)
 * [Kapitola  - Zkrácené vyhodnocení](./volitelne-zkracene-vyhodnoceni.md)
 * [Kapitola  - Bitové operace](./volitelne-bitove-operace.md)
+* [Kapitola  - Závorky](./volitelne-zavorky.md)
+* [Kapitola  - Středník](./volitelne-strednik.md)
+* [Kapitola  - Opererátor přirazení hodnoty](./volitelne-prirazeni.md)
+* [Kapitola  - Operátor čárka](./volitelne-carka.md)
+
+Expert
+* [Kapitola  - Kompilace](./expert-kompilace.md)
+* [Kapitola  - Paměť](./expert-pamet.md)
 
 Závěřem
 * [Kapitola  - Závěr](./xzaver.md)
