@@ -302,7 +302,7 @@ Mějme program
 int main()
 {
     float vysledek = 0;
-    for (int i = 0; i < 10000; i++) {
+    for (int i = 0; i < 10000; i = i + 1) {
         vysledek += 0.0001;
     }
 

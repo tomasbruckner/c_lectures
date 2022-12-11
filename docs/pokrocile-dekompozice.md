@@ -60,9 +60,9 @@ Zatím třeba chceme řešit druhý problém (počítání písmen A). Ignorujem
 void vytiskni_pocet_a(const char* text_k_analyze) {
     int pocet_a = 0;
 
-    for(int i = 0; text_k_analyze[i] != '\0'; i++) {
+    for(int i = 0; text_k_analyze[i] != '\0'; i = i + 1) {
         if (text_k_analyze[i] == 'a' || text_k_analyze[i] == 'A') {
-            pocet_a++;
+            pocet_a = pocet_a + 1;
         }
     }
 
@@ -102,9 +102,9 @@ Nyní to můžeme dát dohromady (spojit dvě činnosti a udělat je spolu)
 int vrat_pocet_a(const char* text_k_analyze) {
     int pocet_a = 0;
 
-    for(int i = 0; text_k_analyze[i] != '\0'; i++) {
+    for(int i = 0; text_k_analyze[i] != '\0'; i = i + 1) {
         if (text_k_analyze[i] == 'a' || text_k_analyze[i] == 'A') {
-            pocet_a++;
+            pocet_a = pocet_a + 1;
         }
     }
 
@@ -134,7 +134,7 @@ Nyní chceme vyřešit situaci, kdy jsou v textu dvě mezery. Uděláme si zase 
 int je_chyba_mezer(const char* text_k_analyze) {
     char predchozi_znak = '\0';
 
-    for(int i = 0; text_k_analyze[i] != '\0'; i++) {
+    for(int i = 0; text_k_analyze[i] != '\0'; i = i + 1) {
         if (text_k_analyze[i] == ' ' && predchozi_znak == ' ') {
             return CHYBA_DVOJITA_MEZERA;
         }
@@ -167,9 +167,9 @@ int vrat_pocet_a(const char* text_k_analyze) {
     char predchozi_znak = '\0';
     int pocet_a = 0;
 
-    for(int i = 0; text_k_analyze[i] != '\0'; i++) {
+    for(int i = 0; text_k_analyze[i] != '\0'; i = i + 1) {
         if (text_k_analyze[i] == 'a' || text_k_analyze[i] == 'A') {
-            pocet_a++;
+            pocet_a = pocet_a + 1;
         }
 
         if (text_k_analyze[i] == ' ' && predchozi_znak == ' ') {
@@ -211,13 +211,13 @@ typedef struct { int pocet_a; int pocet_c; } text_analyza;
 text_analyza vrat_analyzu_textu(const char* text_k_analyze) {
     text_analyza analyza = { .pocet_a = 0, .pocet_c = 0 };
 
-    for(int i = 0; text_k_analyze[i] != '\0'; i++) {
+    for(int i = 0; text_k_analyze[i] != '\0'; i = i + 1) {
         if (text_k_analyze[i] == 'a' || text_k_analyze[i] == 'A') {
-            analyza.pocet_a++;
+            analyza.pocet_a = analyza.pocet_a + 1;
         }
         
         if (text_k_analyze[i] == 'c' || text_k_analyze[i] == 'c') {
-            analyza.pocet_c++;
+            analyza.pocet_c = analyza.pocet_c + 1;
         }
     }
 
@@ -266,13 +266,13 @@ text_analyza vrat_analyzu_textu(const char* text_k_analyze) {
     text_analyza analyza = { .pocet_a = 0, .pocet_c = 0, .prvni_c = 0 };
     analyza.prvni_c = text_k_analyze[0] == 'c';
 
-    for(int i = 0; text_k_analyze[i] != '\0'; i++) {
+    for(int i = 0; text_k_analyze[i] != '\0'; i = i + 1) {
         if (text_k_analyze[i] == 'a' || text_k_analyze[i] == 'A') {
-            analyza.pocet_a++;
+            analyza.pocet_a = analyza.pocet_a + 1;
         }
 
         if (text_k_analyze[i] == 'c' || text_k_analyze[i] == 'c') {
-            analyza.pocet_c++;
+            analyza.pocet_c = analyza.pocet_c + 1;
         }
     }
 
@@ -306,13 +306,13 @@ text_analyza vrat_analyzu_textu(const char* text_k_analyze) {
     analyza.prvni_c = text_k_analyze[0] == 'c';
     char predchozi_znak = '\0';
 
-    for(int i = 0; text_k_analyze[i] != '\0'; i++) {
+    for(int i = 0; text_k_analyze[i] != '\0'; i = i + 1) {
         if (text_k_analyze[i] == 'a' || text_k_analyze[i] == 'A') {
-            analyza.pocet_a++;
+            analyza.pocet_a = analyza.pocet_a + 1;
         }
 
         if (text_k_analyze[i] == 'c' || text_k_analyze[i] == 'c') {
-            analyza.pocet_c++;
+            analyza.pocet_c = analyza.pocet_c + 1;
         }
 
         if (text_k_analyze[i] == ' ' && predchozi_znak == ' ') {

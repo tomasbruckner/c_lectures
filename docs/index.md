@@ -36,6 +36,8 @@ Pokročilé
 * [Kapitola  - Struktury pro pokročilé](./pokrocile-struktury.md)
 
 Volitelné
+* [Kapitola  - Aritmetické operace (zkráceně)](./volitelne-aritmeticke-operace.md)
+* [Kapitola  - Operátor podmínky](./volitelne-operator-podminky.md)
 * [Kapitola  - Priorita operátorů](./volitelne-priorita-operatoru.md)
 * [Kapitola  - Struktura Switch](./volitelne-switch.md)
 * [Kapitola  - Rekurzivní funkce](./volitelne-rekurze.md)

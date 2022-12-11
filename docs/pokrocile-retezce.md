@@ -56,7 +56,7 @@ char * pridat_retezec(char * retezec_k_upraveni, const char * retezec_k_pridani,
         }
     }
 
-    for (int i = 0; i <= delka_k_pridani; i++) {
+    for (int i = 0; i <= delka_k_pridani; i = i + 1) {
         retezec_k_upraveni[i + delka_k_upraveni] = retezec_k_pridani[i];
     }
 
