@@ -2,8 +2,10 @@
 title: Tom učí jazyk C
 ---
 
+Úvod
+* [Vítejte na kurzu programovacího jazyka C](./uvod.md)
+
 Základy
-* [Kapitola 0 - Vítejte na kurzu programovacího jazyka C](./zaklady-uvod.md)
 * [Kapitola 1 - Instalace CodeBlocks](./zaklady-instalace.md)
 * [Kapitola 2 - První program - Ahoj světe!](./zaklady-ahoj-svete.md)
 * [Kapitola 3 - Proměnné a datové typy](./zaklady-promenne-a-datove-typy.md)
@@ -34,6 +36,7 @@ Pokročilé
 * [Kapitola  - Scope](./pokrocile-scope.md)
 * [Kapitola  - Moduly](./pokrocile-moduly.md)
 * [Kapitola  - Struktury pro pokročilé](./pokrocile-struktury.md)
+* [Kapitola  - Uživatelský vstup pro pokročilé](./_vstup_pokrocile.md)
 
 Volitelné
 * [Kapitola  - Aritmetické operace (zkráceně)](./volitelne-aritmeticke-operace.md)
@@ -51,10 +54,11 @@ Volitelné
 * [Kapitola  - Středník](./volitelne-strednik.md)
 * [Kapitola  - Opererátor přirazení hodnoty](./volitelne-prirazeni.md)
 * [Kapitola  - Operátor čárka](./volitelne-carka.md)
+* [Kapitola  - Union](./volitelne-union.md)
 
 Expert
 * [Kapitola  - Kompilace](./expert-kompilace.md)
 * [Kapitola  - Paměť](./expert-pamet.md)
 
-Závěřem
-* [Kapitola  - Závěr](./xzaver.md)
+Závěr
+* [Závěrem](./zaver.md)
