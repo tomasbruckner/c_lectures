@@ -188,3 +188,13 @@ globalni je 0, staticka je 0
 ```
 
 Je to kvůli tomu, že se různé typy proměnných se ukládají na různé místo v paměti viz kapitola XXX.
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Cykly pro pokročilé](./pokrocile-cykly.md)
+
+[Následující kapitola: Dekompozice programu](./pokrocile-dekompozice.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/26)

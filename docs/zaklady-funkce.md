@@ -863,3 +863,13 @@ int main()
 Prvním programátorem na světě byla Ada Lovelace. Její program počítal Bernoulliho čísla.
 
 Více například [zde](https://cs.wikipedia.org/wiki/Ada_Lovelace).
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Komentáře](./zaklady-komentare.md)
+
+[Následující kapitola: Aritmetické operace](./zaklady-aritmeticke-operace.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/7)

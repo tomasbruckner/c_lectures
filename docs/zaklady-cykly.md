@@ -588,3 +588,13 @@ int main()
 V IT existuje `Moorův zákon`, který definoval v roce 1965 spoluzakladatel společnosti Intel, Goron Moore. Podle tohoto zákona se každých 18 měsíců zdvojnásobí výpočetní výkon/efektivity procesorů.
 
 Více [zde](https://cs.wikipedia.org/wiki/Moor%C5%AFv_z%C3%A1kon).
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Řídící struktura IF](./zaklady-if.md)
+
+[Následující kapitola: Práce s uživatelskám vstupem](./zaklady-vstup.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/10)
+

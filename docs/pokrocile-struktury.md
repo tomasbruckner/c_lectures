@@ -126,3 +126,13 @@ Pro zjednodušení jsme nevolali `free` ani nekontrolovali, zda se paměť poda�
 
 
 XXX
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Moduly](./pokrocile-moduly.md)
+
+[Následující kapitola: Přesměrování](./pokrocile-presmerovani.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/30)

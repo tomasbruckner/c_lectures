@@ -692,3 +692,12 @@ Programovacích jazyků máme stovky. Některé jsou více populární a někter
 
 Přehled například [zde](https://en.wikipedia.org/wiki/List_of_programming_languages). Ale nejsou zde určitě všechny programovací jazyky na světě, protože každý programátor si může udělat svůj vlastní jazyk. V budoucnu bych chtěl připravit i kurz, jak si udělat vlastní jazyk.
 
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Aritmetické operace](./zaklady-aritmeticke-operace.md)
+
+[Následující kapitola: Cykly](./zaklady-cykly.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/9)
+

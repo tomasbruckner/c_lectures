@@ -131,3 +131,13 @@ Když uložíme do souboru `\n` na Windows, tak se ve skutečnosti uloží `\r\n
 
 Pokud bychom chtěli zapsat na Windows jenom znak `\n` bez automatického `\r`, tak bychom museli otevřít soubor jako binární. To se dělá tak, že k módu přidáme ještě znak `b`, tzv. pro zápis bychom napsali `"wb"` místo `"w"`. Poté když uložíme znak `\n`, tak se uloží opravdu jen tento znak i na Windows.
 
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Struktury](./zaklady-struktury.md)
+
+[Následující kapitola: Práce s argumenty programu](./zaklady-argumenty.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/18)

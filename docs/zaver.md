@@ -10,3 +10,8 @@ Doufám, že se vám kurz jazyka C líbil. Pokud máte nějaké připomínky, m�
 
 Pro mě to byla nakonec taky zajímavá zkušenost. Na začátku jsem byl přesvědčený, že jeden nebo dva víkendy budou stačit, ale nakonec to zabralo desítky hodin. Potěšilo by mě, kdyby tento kurz přišel vhod aspoň někomu :)
 
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Kompilace](./expert-kompilace.md)

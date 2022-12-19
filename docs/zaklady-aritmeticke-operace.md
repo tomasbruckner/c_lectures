@@ -161,3 +161,12 @@ O části jeho životě bylo natočeno spoustu filmů. Mezi nejpopulárnější 
 Více o Alanovi Turingovi například [zde](https://cs.wikipedia.org/wiki/Turingova_cena).
 
 ![Turing](https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg)
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Definujeme vlastní funkce](./zaklady-funkce.md)
+
+[Následující kapitola: Řídící struktura IF](./zaklady-if.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/8)

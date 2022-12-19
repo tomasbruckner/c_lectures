@@ -1,5 +1,5 @@
 ---
-title: Instalujeme CodeBlocks
+title: Instalace CodeBlocks
 ---
 
 Abychom mohli efektivně programovat (tzv. psát zdrojový kód), tak potřebujeme nějaký editor. Šlo by použít i poznámkový blok ve Windows, ale ten není ideální. Existují mnohem lepší programy, které mají spoustu užitečné funkcionality, která nám dokáže ušetřit hodně práce.
@@ -56,3 +56,12 @@ Zde uprostřed vybereme záložku `Encoding settings` a zde vybereme
 Opět potvrdíme kliknutím na `OK`.
 
 Nyní jsme připraveni začít programovat!
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Úvod](./uvod.md)
+
+[Následující kapitola: První program - Ahoj světe!](./zaklady-ahoj-svete.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/2)

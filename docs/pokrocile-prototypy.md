@@ -152,3 +152,13 @@ int main()
 ```
 
 Nyní už program funguje správně.
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Práce s argumenty programu](./zaklady-argumenty.md)
+
+[Následující kapitola: Datový typ číslo](./pokrocile-cisla.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/20)

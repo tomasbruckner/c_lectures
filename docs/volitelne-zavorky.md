@@ -123,3 +123,13 @@ if (x > 10)
 
 Moje osobní doporučení je **používat závorky vždy**, ale každý to může vnímat jinak a je to čistě subjektivní záležitost.
 
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Bitové operace](./volitelne-bitove-operace.md)
+
+[Následující kapitola: Středník](./volitelne-strednik.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/44)
+

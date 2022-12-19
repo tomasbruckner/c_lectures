@@ -349,3 +349,12 @@ Postupně vidíme princip dekompozice. Vybereme si malý problém. Ten se pokus�
 Tímto způsobem jste schopni dělat velmi složité programy.
 
 Celý program tady dokončovat nebudeme. Můžete si ho dokončit za domácí úkol.
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Proměnné pro pokročilé](./pokrocile-promenne.md)
+
+[Následující kapitola: Scope](./pokrocile-scope.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/27)

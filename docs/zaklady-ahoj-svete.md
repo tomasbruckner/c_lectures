@@ -389,3 +389,12 @@ int main()
 
 Ještě dříve se však objevil v interním memorandu firmy Bell Labs už v roce 1974 (autorem byl Brian Kernighan).
 
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Instalace CodeBlocks](./zaklady-instalace.md)
+
+[Následující kapitola: Proměnné a datové typy](./zaklady-promenne-a-datove-typy.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/3)

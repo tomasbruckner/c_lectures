@@ -411,3 +411,13 @@ int main()
     return 0;
 }
 ```
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Funkce - prototypy](./pokrocile-prototypy.md)
+
+[Následující kapitola: Makra](./pokrocile-makra.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/21)

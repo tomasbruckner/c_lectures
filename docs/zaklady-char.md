@@ -354,3 +354,13 @@ int main()
 ## Fun fact
 JavaScript je jeden z nejpopulárnějších programovacích jazyků na světě. Jeho původní název byl ale LiveScript. V době vzniku byl však velmi populární (a stále je) jiný programovací jazyk - Java. Tvůrci LiveScriptu tento svůj jazyk přejmenovali na JavaScript, aby mu zvýšili popularitu.
 I dnes sem tam narazíte na člověka, který si myslí, že Java a JavaScript je jeden a ten stejný jazyk.
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Pole](./zaklady-pole.md)
+
+[Následující kapitola: Ukazatele](./zaklady-ukazatele.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/13)

@@ -321,3 +321,13 @@ Na obrázku je Margaret vyfocená s vytisknutým zdrojovým kódem, který dosta
 ![kod](https://upload.wikimedia.org/wikipedia/commons/d/db/Margaret_Hamilton_-_restoration.jpg)
 
 Více například [zde (anglický zdroj)](https://en.wikipedia.org/wiki/Margaret_Hamilton_%28software_engineer%29)
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Řetězce](./zaklady-retezce.md)
+
+[Následující kapitola: Práce se soubory](./zaklady-soubory.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/17)

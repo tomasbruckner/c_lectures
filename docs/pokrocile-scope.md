@@ -321,3 +321,12 @@ Protože ve funkci `zmen_globalni_hodnotu` jsme pracovali s lokální proměnnou
 Obecně byste se měli snažit globální proměnné nepoužívat. V hodně případech jsou známka špatného kódu. Proč? Protože když budete používat nějaké funkce a ony budou pracovat a případně měnit globální proměnné, tak vám můžou ve větších programech vznikat chyby, které bude těžké zjistit, odkud vznikají. A může to být jenom proto, že jednou se zavolala nějaká funkce, která změnila něco globálního a podruhé ne.
 
 U globálních proměnných je ve větších programech problém, že nevíte, které funkce s ní pracují a které ji modifikují.
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Dekompozice programu](./pokrocile-dekompozice.md)
+
+[Následující kapitola: Moduly](./pokrocile-moduly.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/28)

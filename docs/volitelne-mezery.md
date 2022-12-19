@@ -87,3 +87,13 @@ int *ukazatel3;
 Na volitelnost mezer jsem chtěl upozornit především proto, že někde můžete vidět cizí program, který používá mezery jinde, než jste je používáte vy (třeba složene závorky jsou na stejném/novém řádku, než jste zvyklí, někdo používá mezery mezi závorkou a parametrem atd.). Tak ať se zbytečně nevyděsíte, jak je možné, že to funguje.
 
 Jak to všechno funguje si povíme možná někdy v budoucnosti na ukázce toho, jak si naprogramovat vlastní kompilátor. Konkrétně mezery se řeší ve fázi vytváření lexikálních tokenů.
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Funkce pro pokročilé](./volitelne-funkce-pokrocile.md)
+
+[Následující kapitola: Přetypování](./volitelne-pretypovani.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/40)

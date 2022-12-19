@@ -275,3 +275,13 @@ int main()
 V programování a obecně technologiích není věk příliš důležitý. Například Aaron Swartz se účastnil na definici [RSS](https://cs.wikipedia.org/wiki/RSS) formátu již ve 13 letech. Měl velkých vliv na spoustu věcí, které dnes na internetu bereme jako samozřejmost. 
 
 O jeho životě byl natočen film [Zázračné dítě internetu: příběh Aarona Swartze](https://www.csfd.cz/film/361964-zazracne-dite-internetu-pribeh-aarona-swartze/prehled/).
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Cykly](./zaklady-cykly.md)
+
+[Následující kapitola: Pole](./zaklady-pole.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/11)
+

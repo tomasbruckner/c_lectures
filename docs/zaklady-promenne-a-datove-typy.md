@@ -374,3 +374,13 @@ V C je zvykem používat pro identifikátory formát moje_cool_proměnná, ale v
     - MojeCoolPromenna
 
 Mezi prográmatory se často vede bitva, kdo má rád který zápis. Obecně v tom není rozdíl a je to čistě subjektivní preference. Nejdůležítější je, aby v programu byla konzistence. Tzv. vybrat si jeden styl a ten pak používat v celém programu. Kód nepůsobí dobře, když je část identifikátoru psaná jako snake_case, část camelCase a část PascalCase.
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: První program - Ahoj světe!](./zaklady-ahoj-svete.md)
+
+[Následující kapitola: Komentáře](./zaklady-komentare.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/5)

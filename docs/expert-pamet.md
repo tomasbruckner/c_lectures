@@ -42,3 +42,13 @@ static int staticka_nulova_promenna = 10;
 ```
 
 O paměti je dobré mít základní přehled. Nejdůležitější je pochopit rozdíly mezi pamětí `stack` a `heap`. Je dobré vědět, že paměť alokovaná na haldě zůstává alokovaná i po skončení funkce a je mnohem pomalejší (viz kapitola XXX).
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Kompilace](./expert-kompilace.md)
+
+[Následující kapitola: Závěrem](./zaver.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/50)
+

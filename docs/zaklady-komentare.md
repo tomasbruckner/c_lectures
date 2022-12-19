@@ -231,3 +231,13 @@ Názvy knihoven *stdio* a *stdlib* nejsou jenom nějaké náhodne písmenka posk
 * **stdlib** = standard library (std lib) - obsahuje nejčastěji používané funkce (řazení, práce s pamětí, generování náhodných čísel atd.)
 
 Stejně tak ve funkci *printf* není to f náhodně. Print znamená v angličtině tisk a **f** je zkratka pro *formatted*. Funkce printf je tedy pro formátovaný tisk.
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Proměnné a datové typy](./zaklady-promenne-a-datove-typy.md)
+
+[Následující kapitola: Definujeme vlastní funkce](./zaklady-funkce.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/6)

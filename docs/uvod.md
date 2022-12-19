@@ -42,3 +42,7 @@ V neposlední řadě můžou kurz využít lidé, kteří už mají nějaké zna
 ## Proč právě jazyk C
 Jazyk C je nízkoúrovňový jazyk s nízkou úrovní abstrakce. Co to znamená? Že jazyk za vás toho moc neudělá a všechno si musíte udělat sami. Proč je to výhoda? Díky tomu pochopíte principy paměti a co se děje pod povrchem programovacích jazyků s vyšší úrovní abstrakce (JavaScript, PHP, Python a další). Tím dokážete pracovat efektivněji v libovolném jazyce a budete mít mnohem hlubší porozumění programování.
 
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Následující kapitola: Instalace CodeBlocks](./zaklady-instalace.md)

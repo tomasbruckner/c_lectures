@@ -162,3 +162,12 @@ Některé programy je však mnohem jednodušší napsat pomocí rekurze a bylo b
 
 Je nutné si dát pozor, že použití rekurze může mít negativní vliv na výkon programu. Velké rekurze si berou hodně zdrojů počítače a pro velké množství zanoření nemusí takový program ani nikdy doběhnout.
 
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Struktura Switch](./volitelne-switch.md)
+
+[Následující kapitola: Čistý kód](./volitelne-cisty-kod.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/37)

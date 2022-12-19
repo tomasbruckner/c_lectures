@@ -227,3 +227,13 @@ Tím se zvyšuje přehlednost v kódu a vaše funkce půjdou znovupoužít i v j
 
 Ta je zaměřená především na programování v Javě, ale určitě patří do každé knihovničky dobrého programátora.
 
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Rekurzivní funkce](./volitelne-rekurze.md)
+
+[Následující kapitola: Funkce pro pokročilé](./volitelne-funkce-pokrocile.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/38)

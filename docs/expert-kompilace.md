@@ -176,3 +176,13 @@ Vysledek je 6.280000
 ```
 
 V této kapitole jsme si ukázali, co se děje s vaším zdrojovým kódem, než se z něj stane spustitelný binární soubor.
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Union](./volitelne-union.md)
+
+[Následující kapitola: Paměť](./expert-pamet.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/49)
+

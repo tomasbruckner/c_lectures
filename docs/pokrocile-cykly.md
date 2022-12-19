@@ -249,3 +249,13 @@ int main()
     return 0;
 }
 ```
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Řetězce pro pokročilé](./pokrocile-retezce.md)
+
+[Následující kapitola: Proměnné pro pokročilé](./pokrocile-promenne.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/25)

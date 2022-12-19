@@ -105,3 +105,12 @@ Rozdělování větších programů do menších celků vám může velmi zjedno
 Podle čeho poznat, jestli už máme vytvořit nový modul nebo funkci nechat ještě v hlavním souboru. Jestli mít jeden, dva nebo mnohem víc modulů. Jaké funkce dát kam. Vždy se snažte dávat funkce, které nějak logicky patří k sobě do jednoho modulu.
 
 Například pokud bych měl naprogramovat kalkulačku, tak bych se mohl rozhodnout, že si udělám modul `operace`, kde budu mít funkce na sčítání, odečítání, násobení a dělení. Hodně záleží na konkrétním programu a se zkušenostmi. Čím více budete programovat, tím více budete mít cit pro to, kdy už by bylo dobré udělat nějaký nový modul nebo kam dát jakou funkci.
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Scope](./pokrocile-scope.md)
+
+[Následující kapitola: Struktury pro pokročilé](./pokrocile-struktury.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/29)

@@ -61,3 +61,13 @@ Proč ne 10? Protože uložením hodnoty `q` do `union` jsme přemazali hodnotu 
 
 
 `Union` není datový typ, který byste běžně používali, ale je dobré vědět, že existuje. Možná se někdy setkáte se specializovaným případem, kdy se vám bude hodit.
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Operátor čárka](./volitelne-carka.md)
+
+[Následující kapitola: Kompilace](./expert-kompilace.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/48)
+

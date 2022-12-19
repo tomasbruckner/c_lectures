@@ -1,9 +1,39 @@
 ---
-title: Řetězce pro pokročilé
+title: Práce s uživatelskám vstupem pro pokročilé
 ---
 
+Práci s uživatelským vstupem jsme si vyzkoušeli v kapitole XXX. Nyní si představíme funkci `int getchar();`. Ta nemá žádný parametr a funguje tak, že přečte jeden znak ze standardního vstupu.
 
-V kapitole XXX jsme se zabývali řetězci, které měly fixní délku. To nám nemusí ve všech případech stačit a potřebujeme mít délku dynamickou. Můžeme použít stejný postup jako v kapitole XXX.
+Mějme program
+```c
+#include <stdio.h>
+
+int main() {
+    int c = getchar();
+    while (c != EOF) {
+        printf("%c", c);
+        c = getchar();
+    }
+
+    return 0;
+}
+```
+
+Nám dává
+
+```
+100
+25
+```
+
+Všimněme si, že jsme netiskli nový řádek `\n` ve funkci `printf`. Pokud bychom to tak udělali, tak bychom měli každý znak na novém řádku.
+
+Čtení po jednom znaku nám dává větší kontrolu nad tím, co můžeme se vstupem dělat. 
+
+
+Jak bychom naprogramovali, kdybychom chtěli načíst celý standardní vstup? Mohli bychom například načíst každý řadek do pole řetězců.
+
+Mějme program
 
 ```c
 #include <stdio.h>
@@ -86,20 +116,14 @@ int main() {
     return 0;
 }
 ```
-
-Definovali jsme si několik funkcí
-
-* `char * inicializace()` - vytvoří řetězec
-* `char * pridej_pamet(char * retezec, int novy_max)` - nastavení nové velikosti řetězce
-* `int delka_retezec(const char * retezec)` - vrátí velikost řetězce
-* `char * pridat_retezec(char * retezec_k_upraveni, const char * retezec_k_pridani, int * max_delka)` - přidá jeden řetězec k druhému a vrátí spojený řetězec
+XXX
 
 
 ## Odkazy
 [Zpátky na přehled](./index.md)
 
-[Předchozí kapitola: Dynamické pole](./pokrocile-dynamicke-pole.md)
+[Předchozí kapitola: Přesměrování](./pokrocile-presmerovani.md)
 
-[Následující kapitola: Cykly pro pokročilé](./pokrocile-cykly.md)
+[Následující kapitola: Aritmetické operace (zkráceně)](./volitelne-aritmeticke-operace.md)
 
-[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/24)
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/32)

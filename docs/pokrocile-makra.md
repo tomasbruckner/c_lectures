@@ -126,3 +126,13 @@ Vysledek je 14
 Makra mají své použití ve velmi komplexních programech. V našich programech je můžeme použít pro případy, kdy potřebujeme definovat nějakou konstantu (např. `PI`).
 
 Více informací najdete [zde](https://devdocs.io/c/preprocessor).
+
+
+## Odkazy
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Datový typ číslo](./pokrocile-cisla.md)
+
+[Následující kapitola: Dynamické pole](./pokrocile-dynamicke-pole.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/22)
