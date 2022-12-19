@@ -129,10 +129,10 @@ Více informací najdete [zde](https://devdocs.io/c/preprocessor).
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Datový typ číslo](./pokrocile-cisla.md)
-
 [Následující kapitola: Dynamické pole](./pokrocile-dynamicke-pole.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/22)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Datový typ číslo](./pokrocile-cisla.md)

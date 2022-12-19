@@ -215,10 +215,10 @@ Tento počítač začal selhávat. Operátoři počítače zjistili, že chyba b
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Práce se soubory](./zaklady-soubory.md)
-
 [Následující kapitola: Funkce - prototypy](./pokrocile-prototypy.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/19)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Práce se soubory](./zaklady-soubory.md)

@@ -90,10 +90,10 @@ Jak to všechno funguje si povíme možná někdy v budoucnosti na ukázce toho,
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Funkce pro pokročilé](./volitelne-funkce-pokrocile.md)
-
 [Následující kapitola: Přetypování](./volitelne-pretypovani.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/40)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Funkce pro pokročilé](./volitelne-funkce-pokrocile.md)

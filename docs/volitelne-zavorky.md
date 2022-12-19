@@ -125,11 +125,10 @@ Moje osobní doporučení je **používat závorky vždy**, ale každý to můž
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Bitové operace](./volitelne-bitove-operace.md)
-
 [Následující kapitola: Středník](./volitelne-strednik.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/44)
 
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Bitové operace](./volitelne-bitove-operace.md)

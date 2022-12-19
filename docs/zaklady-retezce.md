@@ -154,10 +154,10 @@ Pokud programujete na Windows, tak se hodí znát užitečné zkratky, které v�
 * **Shift + tab** - opak **tab** (tzv. tab dělá posun doprava, shift + tab dělá posun doleva)
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Pole vs ukazatel](./zaklady-pole-vs-ukazatel.md)
-
 [Následující kapitola: Struktury](./zaklady-struktury.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/16)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Pole vs ukazatel](./zaklady-pole-vs-ukazatel.md)

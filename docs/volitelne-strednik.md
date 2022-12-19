@@ -73,11 +73,10 @@ Toto použití zde uvádím jenom pro úplnost kurzu, protože se můžete s pod
 S největší pravděpodobností však středník jako `no operation` nebude nikdy potřebovat.
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Závorky](./volitelne-zavorky.md)
-
 [Následující kapitola: Opererátor přirazení hodnoty](./volitelne-prirazeni.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/45)
 
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Závorky](./volitelne-zavorky.md)

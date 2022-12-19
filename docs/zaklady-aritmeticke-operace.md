@@ -163,10 +163,11 @@ Více o Alanovi Turingovi například [zde](https://cs.wikipedia.org/wiki/Turing
 ![Turing](https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg)
 
 ## Odkazy
+[Následující kapitola: Řídící struktura IF](./zaklady-if.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/8)
+
 [Zpátky na přehled](./index.md)
 
 [Předchozí kapitola: Definujeme vlastní funkce](./zaklady-funkce.md)
 
-[Následující kapitola: Řídící struktura IF](./zaklady-if.md)
-
-[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/8)

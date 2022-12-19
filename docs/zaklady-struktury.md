@@ -324,10 +324,11 @@ Více například [zde (anglický zdroj)](https://en.wikipedia.org/wiki/Margaret
 
 
 ## Odkazy
+[Následující kapitola: Práce se soubory](./zaklady-soubory.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/17)
+
 [Zpátky na přehled](./index.md)
 
 [Předchozí kapitola: Řetězce](./zaklady-retezce.md)
 
-[Následující kapitola: Práce se soubory](./zaklady-soubory.md)
-
-[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/17)

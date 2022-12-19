@@ -209,11 +209,10 @@ Proč? Podívejme se, jak se podmínka vyhodnocuje
 Osobně tyto konstrukce jako (ať už několiknásobné přiřazení nebo přiřazení v IF podmínkách) nepoužívám. Přijde mi to málo přehledné, ale každý to může mít jinak a pokud se vám tyto použití přiřazení líbí, tak je klidně používejte.
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Středník](./volitelne-strednik.md)
-
 [Následující kapitola: Operátor čárka](./volitelne-carka.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/46)
 
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Středník](./volitelne-strednik.md)

@@ -31,10 +31,10 @@ Seznam priorit naleznete například [zde](https://devdocs.io/c/language/operato
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Operátor podmínky](./volitelne-operator-podminky.md)
-
 [Následující kapitola: Struktura Switch](./volitelne-switch.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/35)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Operátor podmínky](./volitelne-operator-podminky.md)

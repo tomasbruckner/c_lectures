@@ -277,11 +277,12 @@ V programování a obecně technologiích není věk příliš důležitý. Nap�
 O jeho životě byl natočen film [Zázračné dítě internetu: příběh Aarona Swartze](https://www.csfd.cz/film/361964-zazracne-dite-internetu-pribeh-aarona-swartze/prehled/).
 
 ## Odkazy
+[Následující kapitola: Pole](./zaklady-pole.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/11)
+
 [Zpátky na přehled](./index.md)
 
 [Předchozí kapitola: Cykly](./zaklady-cykly.md)
 
-[Následující kapitola: Pole](./zaklady-pole.md)
-
-[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/11)
 

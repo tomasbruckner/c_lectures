@@ -232,10 +232,11 @@ Pro programátory je spousta webový stránek. Jedna z nich je [https://thecodin
 
 
 ## Odkazy
+[Následující kapitola: Řetězce](./zaklady-retezce.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/15)
+
 [Zpátky na přehled](./index.md)
 
 [Předchozí kapitola: Ukazatele](./zaklady-ukazatele.md)
 
-[Následující kapitola: Řetězce](./zaklady-retezce.md)
-
-[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/15)

@@ -134,10 +134,10 @@ Ale je to subjektivní. Neexistuje případ, kdy byste operátor podmínky musel
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Aritmetické operace (zkráceně)](./volitelne-aritmeticke-operace.md)
-
 [Následující kapitola: Priorita operátorů](./volitelne-priorita-operatoru.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/34)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Aritmetické operace (zkráceně)](./volitelne-aritmeticke-operace.md)

@@ -268,10 +268,10 @@ Tím dostaneme
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Práce s uživatelskám vstupem pro pokročilé](./pokrocile-vstup.md)
-
 [Následující kapitola: Operátor podmínky](./volitelne-operator-podminky.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/33)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Práce s uživatelskám vstupem pro pokročilé](./pokrocile-vstup.md)

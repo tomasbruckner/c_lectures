@@ -96,10 +96,10 @@ Definovali jsme si několik funkcí
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Dynamické pole](./pokrocile-dynamicke-pole.md)
-
 [Následující kapitola: Cykly pro pokročilé](./pokrocile-cykly.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/24)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Dynamické pole](./pokrocile-dynamicke-pole.md)

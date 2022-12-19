@@ -663,10 +663,10 @@ V programování existuje označení pro různé úrovně programátorů.
 * **SENIOR** programátor (pokročilý) - přemýšlí, jestli daný kód je vůbec potřeba napsat a zda by se problém nedal vyřešit jinak
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Práce s uživatelskám vstupem](./zaklady-vstup.md)
-
 [Následující kapitola: Datový typ char](./zaklady-char.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/12)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Práce s uživatelskám vstupem](./zaklady-vstup.md)

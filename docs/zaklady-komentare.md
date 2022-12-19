@@ -234,10 +234,11 @@ Stejně tak ve funkci *printf* není to f náhodně. Print znamená v angličtin
 
 
 ## Odkazy
+[Následující kapitola: Definujeme vlastní funkce](./zaklady-funkce.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/6)
+
 [Zpátky na přehled](./index.md)
 
 [Předchozí kapitola: Proměnné a datové typy](./zaklady-promenne-a-datove-typy.md)
 
-[Následující kapitola: Definujeme vlastní funkce](./zaklady-funkce.md)
-
-[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/6)

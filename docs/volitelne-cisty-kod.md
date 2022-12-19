@@ -230,10 +230,10 @@ Ta je zaměřená především na programování v Javě, ale určitě patří d
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Rekurzivní funkce](./volitelne-rekurze.md)
-
 [Následující kapitola: Funkce pro pokročilé](./volitelne-funkce-pokrocile.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/38)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Rekurzivní funkce](./volitelne-rekurze.md)

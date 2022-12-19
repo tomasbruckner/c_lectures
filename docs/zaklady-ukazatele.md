@@ -582,10 +582,11 @@ Používejte bezpečnější hesla!
 
 
 ## Odkazy
+[Následující kapitola: Pole vs ukazatel](./zaklady-pole-vs-ukazatel.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/14)
+
 [Zpátky na přehled](./index.md)
 
 [Předchozí kapitola: Datový typ char](./zaklady-char.md)
 
-[Následující kapitola: Pole vs ukazatel](./zaklady-pole-vs-ukazatel.md)
-
-[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/14)

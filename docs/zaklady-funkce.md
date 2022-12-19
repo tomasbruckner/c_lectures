@@ -866,10 +866,11 @@ Více například [zde](https://cs.wikipedia.org/wiki/Ada_Lovelace).
 
 
 ## Odkazy
+[Následující kapitola: Aritmetické operace](./zaklady-aritmeticke-operace.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/7)
+
 [Zpátky na přehled](./index.md)
 
 [Předchozí kapitola: Komentáře](./zaklady-komentare.md)
 
-[Následující kapitola: Aritmetické operace](./zaklady-aritmeticke-operace.md)
-
-[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/7)

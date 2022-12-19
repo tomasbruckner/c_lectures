@@ -101,11 +101,10 @@ for (int x = 0, x < 3, x = x + 1)
 Což z pohledu jazyka C není validní kód.
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Operátor přirazení hodnoty](./volitelne-prirazeni.md)
-
 [Následující kapitola: Union](./volitelne-union.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/47)
 
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Operátor přirazení hodnoty](./volitelne-prirazeni.md)

@@ -106,11 +106,10 @@ int main()
 ```
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Mezery v jazyku C](./volitelne-mezery.md)
-
 [Následující kapitola: Zkrácené vyhodnocení](./volitelne-zkracene-vyhodnoceni.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/41)
 
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Mezery v jazyku C](./volitelne-mezery.md)

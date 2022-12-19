@@ -323,10 +323,10 @@ Obecně byste se měli snažit globální proměnné nepoužívat. V hodně př�
 U globálních proměnných je ve větších programech problém, že nevíte, které funkce s ní pracují a které ji modifikují.
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Dekompozice programu](./pokrocile-dekompozice.md)
-
 [Následující kapitola: Moduly](./pokrocile-moduly.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/28)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Dekompozice programu](./pokrocile-dekompozice.md)

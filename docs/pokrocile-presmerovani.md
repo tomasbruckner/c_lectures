@@ -188,10 +188,10 @@ Tento problém nám vyřeší právě standardní chybový vstup, který můžem
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Struktury pro pokročilé](./pokrocile-struktury.md)
-
 [Následující kapitola: Práce s uživatelskám vstupem pro pokročilé](./pokrocile-vstup.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/31)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Struktury pro pokročilé](./pokrocile-struktury.md)

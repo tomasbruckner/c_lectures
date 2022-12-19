@@ -377,10 +377,10 @@ Mezi prográmatory se často vede bitva, kdo má rád který zápis. Obecně v t
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: První program - Ahoj světe!](./zaklady-ahoj-svete.md)
-
 [Následující kapitola: Komentáře](./zaklady-komentare.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/5)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: První program - Ahoj světe!](./zaklady-ahoj-svete.md)

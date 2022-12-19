@@ -128,11 +128,10 @@ Nyní dostáváme
 Což pro 32 bitů sedí.
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Zkrácené vyhodnocení](./volitelne-zkracene-vyhodnoceni.md)
-
 [Následující kapitola: Závorky](./volitelne-zavorky.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/43)
 
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Zkrácené vyhodnocení](./volitelne-zkracene-vyhodnoceni.md)

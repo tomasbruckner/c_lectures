@@ -134,10 +134,10 @@ Pokud bychom chtěli zapsat na Windows jenom znak `\n` bez automatického `\r`, 
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Struktury](./zaklady-struktury.md)
-
 [Následující kapitola: Práce s argumenty programu](./zaklady-argumenty.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/18)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Struktury](./zaklady-struktury.md)

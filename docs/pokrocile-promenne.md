@@ -191,10 +191,10 @@ Je to kvůli tomu, že se různé typy proměnných se ukládají na různé mí
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Cykly pro pokročilé](./pokrocile-cykly.md)
-
 [Následující kapitola: Dekompozice programu](./pokrocile-dekompozice.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/26)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Cykly pro pokročilé](./pokrocile-cykly.md)

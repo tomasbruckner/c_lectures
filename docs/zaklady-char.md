@@ -357,10 +357,11 @@ I dnes sem tam narazíte na člověka, který si myslí, že Java a JavaScript j
 
 
 ## Odkazy
+[Následující kapitola: Ukazatele](./zaklady-ukazatele.md)
+
+[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/13)
+
 [Zpátky na přehled](./index.md)
 
 [Předchozí kapitola: Pole](./zaklady-pole.md)
 
-[Následující kapitola: Ukazatele](./zaklady-ukazatele.md)
-
-[GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/13)

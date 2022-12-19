@@ -131,11 +131,10 @@ if (1)
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Přetypování](./volitelne-pretypovani.md)
-
 [Následující kapitola: Bitové operace](./volitelne-bitove-operace.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/42)
 
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Přetypování](./volitelne-pretypovani.md)

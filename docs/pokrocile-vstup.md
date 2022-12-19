@@ -120,10 +120,10 @@ XXX
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Přesměrování](./pokrocile-presmerovani.md)
-
 [Následující kapitola: Aritmetické operace (zkráceně)](./volitelne-aritmeticke-operace.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/32)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Přesměrování](./pokrocile-presmerovani.md)

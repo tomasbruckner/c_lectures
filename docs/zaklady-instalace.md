@@ -58,10 +58,10 @@ Opět potvrdíme kliknutím na `OK`.
 Nyní jsme připraveni začít programovat!
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Úvod](./uvod.md)
-
 [Následující kapitola: První program - Ahoj světe!](./zaklady-ahoj-svete.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/2)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Úvod](./uvod.md)

@@ -259,10 +259,10 @@ Ve funkci `vrat_ukazatel` alokujeme paměť na haldě, kde bude do té doby, ne�
 
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Makra](./pokrocile-makra.md)
-
 [Následující kapitola: Řetězce pro pokročilé](./pokrocile-retezce.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/23)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Makra](./pokrocile-makra.md)

@@ -239,10 +239,10 @@ Kdy použít `if` a kdy `switch`? `Switch` nám dává jasně najevo, že kontro
 Je to hodně o osobních preferencích. Někdo nepíše `switch` nikdy, někdo ho používá pokaždé, když může. Nelze říct, že jedno řešení je výrazně lepší než to druhé. Pokud se vám `switch` líbí, tak ho můžete používat.
 
 ## Odkazy
-[Zpátky na přehled](./index.md)
-
-[Předchozí kapitola: Priorita operátorů](./volitelne-priorita-operatoru.md)
-
 [Následující kapitola: Rekurzivní funkce](./volitelne-rekurze.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/36)
+
+[Zpátky na přehled](./index.md)
+
+[Předchozí kapitola: Priorita operátorů](./volitelne-priorita-operatoru.md)
