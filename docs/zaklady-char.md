@@ -28,7 +28,7 @@ initialization of 'char' from 'char *' makes integer from pointer without a cast
 
 Snažíme se uložit řetězec (datový typ `char *`) do proměnné, která čeká znak (datový typ `char`).
 
-Také je potřeba si dát pozor na to, abychom do jednoduchých uvozovek nedali dva znaky. Pokud jich tam dáme více, tak už se nejedná o `char` ale o `int` (bude více vysvětleno v kapitole XXX).
+Také je potřeba si dát pozor na to, abychom do jednoduchých uvozovek nedali dva znaky. Pokud jich tam dáme více, tak už se nejedná o `char` ale o `int`.
 
 ```c
 int main() {

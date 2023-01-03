@@ -39,7 +39,7 @@ int main() {
 }
 ```
 
-Středník můžeme použít jako jediný příkaz IF struktury v kombinaci s variantou bez závorek (viz kapitola XXX)
+Středník můžeme použít jako jediný příkaz IF struktury v kombinaci s variantou bez závorek (viz kapitola [Závorky](./volitelne-zavorky.md))
 
 ```c
 #include <stdio.h>

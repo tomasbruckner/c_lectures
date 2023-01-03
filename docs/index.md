@@ -37,7 +37,7 @@ Pokročilé
 * [Kapitola 27 - Moduly](./pokrocile-moduly.md)
 * [Kapitola 28 - Struktury pro pokročilé](./pokrocile-struktury.md)
 * [Kapitola 29 - Přesměrování](./pokrocile-presmerovani.md)
-* [Kapitola 30 - Práce s uživatelskám vstupem pro pokročilé](./pokrocile-vstup.md)
+* [Kapitola 30 - Práce s uživatelským vstupem pro pokročilé](./pokrocile-vstup.md)
 
 Volitelné
 * [Kapitola 31 - Aritmetické operace (zkráceně)](./volitelne-aritmeticke-operace.md)

@@ -17,7 +17,7 @@ Pomocí operátoru čárky můžu tyto tři definice sjednotit do jedné
 ```c
 int x = 0, y = 0, z = 0;
 ```
-Někdy se také může setkat s jiným odsazením (viz kapitola XXX)
+Někdy se také může setkat s jiným odsazením (viz kapitola [Mezery v jazyku C](./volitelne-mezery.md))
 
 ```c
 int x = 0,

@@ -25,7 +25,7 @@ Když se na proces kompilace podíváme podrobněji, tak zjistíme, že je zde n
 
 ## Preprocesor fáze
 
-Jedná se o první fázi kompilace. Nahrazuje makra (viz kapitola XXX) za konstanty. Mějme program
+Jedná se o první fázi kompilace. Nahrazuje makra (viz kapitola [Makra](./pokrocile-makra.md)) za konstanty. Mějme program
 
 ```c
 #include <stdio.h>

@@ -30,9 +30,9 @@ Jednotlivé části definice proměnné jsou
 
 > Dobrým zvykem v jazyce C je používat pro identifikátor skládající se z více slov oddělovač podtržítko. Tzv. pokud bych chtěl udělat proměnnou, co má název `moje super proměnná`, tak bych odstranil diakritiku a nahradil mezery za podtržítka. Výsledek by byl `moje_super_promenna`. Je to více čitelné, než ji pojmenovat např. `mojesuperpromenna`.
 
-3. **přiřazení** - pro zjednodušení zatím pracujme s tím, že je zde povinné. Existují však možnost, kde lze proměnnou definovat, ale nenastavit ji hodnotu. To ve většině případech nedává smysl. Vysvětlíme si v kapitole XXX.
+3. **přiřazení** - pro zjednodušení zatím pracujme s tím, že je zde povinné. Existují však možnost, kde lze proměnnou definovat, ale nenastavit ji hodnotu. To ve většině případech nedává smysl. Vysvětlíme si v kapitole [Proměnné pro pokročilé](./pokrocile-promenne.md).
 
-1. **hodnota** - nastavení konkrétní hodnoty. Tím, že jsme si vybrali datový typ `int` (celé číslo), tak si můžeme vybrat téměř libovolnou hodnotu celého čísla (existují nejmenší a největší hodnoty pro jednotlivé datové typy, takže nelze použít úplně libovolnou hodnotu viz kapitola XXX). Mezi celá čísla patří jak kladná, tak záporná čísla včetně nuly. Mezi jednotlivými ciframi nesmí být mezera.
+1. **hodnota** - nastavení konkrétní hodnoty. Tím, že jsme si vybrali datový typ `int` (celé číslo), tak si můžeme vybrat téměř libovolnou hodnotu celého čísla (existují nejmenší a největší hodnoty pro jednotlivé datové typy, takže nelze použít úplně libovolnou hodnotu viz kapitola [Datový typ číslo](./pokrocile-cisla.md)). Mezi celá čísla patří jak kladná, tak záporná čísla včetně nuly. Mezi jednotlivými ciframi nesmí být mezera.
     - Validní hodnoty pro datový typ int:
         - **10**
         - **1337**
@@ -80,7 +80,7 @@ printf("Hodnota promenne je: %i\n", x);
 
 Co je jinak? V prvním případě jsme volali funkci printf s jedním parametrem `"Hello world!\n"`. V druhém případě voláme funkci printf s dvěma parametrama. První parametr je řetězec `"Hodnota promenne je: %i\n"` a druhý parametr je proměnná `x`.
 
-Podle čeho poznat, kolik má volání funkce parametrů? **Každá hodnota je oddělena čárkou**. Funkce může mít jeden parametr, dva parametry nebo i 10 parametrů. Některé funkce nemají žádný parametr. Funkce `printf` je speciální v tom, že má variabilní počet parametrů. Variabilní počet parametrů je obecně pokročilý koncept, který si více rozbereme v kapitole XXX. Zatím nám bude stačit pochopit, že printf může přijímat různý počet parametrů.
+Podle čeho poznat, kolik má volání funkce parametrů? **Každá hodnota je oddělena čárkou**. Funkce může mít jeden parametr, dva parametry nebo i 10 parametrů. Některé funkce nemají žádný parametr. Funkce `printf` je speciální v tom, že má variabilní počet parametrů. Variabilní počet parametrů je obecně pokročilý koncept, který si více rozbereme v kapitole [Funkce pro pokročilé](./volitelne-funkce-pokrocile.md). Zatím nám bude stačit pochopit, že printf může přijímat různý počet parametrů.
 
 Další věc, která nám může přijít zvláštní je, že v řetězci máme `%i`, ale vytiskne se místo toho hodnota proměnné x. `%i` je zde zkratka pro *integer*. Lze použít %d místo %i, je to v tomto případě synonymum. Funkce printf má speciální chování, že hledá speciální znaky (v našem případě `%i`) a nahrazuje je za hodnoty, které funkci předáme v dalších parametrech. Obecně těmto znakům říkáme *modifikátory*.
 
@@ -223,13 +223,13 @@ Je tedy potřeba dávat pozor na to, že proměnnou ve funkci definujeme vždy n
 
 
 ## Další datové typy
-Pro celá čísla máme několik datových typů. Zatím se jimi nemusíme trápit. Bude více rozebráno v kapitole XXX.
+Pro celá čísla máme několik datových typů. Zatím se jimi nemusíme trápit. Bude více rozebráno v kapitole [Datový typ číslo](./pokrocile-cisla.md).
 
 Pro desetinná čísla používáme nejčastěji datový typ **double**. Pokud bychom chtěli vytisknout proměnnou typu **double**, tak použijeme ve funkci `printf` modifikátor `%f` místo `%i` (pro `int`).
 
 Pro jeden znak máme datový typ **char**. Pokud bychom chtěli vytisknout proměnnou typu **char**, tak použijeme ve funkci `printf` modifikátor `%c` místo `%i` (pro `int`).
 
-Pro řetězce máme datový typ **char \***. Ten je trošku komplikovanější. Bude vysvětleno v kapitole XXX. Jak již bylo řečeno, tak pokud bychom chtěli vytisknout proměnnou typu **char\***, tak použijeme ve funkci `printf` modifikátor `%s` místo `%i` (pro `int`).
+Pro řetězce máme datový typ **char \***. Ten je trošku komplikovanější. Bude vysvětleno v kapitole [Řetězce](./zaklady-retezce.md). Jak již bylo řečeno, tak pokud bychom chtěli vytisknout proměnnou typu **char\***, tak použijeme ve funkci `printf` modifikátor `%s` místo `%i` (pro `int`).
 
 > Pokud máte zkušenosti z jiných programovacích jazyků, tak tam se často používá pro řetězec datový typ **string**. Ten ale v C neexistuje. Stejně tak pro boolovskou hodnotu se v různých programovacích jazycích používá datový typ **bool** (někdy **boolean**). Ten opět nenajdeme v jazyku C (lze přidat přidáním knihovny stdbool.h).
 

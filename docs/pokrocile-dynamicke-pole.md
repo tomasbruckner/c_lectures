@@ -173,7 +173,7 @@ Velikost alokace (3) používáme jenom pro demonstrační účely. V reálném 
 
 
 ## Halda
-Obecně je potřeba myslet na to, že práce s dynamickou pamětí je mnohem pomalejší a náročnější než práce se statickou pamětí. Při práci s dynamickou pamětí (funkce `malloc`, `realloc`, `calloc`, `free`) se paměť přiřazuje do sekce paměti, které říkáme Halda (anglicky Heap). S jiným druhem paměti jsme se setkali již v předchozí kapitole XXX, kde jsme zjistili, že řetězcový literál se ukládá také do jiné části paměti, která je jenom ke čtení.
+Obecně je potřeba myslet na to, že práce s dynamickou pamětí je mnohem pomalejší a náročnější než práce se statickou pamětí. Při práci s dynamickou pamětí (funkce `malloc`, `realloc`, `calloc`, `free`) se paměť přiřazuje do sekce paměti, které říkáme Halda (anglicky Heap). S jiným druhem paměti jsme se setkali již v předchozí kapitole [Řetězce](./zaklady-retezce.md), kde jsme zjistili, že řetězcový literál se ukládá také do jiné části paměti, která je jenom ke čtení.
 
 Halda má jednu výraznou vlastnost oproti paměti, se kterou jsme se setkali do této doby. A to je, že adresa je nadále dostupná i po skončení funkce, ve kterém byla paměť vytvořena.
 

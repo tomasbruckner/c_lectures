@@ -61,7 +61,7 @@ PS C:\Users\tomas\codeblocks\hello\bin\Debug> .\hello.exe 1> test.txt
 ```
 
 ## Standardní vstup - stdin
-Se standardním vstup jsme se již setkali. Když čteme uživatelský vstup pomocí funkce `scanf` (viz kapitola XXX), tak čteme právě standardní vstup.
+Se standardním vstup jsme se již setkali. Když čteme uživatelský vstup pomocí funkce `scanf` (viz kapitola [Práce s uživatelskám vstupem](./zaklady-vstup.md)), tak čteme právě standardní vstup.
 
 Původně jsme pracovali se standardním vstupem tak, že jsme něco napsali na klávesnici a zmáčknuli enter. Pokud pouštíme program pořád dokola se stejným standardním vstupem, tak po nějaké době je otravné zadávat pořád dokola ten stejný vstup. Tento problém se dá vyřešit právě přesměrováním standardního vstupu.
 
@@ -125,7 +125,7 @@ Nyní už nemusíme žádná čísla ručně zadávat.
 
 
 ## Standardní chybový výstup - stderr
-Nový stream, se kterým jsme se ještě nesetkali, tak je standardní chybový výstup. Jak můžeme něco vytisknout na standardní chybový výstup? Slouží nám k tomu funkce `fprintf`. S tou jsme se již setkali v kapitole XXX. Tato funkce dokáže přijímat jako první parametr nejenom soubor, ale i hodnoty `stdout` a `stderr`.
+Nový stream, se kterým jsme se ještě nesetkali, tak je standardní chybový výstup. Jak můžeme něco vytisknout na standardní chybový výstup? Slouží nám k tomu funkce `fprintf`. S tou jsme se již setkali v kapitole [Práce se soubory](./zaklady-soubory.md). Tato funkce dokáže přijímat jako první parametr nejenom soubor, ale i hodnoty `stdout` a `stderr`.
 
 ```c
 #include <stdio.h>

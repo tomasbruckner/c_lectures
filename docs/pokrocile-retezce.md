@@ -3,7 +3,7 @@ title: Řetězce pro pokročilé
 ---
 
 
-V kapitole XXX jsme se zabývali řetězci, které měly fixní délku. To nám nemusí ve všech případech stačit a potřebujeme mít délku dynamickou. Můžeme použít stejný postup jako v kapitole XXX.
+V kapitole [Řetězce](./zaklady-retezce.md) jsme se zabývali řetězci, které měly fixní délku. To nám nemusí ve všech případech stačit a potřebujeme mít délku dynamickou. Můžeme použít stejný postup jako v kapitole [Dynamické pole](./pokrocile-dynamicke-pole.md).
 
 ```c
 #include <stdio.h>

@@ -9,7 +9,7 @@ Funkce si rozdělíme na několik typů
 1. Funkce s parametrama (pevným počtem)
 1. Funkce s variabilním množství parametrů
 
-Třetí typ pro nás zatím není důležitý. Probereme si ho více v kapitole XXX.
+Třetí typ pro nás zatím není důležitý. Probereme si ho více v kapitole [Funkce pro pokročilé](./volitelne-funkce-pokrocile.md).
 
 ## Funkce bez parametrů
 
@@ -20,7 +20,7 @@ Abychom funkci mohli použít, je potřeba ji nejdříve definovat. Obecný form
 Jednotlivé sekce jsou
 
 * **návratový datový typ** - funkce může vrátit nějakou hodnotu. Proto musíme vždy definovat datový typ hodnoty (obdobně jako při definici proměnné), kterou funkce vrátí. Pokud funkce nic nevrací, tak jí definujeme návratový datový typ `void` (vysvětlíme si později na příkladu).
-* **název funkce** - každá funkce musí mít unikátní identifikátor (název). Pro identifikátory funkcí platí stejná pravidla jako pro identifikátory proměnných (pouze velká a malá písmena bez diakritiky, čísla atd. viz kapitola XXX).
+* **název funkce** - každá funkce musí mít unikátní identifikátor (název). Pro identifikátory funkcí platí stejná pravidla jako pro identifikátory proměnných (pouze velká a malá písmena bez diakritiky, čísla atd. viz kapitola [Proměnné a datové typy](./zaklady-promenne-a-datove-typy.md)).
 * **tělo funkce** - obsahuje libovolný počet příkazů (pro zjednodušení řádku kódu). Zde se definuje, co má funkce dělat. Tělo funkce může být i prázdné, ale to by znamenalo, že funkce nic nedělá.
 
 
@@ -353,7 +353,7 @@ int main()
 }
 ```
 
-Všimněme si, že v obou funkcích máme proměnnou x. Neříkali jsme si ale, že názvy proměnných musí být unikátní a nelze definovat stejnou proměnnou dvakrát? To platí vždy pro tzv. **scope**, ve kterém se proměnná nachází. Více si o tom povíme v kapitole XXX. Pro zjednodušení to zatím můžeme brát tak, že v rámci jedné funkce musí být název proměnná unikátní, ale v rámci jiných funkcí se opakovat můžou.
+Všimněme si, že v obou funkcích máme proměnnou x. Neříkali jsme si ale, že názvy proměnných musí být unikátní a nelze definovat stejnou proměnnou dvakrát? To platí vždy pro tzv. **scope**, ve kterém se proměnná nachází. Více si o tom povíme v kapitole [Scope](./pokrocile-scope.md). Pro zjednodušení to zatím můžeme brát tak, že v rámci jedné funkce musí být název proměnná unikátní, ale v rámci jiných funkcí se opakovat můžou.
 
 
 ## Vlastní funkce s parametry
@@ -550,7 +550,7 @@ int main()
 
 A pokud bychom potřebovali upravit text ve funkci `printf`, tak to stačí upravit pouze na jednom místě.
 
-> Na jaké funkce program rozdělit. Kolik funkcí mít v programu. Jestli udělat funkci nebo ještě neudělat, to jsou problémy, které často tíží programátory. Neexistuje na to jednoduchá poučka. O tom jak psát dobře funkce si povíme více v kapitole XXX.
+> Na jaké funkce program rozdělit. Kolik funkcí mít v programu. Jestli udělat funkci nebo ještě neudělat, to jsou problémy, které často tíží programátory. Neexistuje na to jednoduchá poučka. O tom jak psát dobře funkce si povíme více v kapitole [Čistý kód](./volitelne-cisty-kod.md).
 
 Pokud bychom chtěli funkci s více než jedním parametrem, tak postupujeme velmi obdobně. V definici funkce přidáme čárku za definicí první parametru a opět zadefinujeme datový typ druhého parametru a jeho název.
 

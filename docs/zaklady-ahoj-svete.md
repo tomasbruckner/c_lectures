@@ -61,11 +61,11 @@ Následující řádek zdrojového kódu
 printf("Hello world!\n");
 ```
 
-slouží pro vypsání textu na obrazovku. K vypsání textu se používá funkce `printf`. Co je to funkce? Funkce je předem připravený kus kódu, který provede nějaký úkol. Pokud chceme použít nějakou funkci, tak říkáme, že **voláme funkci**. V naší ukázce bychom řekli, že **voláme funkci printf**. Volání funkce (podrobněji kapitola XXX) obsahuje vždy několik částí. Název funkce, závorky, parametr a středník.
+slouží pro vypsání textu na obrazovku. K vypsání textu se používá funkce `printf`. Co je to funkce? Funkce je předem připravený kus kódu, který provede nějaký úkol. Pokud chceme použít nějakou funkci, tak říkáme, že **voláme funkci**. V naší ukázce bychom řekli, že **voláme funkci printf**. Volání funkce obsahuje vždy několik částí. Název funkce, závorky, parametr a středník.
 
 ![funkce](./obrazky/ahoj_svete/function.png)
 
-Závorky a středník jsou povinné. Název funkce zde funguje jako unikátní identifikátor. Podle názvu vždy poznáme o jakou funkci se jedná a jaké má chování. Dokonce si můžeme i vytvářet své vlastní funkce (viz kapitola XXX).
+Závorky a středník jsou povinné. Název funkce zde funguje jako unikátní identifikátor. Podle názvu vždy poznáme o jakou funkci se jedná a jaké má chování. Dokonce si můžeme i vytvářet své vlastní funkce (viz kapitola [Definujeme vlastní funkce](./zaklady-funkce.md)).
 
 Velmi důležitý je parametr funkce. Ten se může lišit pro různé funkce (některé funkce ani nemají žádný parametr). Naše funkce `printf` přijímá parametr typu `string` (v češtině *řetězec*). Ten vždy začíná a končí dvojitými uvozovkami `"`.
 
@@ -92,7 +92,7 @@ Po spuštění programu (ozubené kolečko se zelenou šipkou) se nám zobrazí 
 > Pozor na práci s diakritikou. Ta je trošku komplexnější a zatím ji nebudeme používat.
 
 
-Velmi podezřele může působit `\n`. Co to znamená a proč se v programu nachází? Jedná se o něco, čemu se říká `Escape sekvence`. O nich více v kapitole XXX. Pro náše účely je nutné si zapamatovat, že pokud vytisknu `\n`, tak se mi nevytiskne `\n`, ale vytiskne se nový řádek (tzv. jako kdybych zmáčknul na klávesnici klávesu Enter).
+Velmi podezřele může působit `\n`. Co to znamená a proč se v programu nachází? Jedná se o něco, čemu se říká `Escape sekvence`. Pro náše účely je nutné si zapamatovat, že pokud vytisknu `\n`, tak se mi nevytiskne `\n`, ale vytiskne se nový řádek (tzv. jako kdybych zmáčknul na klávesnici klávesu Enter).
 
 Tuto escape sekvenci můžeme dát kdekoliv do textu. Pokud bychom upravili parametr funkce `printf` na
 ```c
@@ -177,7 +177,7 @@ Zde je důležité si všimnout i spodní části editoru CodeBlocks. Zde je zá
 ![build messages](./obrazky/ahoj_svete/build_messages.PNG)
 
 Umět se naučit číst chybové hlášky je naprosto zásadní v cestě stát se dobrým programátorem. Zde vidíme
-`implicit declaration of function 'printf' [-Wimplicit-function-declaration]`. To znamená, že funkce `printf` není definovaná. To ve většině případů znamená, že nemáme přidanou správnou knihovnu pomocí `#include` nebo jsme nedefinovali nějakou vlastní funkci (o tom více v kapitole XXX).
+`implicit declaration of function 'printf' [-Wimplicit-function-declaration]`. To znamená, že funkce `printf` není definovaná. To ve většině případů znamená, že nemáme přidanou správnou knihovnu pomocí `#include` nebo jsme nedefinovali nějakou vlastní funkci (o tom více v kapitole [Definujeme vlastní funkce](./zaklady-funkce.md)).
 
 Dále se dozvídáme i řešení `include '<stdio.h>' or provide a declaration of 'printf'`. Přidáme tedy daný include
 
@@ -232,7 +232,7 @@ Schéma definování vlastní funkce
 
 ![main function](./obrazky/ahoj_svete/main_function.png)
 
-V této kapitole si nebudeme rozebírat, co jednotlivé části znamenají. Zatím berme jako fakt, že definujeme `int main` a budeme se pohybovat jenom v těle funkce. Více si to robezereme v kapitole XXX.
+V této kapitole si nebudeme rozebírat, co jednotlivé části znamenají. Zatím berme jako fakt, že definujeme `int main` a budeme se pohybovat jenom v těle funkce.
 
 
 ### Návratová hodnota
@@ -241,7 +241,7 @@ Tento řádek zdrojového kódu (programu)
 return 0;
 ```
 
-je poslední řádek těla funkce. Opět ho rozebereme podrobněji v kapitole XXX. Pro náš případ to zjednodušíme tak, že tento příkaz ukončuje náš program (ukončuje funkci, v které se právě program nachází). Mějme příklad
+je poslední řádek těla funkce. Pro náš případ si to zjednodušíme tak, že tento příkaz ukončuje náš program (ukončuje funkci, v které se právě program nachází). Mějme příklad
 
 ```c
 printf("1\n");

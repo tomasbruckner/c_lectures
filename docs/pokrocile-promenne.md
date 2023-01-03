@@ -187,7 +187,7 @@ V tomto případě dostáváme vždy výstup
 globalni je 0, staticka je 0
 ```
 
-Je to kvůli tomu, že se různé typy proměnných se ukládají na různé místo v paměti viz kapitola XXX.
+Je to kvůli tomu, že se různé typy proměnných se ukládají na různé místo v paměti viz kapitola [Paměť](./expert-pamet.md).
 
 
 ## Odkazy

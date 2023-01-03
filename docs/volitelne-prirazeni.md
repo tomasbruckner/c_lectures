@@ -164,7 +164,7 @@ Jak se vyhodnotí podmínka?
 1. Výsledek přiřazení (hodnota 2) se porovná s 3
 1. Podmínka není pravdivá
 
-Zde je potřeba dát pozor na prioritu operátorů (kapitola XXX). Pokud bychom vynechali závorky v IF podmínce
+Zde je potřeba dát pozor na prioritu operátorů (kapitola [Priorita operátorů](./volitelne-priorita-operatoru.md)). Pokud bychom vynechali závorky v IF podmínce
 
 ```c
 #include <stdio.h>

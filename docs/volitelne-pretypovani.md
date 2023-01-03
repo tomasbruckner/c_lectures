@@ -4,7 +4,7 @@ title: Přetypování
 
 Přetypování funguje tak, že máme nějaký datový typ a my o něm řekneme, že je to ve skutečnosti jiný datový typ.
 
-Vezmeme si typickou situaci, kdy chceme vydělit dvě `int` čísla, ale chceme, aby výsledek bylo číslo desetinné. Aby to bylo možné, tak musí být aspoň jedno číslo při dělení desetinné viz kapitola XXX.
+Vezmeme si typickou situaci, kdy chceme vydělit dvě `int` čísla, ale chceme, aby výsledek bylo číslo desetinné. Aby to bylo možné, tak musí být aspoň jedno číslo při dělení desetinné viz kapitola [Aritmetické operace](./zaklady-aritmeticke-operace.md).
 
 Tato situace se dá vyřešit operátorem `pretypování` (v angličtině `cast`)
 
@@ -61,7 +61,7 @@ int main()
 }
 ```
 
-Je potřeba dávat pozor na to, že nelze všechno přetypovat na cokoliv. Kdybychom se poksuli přetypovat číslo na strukturu (viz kapitola XXX).
+Je potřeba dávat pozor na to, že nelze všechno přetypovat na cokoliv. Kdybychom se poksuli přetypovat číslo na strukturu (viz kapitola [Struktury](./zaklady-struktury.md)).
 
 
 ```c
@@ -88,7 +88,7 @@ Obecně přetypování většinou nebudete potřebovat, ale je dobré o něm vě
 ## Implicitní přetypování
 Pokud použijeme operátor přetypování, tak se jedná o **explicitní** přetypování. Pokud se hodnota přetypuje automaticky bez operátoru, tak se jedná o **implicitní** přetypování.
 
-Implicitní přetypování nastane například, pokud uložíme hodnotu typu`unsigned int` do proměné typu `int` (tyto typy viz kapitola XXX).
+Implicitní přetypování nastane například, pokud uložíme hodnotu typu`unsigned int` do proměné typu `int` (tyto typy viz kapitola [Datový typ číslo](./pokrocile-cisla.md)).
 
 
 ```c

@@ -2,7 +2,7 @@
 title: Datový typ union
 ---
 
-Union je speciální datový typ, který je velmi podobný datovému typu struktura (viz kapitola XXX).
+Union je speciální datový typ, který je velmi podobný datovému typu struktura (viz kapitola [Struktury](./zaklady-struktury.md)).
 
 ```c
 #include <stdio.h>

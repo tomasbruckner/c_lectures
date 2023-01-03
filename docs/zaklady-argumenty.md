@@ -1,7 +1,7 @@
 ---
 title: Práce s argumenty programu
 ---
-Našim programům můžeme předávat data několika způsoby. Jeden z nich je uživatelský vstup (viz kapitola XXX). Dalším je čtení ze souborů (viz kapitola XXX). Nyní si ukážeme další způsob předání dat a to pomocí `argumentů programu`.
+Našim programům můžeme předávat data několika způsoby. Jeden z nich je uživatelský vstup (viz kapitola [Práce s uživatelskám vstupem](./zaklady-vstup.md)). Dalším je čtení ze souborů (viz kapitola [Práce se soubory](./zaklady-soubory.md)). Nyní si ukážeme další způsob předání dat a to pomocí `argumentů programu`.
 
 O co se jedná? Stejně jako funkcím předáváme při volání argumenty, tak i můžeme předat argumenty i samotnému programu jako celku. V podstatě se jedná o předání argumentů funkci `main`.
 
@@ -169,7 +169,7 @@ int main(int argc, char* argv[])
 
 ## Úkoly na procvičení
 ### Úkol 1
-XXXXXXXXXXXXXXXXXXX
+XXX
 
 
 <details>

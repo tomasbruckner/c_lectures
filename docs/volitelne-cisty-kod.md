@@ -196,7 +196,7 @@ if (cas > 300) {
     printf("Chyba\n");
 }
 ```
-Opravíme to tak, že konstantu 300 pojmenujeme pro lepší čitelnost (viz kapitola makra XXX)
+Opravíme to tak, že konstantu 300 pojmenujeme pro lepší čitelnost (viz kapitola makra [Makra](./pokrocile-makra.md))
 
 ```c
 #define MAXIMALNI_POCET_SEKUND 300

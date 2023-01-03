@@ -206,7 +206,7 @@ Co program vykoná krok za krokem
 1. Zkontroluje se podmínka zda `x` (2) je menší než 2 - není, podmínka je **nepravdivá**
 1. Provede se `return 0` a program končí
 
-Všimněme si bodu 13. Deklarovat proměnnou uvnitř cyklu není problém. Je to kvůli tomu, že proměnné mají tzv. blokový `scope`. Více si o tom povíme v kapitole XXX. Zatím nám stačí vědět, že je něco takového možné.
+Všimněme si bodu 13. Deklarovat proměnnou uvnitř cyklu není problém. Je to kvůli tomu, že proměnné mají tzv. blokový `scope`. Více si o tom povíme v kapitole [Scope](./pokrocile-scope.md). Zatím nám stačí vědět, že je něco takového možné.
 
 
 Cykly také můžeme kombinovat s `IF` strukturou (cyklus uvnitř `IF` nebo `IF` uvnitř cyklu). Např.
@@ -394,7 +394,7 @@ Co program vykoná krok za krokem
 1. Zkontroluje se podmínka zda `x` (-3) je menší než 2 - ano je, podmínka je pravdivá
 1. ...
 
-Teoreticky by tento program bežel donekonečna. Kvůli limitům datových typů však jednou takový program doběhne, i když to bude za hodně dlouho. Více v kapitole XXX.
+Teoreticky by tento program bežel donekonečna. Kvůli limitům datových typů však jednou takový program doběhne, i když to bude za hodně dlouho. Více v kapitole [Datový typ číslo](./pokrocile-cisla.md).
 
 
 Na zacyklení je potřeba si dávát pozor. Nic si z toho ale nedělejte, pokud se vám to stane. Dříve nebo později to určitě přijde.

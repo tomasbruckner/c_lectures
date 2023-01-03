@@ -3,7 +3,7 @@ title: Struktury pro pokročilé
 ---
 
 
-V kapitole XXX jsme si ukázali práci s řetězci. Pro řetězce jsme měli tři proměnné. První byl samotný řetězec `char *`. Druhá proměnná byla číslo, které udržovalo maximální možnou délku řetězce. Třetí proměnná byla číslo, které udržovalo aktuální délku řetězce. Tyto proměnné patří logicky k sobě. Proto bychom je mohli dát do jedné struktury. Ta by mohla vypadat následovně
+V kapitole [Řetězce pro pokročilé](./pokrocile-retezce.md) jsme si ukázali práci s řetězci. Pro řetězce jsme měli tři proměnné. První byl samotný řetězec `char *`. Druhá proměnná byla číslo, které udržovalo maximální možnou délku řetězce. Třetí proměnná byla číslo, které udržovalo aktuální délku řetězce. Tyto proměnné patří logicky k sobě. Proto bychom je mohli dát do jedné struktury. Ta by mohla vypadat následovně
 
 ```c
 typedef struct { int max_delka; int delka; char * data; } string;

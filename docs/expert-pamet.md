@@ -12,7 +12,7 @@ Zjednodušenný diagram paměti vašeho programu vypadá následovně
 
 **argv / env** sekce slouží k uložení argumentů programu a proměnných prostředí (environment variables). Proměnné prostředí jsme v tom kurzu nerozebíraly.
 
-**Stack** (česky zásobník) slouží k ukládání především lokálních proměnných funkcí. Velikost zásobníků se rozšiřuje nebo zmenšuje podle toho, v jaké funkci se zrovna nacházíme nebo jak moc zanoření ve volání funkcí jsme (viz kapitola rekurze XXX).
+**Stack** (česky zásobník) slouží k ukládání především lokálních proměnných funkcí. Velikost zásobníků se rozšiřuje nebo zmenšuje podle toho, v jaké funkci se zrovna nacházíme nebo jak moc zanoření ve volání funkcí jsme (viz kapitola [Rekurzivní funkce](./volitelne-rekurze.md)).
 
 **Heap** (česky halda) slouží k ukládání především dynamické paměti alokované pomocí funkcí `malloc`/`calloc`/`realloc` (případně další). Podobně jako `Stack` se paměť haldy rozšiřuje podle toho, jak alokujeme/dealokujeme dynamickou paměť v našem programu.
 
@@ -41,7 +41,7 @@ int globalni_promenna = 10;
 static int staticka_nulova_promenna = 10;
 ```
 
-O paměti je dobré mít základní přehled. Nejdůležitější je pochopit rozdíly mezi pamětí `stack` a `heap`. Je dobré vědět, že paměť alokovaná na haldě zůstává alokovaná i po skončení funkce a je mnohem pomalejší (viz kapitola XXX).
+O paměti je dobré mít základní přehled. Nejdůležitější je pochopit rozdíly mezi pamětí `stack` a `heap`. Je dobré vědět, že paměť alokovaná na haldě zůstává alokovaná i po skončení funkce a je mnohem pomalejší (viz kapitola [Dynamické pole](./pokrocile-dynamicke-pole.md)).
 
 ## Odkazy
 [Následující kapitola: Závěrem](./zaver.md)

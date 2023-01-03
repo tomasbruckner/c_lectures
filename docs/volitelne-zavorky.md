@@ -19,7 +19,7 @@ if (x > 10)
     printf("X je vetsi nez 10\n");
 ```
 
-Jazyk C je poměrně volný v psaní mezer (viz kapitola XXX), tak můžeme udělat daný zápis i na jeden řádek
+Jazyk C je poměrně volný v psaní mezer (viz kapitola [Mezery v jazyku C](./volitelne-mezery.md)), tak můžeme udělat daný zápis i na jeden řádek
 
 ```c
 if (x > 10) printf("X je vetsi nez 10\n");

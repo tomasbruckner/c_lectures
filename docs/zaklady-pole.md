@@ -198,7 +198,7 @@ int main()
 
 Tak je dost pravděpodobné, že vše bude fungovat v pořádku. To je rozdíl oproti jazykům s vyšší úrovní abstrakce (např. Java, C# atd.). Tam by program způsobil vždy chybu. Jazyk C však dovolí v omezené míře programu šahat i tam, kde nemá co dělat. 
 
-Jedná se však o `nedefinované chování`. Může se stát, že někdy dostaneme error při spuštění. Také se může stát, že upravíme hodnotu jiné proměnné, než by se čekalo (více v kapitole XXX). Zatím je potřeba si zapamatovat, že můžeme používat jenom takovou velikost `pole`, kterou jsme danému `poli` nastavili.
+Jedná se však o `nedefinované chování` (tzv. není jasné, jak se program zachová). Může se stát, že někdy dostaneme error při spuštění. Také se může stát, že upravíme hodnotu jiné proměnné, než by se čekalo. Zatím je potřeba si zapamatovat, že můžeme používat jenom takovou velikost `pole`, kterou jsme danému `poli` nastavili.
 
 ## Nastavení hodnot pole
 Pro nastavení více hodnot můžeme použít zápis
@@ -271,7 +271,7 @@ Velikost int je 4
 > Tady vidíme, že `sizeof` můžeme volat s argumentem proměnné, ale i s datovým typem. Je to taková specialita `sizeof`. Zatím to berme jako výjimku.
 
 
-Na výpisu vidíme, že velikost datového typu `int` je 4 byty (může se lišit podle počítače, více v kapitole XXX). Každá přihrádka má tedy 4 byty a dohromady všechny mají 12. Kolik je teda počet prvků v `poli`? Vydělíme celkový počet pole velikostí jednoho prvku `pole`.
+Na výpisu vidíme, že velikost datového typu `int` je 4 byty (může se lišit podle počítače). Každá přihrádka má tedy 4 byty a dohromady všechny mají 12. Kolik je teda počet prvků v `poli`? Vydělíme celkový počet pole velikostí jednoho prvku `pole`.
 
 ```c
 #include <stdio.h>
@@ -397,7 +397,7 @@ To je ale špatně! Jak je to možné? Napoví nám chyby v Build messages
 'sizeof' on array function parameter 'cisla_k_tisku' will return size of 'int *'
 ```
 
-Pokud předáme `pole` do funkce, tak `pole` `degraduje` na `ukazatel` typu `int *`. O ukazatelích více v kapitole XXX. Zatím si to můžeme pro zjednodušení představit tak, že se z `pole` stal jiný datový typ.
+Pokud předáme `pole` do funkce, tak `pole` `degraduje` na `ukazatel` typu `int *`. O ukazatelích více v kapitole [Ukazatele](./zaklady-ukazatele.md). Zatím si to můžeme pro zjednodušení představit tak, že se z `pole` stal jiný datový typ.
 
 Když bychom spustili program, ve kterém jsme změnili ve funkci `main` druhý řádek a místo `pole` jsme dali datový typ `int*`
 
@@ -495,7 +495,7 @@ int main()
 ```
 
 ## Předání pole odkazem
-XXX
+XXX - uprava pole ve funkci
 
 ## Úkoly na procvičení
 ### Úkol 1

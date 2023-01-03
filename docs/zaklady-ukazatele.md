@@ -363,7 +363,7 @@ Funguje to následovně
 * `*y_ukazatel` - vrať mi hodnotu na adrese 1003 -> Na adrese 1003 je hodnota 1000.
 * `*(*y_ukazatel)` - si můžeme představit jako `*(1000)` (protože víme, že `*y_ukazatel` je 1000), což není nic jiného, než vrať mi hodnotu na adrese 1000 -> Na adrese 1000 je hodnota 10.
 
-Závorky v tomto případě jsou volitelné (operátor dereference má stejnou prioritu viz kapitola XXX). `*(*y_ukazatel)` je tedy stejné jako napsat `**y_ukazatel`. Dostáváme následující program
+Závorky v tomto případě jsou volitelné (operátor dereference má stejnou prioritu viz kapitola [Priorita operátorů](./volitelne-priorita-operatoru.md)). `*(*y_ukazatel)` je tedy stejné jako napsat `**y_ukazatel`. Dostáváme následující program
 
 ```c
 #include <stdio.h>
@@ -532,7 +532,7 @@ Pro zkrácený zápis jsme využili referenční operátor (`&`). Obešli jsme s
 
 ## Úkoly na procvičení
 ### Úkol 1
-XXXXXXXXXX
+XXX
 
 <details>
   <summary>Klikni pro zobrazení možného řešení</summary>

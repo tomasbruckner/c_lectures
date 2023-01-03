@@ -5,7 +5,7 @@ V našich programech bychom chtěli pracovat s nějakým vstupem od uživatele. 
 
 Ke čtení uživatelského vstupu (z klávesnice) lze použít další funkci z knihovny `stdio` nazvanou `scanf`. Ta funguje tak, že ji jako prvni argument předáme modifikátor (obdobně jako ve funkci `printf`). Pokud použijeme modifikátor `%i`, tak jako druhý argument musíme předat `ukazatel` na proměnnou typu `int`.
 
-Ukazateli se budeme zabývat více v kapitole XXX. Zatím nám stačí vědět, že před proměnnou musíme dát znak `&` (čte se jako ampersand).
+Ukazateli se budeme zabývat více v kapitole [Ukazatele](./zaklady-ukazatele.md). Zatím nám stačí vědět, že před proměnnou musíme dát znak `&` (čte se jako ampersand).
 
 Mějme program
 
@@ -103,7 +103,7 @@ int main()
 
 Zde pozor, že zadáváme desetinné číslo s tečkou a ne čárkou. Tzv. správně zadáme desetinné číslo jako `3.12` (špatně by bylo `3,12`).
 
-Pokud bychom chtěli pracovat s libovolným řetězcem (ne pouze s číslama), tak by to bylo trošku náročnější. Vysvětlíme si v kapitole XXX.
+Pokud bychom chtěli pracovat s libovolným řetězcem (ne pouze s číslama), tak by to bylo trošku náročnější. Vysvětlíme si v kapitole [Práce s uživatelským vstupem pro pokročilé](./pokrocile-vstup.md).
 
 
 

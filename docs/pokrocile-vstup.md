@@ -1,8 +1,8 @@
 ---
-title: Práce s uživatelskám vstupem pro pokročilé
+title: Práce s uživatelským vstupem pro pokročilé
 ---
 
-Práci s uživatelským vstupem jsme si vyzkoušeli v kapitole XXX. Nyní si představíme funkci `int getchar();`. Ta nemá žádný parametr a funguje tak, že přečte jeden znak ze standardního vstupu.
+Práci s uživatelským vstupem jsme si vyzkoušeli v kapitole [Práce s uživatelskám vstupem](./zaklady-vstup.md). Nyní si představíme funkci `int getchar();`. Ta nemá žádný parametr a funguje tak, že přečte jeden znak ze standardního vstupu.
 
 Mějme program
 ```c

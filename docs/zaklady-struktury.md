@@ -290,7 +290,7 @@ int main()
 
 ## Úkoly na procvičení
 ### Úkol 1
-XXXXXXXXXX
+XXX
 
 <details>
   <summary>Klikni pro zobrazení možného řešení</summary>

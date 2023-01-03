@@ -68,7 +68,7 @@ Treti prvek je 3
 Musíme si ale už ohlídat, že nesaháme někam, kam bychom neměli. Když uděláme `*(ukazatel + 3)`, tak už saháme mimo naše zadefinované pole. To je **nedefinované chování** a může způsobit různé problémy. Proto bychom to neměli dělat.
 
 
-Pokud jsme měli pole, co jsme předávali do funkce a zavolali nad ním `sizeof` (viz kapitola XXX).
+Pokud jsme měli pole, co jsme předávali do funkce a zavolali nad ním `sizeof` (viz kapitola [Pole](./zaklady-pole.md)).
 
 
 ```c
@@ -104,7 +104,7 @@ K tomu ale `nedochází`. Z pohledu paměti je velmi neefektivní kopírovat pot
 
 Do funkce se pošle ukazatel na existující adresu, kde se dané pole nachází.
 
-Proto tedy platí, že pokud modifikuji pole ve funkci, tak se změná projeví všude. Tzv. i v místě, odkud funkci voláme (viz kapitola XXX)
+Proto tedy platí, že pokud modifikuji pole ve funkci, tak se změná projeví všude. Tzv. i v místě, odkud funkci voláme (viz kapitola [Pole](./zaklady-pole.md))
 
 ```c
 #include <stdio.h>
@@ -205,7 +205,7 @@ Všechny pole a ukazatele jsou předány odkazem. Datový typy jako `int` nebo `
 
 ## Úkoly na procvičení
 ### Úkol 1
-XXXXXXXXXX
+XXX
 
 <details>
   <summary>Klikni pro zobrazení možného řešení</summary>
