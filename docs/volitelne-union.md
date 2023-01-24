@@ -1,5 +1,5 @@
 ---
-title: Datový typ union
+title: Datový typ Union
 ---
 
 Union je speciální datový typ, který je velmi podobný datovému typu struktura (viz kapitola [Struktury](./zaklady-struktury.md)).
@@ -63,7 +63,7 @@ Proč ne 10? Protože uložením hodnoty `q` do `union` jsme přemazali hodnotu 
 `Union` není datový typ, který byste běžně používali, ale je dobré vědět, že existuje. Možná se někdy setkáte se specializovaným případem, kdy se vám bude hodit.
 
 ## Odkazy
-[Následující kapitola: Kompilace](./expert-kompilace.md)
+[Následující kapitola: Datový typ Enum](./volitelne-enum)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/48)
 

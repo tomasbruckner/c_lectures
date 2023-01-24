@@ -184,4 +184,4 @@ V této kapitole jsme si ukázali, co se děje s vaším zdrojovým kódem, než
 
 [Zpátky na přehled](./index.md)
 
-[Předchozí kapitola: Union](./volitelne-union.md)
+[Předchozí kapitola: Datový typ Enum](./volitelne-enum.md)

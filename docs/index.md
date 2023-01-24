@@ -55,11 +55,12 @@ Volitelné
 * [Kapitola 43 - Středník](./volitelne-strednik.md)
 * [Kapitola 44 - Operátor přirazení hodnoty](./volitelne-prirazeni.md)
 * [Kapitola 45 - Operátor čárka](./volitelne-carka.md)
-* [Kapitola 46 - Union](./volitelne-union.md)
+* [Kapitola 46 - Datový typ Union](./volitelne-union.md)
+* [Kapitola 47 - Datový typ Enum](./volitelne-enum.md)
 
 Expert
-* [Kapitola 47 - Kompilace](./expert-kompilace.md)
-* [Kapitola 48 - Paměť](./expert-pamet.md)
+* [Kapitola 48 - Kompilace](./expert-kompilace.md)
+* [Kapitola 49 - Paměť](./expert-pamet.md)
 
 Závěr
 * [Závěrem](./zaver.md)
