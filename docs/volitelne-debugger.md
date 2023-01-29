@@ -176,10 +176,10 @@ To se může v některých situacích hodit.
 
 
 ## Odkazy
-[Následující kapitola: XXX](./zaklady-pole.md)
+[Následující kapitola: Aritmetické operace](./zaklady-aritmeticke-operace.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/51)
 
 [Zpátky na přehled](./index.md)
 
-[Předchozí kapitola: XXX](./zaklady-cykly.md)
+[Předchozí kapitola: Definujeme vlastní funkce](./zaklady-funkce.md)

@@ -169,5 +169,5 @@ Více o Alanovi Turingovi například [zde](https://cs.wikipedia.org/wiki/Turing
 
 [Zpátky na přehled](./index.md)
 
-[Předchozí kapitola: Definujeme vlastní funkce](./zaklady-funkce.md)
+[Předchozí kapitola: Debugger](./volitelne-debugger.md)
 

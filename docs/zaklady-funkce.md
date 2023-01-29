@@ -866,7 +866,7 @@ Více například [zde](https://cs.wikipedia.org/wiki/Ada_Lovelace).
 
 
 ## Odkazy
-[Následující kapitola: Aritmetické operace](./zaklady-aritmeticke-operace.md)
+[Následující kapitola: Debugger](./volitelne-debugger.md)
 
 [GitHub diskuze k této kapitole](https://github.com/tomasbruckner/c_lectures/discussions/7)
 

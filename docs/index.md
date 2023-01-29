@@ -11,6 +11,7 @@ Základy
 * [Kapitola 3 - Proměnné a datové typy](./zaklady-promenne-a-datove-typy.md)
 * [Kapitola 4 - Komentáře](./zaklady-komentare.md)
 * [Kapitola 5 - Definujeme vlastní funkce](./zaklady-funkce.md)
+* [Kapitola Bonus - Debugger](./volitelne-debugger.md)
 * [Kapitola 6 - Aritmetické operace](./zaklady-aritmeticke-operace.md)
 * [Kapitola 7 - Řídící struktura IF](./zaklady-if.md)
 * [Kapitola 8 - Cykly](./zaklady-cykly.md)
